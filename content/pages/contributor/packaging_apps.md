@@ -1,4 +1,5 @@
-Title: App packaging <img src="/images/yunohost_package.png" width=100/>
+Title: App packaging
+<img src="/images/yunohost_package.png" width=100/>
 
 The purpose of this document is to teach you how to package an application for YunoHost.
 

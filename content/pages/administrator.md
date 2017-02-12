@@ -1,3 +1,35 @@
 Title: Administrator documentation
 
-this is a test page
+*For want of anything better, here is an index of interesting pages for the YunoHost server's administrator.*
+
+* [What is Self-hosting](selfhosting)
+* [Compatible hardware](hardware)
+* [Installation guide](install)
+    * [On an OLinuXino board](install_on_olinuxino)
+    * [On an ARM board](install_on_arm_board)
+    * [On a Raspberry Pi](install_on_raspberry)
+    * [From an ISO](install_iso)
+    * [On Debian](install_on_debian)
+    * [On VirtualBox](install_on_virtualbox)
+    * [On Vagrant](vagrant)
+    * [On a dedicated or a virtual private server](install_on_vps)
+    * Installation steps
+       * [Burn or copy iso](burn_or_copy_iso)
+       * [Boot and graphical install](boot_and_graphical_install)
+       * [Copy YunoHost image on SD card](copy_image)
+       * [Manual instalation](install_manually)
+       * [Plug and boot your server](plug_and_boot)
+       * [Post-instalation](postinstall)
+* [Available applications](apps)
+* [Administration interface usage](admin)
+* [Command-line interface usage](moulinette)
+* [List of friendly ISPs](isp)
+* [Security](security)
+* [Hide services with Tor](torhiddenservice)
+* [DNS understanding](dns)
+* [What is YunoHost](../whatsyunohost)
+* [Unlock IP in iptables](fail2ban)
+* [SSL certificate installation](certificate)
+* [Troubleshooting guide](troubleshooting_guide)
+* [Backup](backup)
+* [Update](update)
