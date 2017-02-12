@@ -1,6 +1,13 @@
-Title: YunoHost Documentation
+YunoHost Documentation - POC Pelican + po4a
 
-* [Web Site](https://yunohost.org)
-* Based on [Simon](https://github.com/Jibec/Simon)
+# Dependences
 
-Please report [issues on YunoHost bugtracker](https://dev.yunohost.org/projects/yunohost/issues) (no registration needed).
+Install Pelican (I use version 3.6.3 on Fedora).
+
+# Test it
+
+Run the development server:
+
+> ./develop_server.sh start 8080
+
+Then go on firefox to see the static website
