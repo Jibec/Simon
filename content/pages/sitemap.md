@@ -10,7 +10,7 @@ Title: Sitemap
        * [With the demo](/try)    
 
     * [Administrator guide](/admindoc)
-        * [Self-hosting](/selfhosting_en)
+        * [Self-hosting](/pages/administrator/selfhosting)
         * [Hardware compatible](/hardware)
         * [Installation guide](/install)
             * [On an OLinuXino board](/install_on_olinuxino)
