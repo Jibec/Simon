@@ -13,6 +13,22 @@ DEFAULT_LANG = 'en'
 
 THEME="./themes/yunohost/"
 
+PAGE_URL = '{slug}/'
+PAGE_SAVE_AS = '{slug}/index.html'
+SLUGIFY_SOURCE = 'basename'
+
+I18N_UNTRANSLATED_ARTICLES = 'remove'
+I18N_UNTRANSLATED_PAGES = 'remove'
+
+I18N_SUBSITES = {
+    'fr': {
+        'SITENAME': 'Documentation en français',
+        }
+    }
+
+DEFAULT_PAGINATION = False
+DISPLAY_PAGES_ON_MENU = False
+
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
@@ -31,10 +47,7 @@ SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
 
 PLUGIN_PATHS = ["plugins"]
-PLUGINS = ['page_hierarchy','sitemap']
-
-DEFAULT_PAGINATION = False
-DISPLAY_PAGES_ON_MENU = False
+PLUGINS = ['sitemap', 'i18n_subsites', 'page_hierarchy']
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True

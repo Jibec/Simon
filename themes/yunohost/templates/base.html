@@ -40,6 +40,21 @@
                 {% endfor %}
                 {% endif %}
                 </ul></nav>
+                <!-- SNIP -->
+                <nav><ul>
+                {% if extra_siteurls %}
+                    {% for lang, url in extra_siteurls.items() %}
+                    <li><a href="{{ url }}/">{{ lang }}</a></li>
+                    {% endfor %}
+                    <!-- separator -->
+                    <li style="background-color: white; padding: 5px;">&nbsp</li>
+                {% endif %}
+                {% for title, link in MENUITEMS %}
+                      <li><a href="{{ link }}/">{{ title }}</a></li>
+                {% endfor %}
+                <!-- SNIP -->
+                     </ul>
+                 </nav>
         </header><!-- /#banner -->
         <div id="wrapper">
             <div id="logo"><a href="/" data-toggle="tooltip" data-placement="auto bottom" title="Index"><img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/logo.png"></a></div>
