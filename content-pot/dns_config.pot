@@ -1,0 +1,145 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2017-02-15 23:16+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/dns_config.md:2
+msgid "Title: DNS zone configuration"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/dns_config.md:4
+msgid "Sample DNS zone configuration for `domain.tld` domain name:"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/dns_config.md:6
+msgid "#### Use yunohost command to generate my DNS ZONE"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/dns_config.md:11
+msgid ""
+"Connect to your server using yunohost and run the following as root ```bash "
+"yunohost domain dns-conf domain.tld ```"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/dns_config.md:17
+msgid ""
+"#### Redirection from the domain name to the IP address ```bash @ 1800 IN A "
+"111.222.333.444 # (Minimal) IPv4 @ 1800 IN AAAA "
+"2001:AABB:CCDD:EEFF:1122:3344:5566:7788 # IPv6 ```"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/dns_config.md:23
+msgid ""
+"#### Redirection from the domain name and subdomains to the IP address "
+"```bash * 1800 IN A 111.222.333.444 # Wildcard: *.domain.tld and domain.tld "
+"redirection to the IP address * 1800 IN AAAA "
+"2001:AABB:CCDD:EEFF:1122:3344:5566:7788 ```"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/dns_config.md:28
+msgid ""
+"#### Subdomains ```bash www 1800 IN CNAME @ # accesible at www.domain.tld "
+"```"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/dns_config.md:33
+msgid ""
+"#### XMPP ```bash _xmpp-client._tcp 1800 IN SRV 0 5 5222 domain.tld. # "
+"(Minimal) clients connection _xmpp-server._tcp 1800 IN SRV 0 5 5269 "
+"domain.tld. # (Minimal) servers connection"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/dns_config.md:41
+msgid ""
+"muc 1800 IN CNAME @ # multi-user chat rooms at muc.domain.tld anonymous 1800 "
+"IN CNAME @ # connection without account at `anonymous.domain.tld` bosh 1800 "
+"CNAME @ # BOSH _xmppconnect 1800 TXT "
+"\"_xmpp-client-xbosh=https://bosh.domain.tld:5281/http-bind\" pubsub 1800 IN "
+"CNAME @ vjud 1800 IN CNAME @ ```"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/dns_config.md:47
+msgid ""
+"#### Email ```bash @ 1800 IN MX 10 domain.tld. # (Minimal)  @ 1800 IN TXT "
+"\"v=spf1 a mx -all\" ```"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/dns_config.md:49
+msgid ""
+"You should also consult the [DKIM documentation](#/dkim). DKIM allows yours "
+"mails not to be considered by spam by other mail service. In fact DKIM ask "
+"you to add an entry in your zone."
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/dns_config.md:56
+#, no-wrap
+msgid ""
+"#### Set up\n"
+"Replace:\n"
+"- \"`domain.tld`\" with your own domain preserving the dot at the end.\n"
+"-  IP samples values with your server IP addresses:\n"
+" * `111.222.333.444`: [IPv4](http://ip.yunohost.org/).\n"
+" * `2001:AABB:CCDD:EEFF:1122:3344:5566:7788`: "
+"[IPv6](http://ip6.yunohost.org/).\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/dns_config.md:58
+msgid ""
+"DNS lines for subdomains, XMPP and email does not work without a redirection "
+"from the domain name to the IP address (one line is enough) because they "
+"depend on it."
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/dns_config.md:60
+msgid ""
+"<div class=\"alert alert-info\"><b>To begin:</b> lines with \"(Minimal)\" "
+"are the minimal required DNS entries to make redirection work from the "
+"domain name to the IP adress, XMPP and email.</div>"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/dns_config.md:62
+msgid ""
+"<div class=\"alert alert-warning\"><b>Warning:</b> <b>@</b> is the default "
+"domain name currently defined, some registrar (like OVH) does not accept it, "
+"so replace @ by your domain name (domain.tld**.**) with a dot at the "
+"end.</div>"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/dns_config.md:64
+msgid ""
+"#### Time to live All DNS lines above have `1800` value (30 minutes). It "
+"corresponds to [Time to live "
+"(TTL)](https://en.wikipedia.org/wiki/Time_to_live#DNS_records) which "
+"represents and indicate time, in seconds, during which the DNS line can be "
+"kept in the cache. After this time, the information must me considered "
+"obsolete and must be updated."
+msgstr ""

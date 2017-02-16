@@ -1,0 +1,126 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2017-02-15 23:16+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/changelog_2_0.md:2
+msgid "Title: Changelog 2.0"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/changelog_2_0.md:4
+msgid ""
+"<a class=\"btn btn-lg btn-default\" href=\"/changelog_2_0_en\">2.0</a> <a "
+"class=\"btn btn-lg btn-default\" href=\"/changelog_2_2_en\">2.2</a> <a "
+"class=\"btn btn-lg btn-default\" href=\"/roadmap_en\">Roadmap</a>"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/changelog_2_0.md:8
+msgid ""
+"## v2.0 <small><small>12 june 2014</small></small> * ✔ Add sexiness and a "
+"menu to YunoHost.org frontpage *(kload)* * ✔ **DOCUMENTATIONNNNNNN** "
+"*(everyone <3)*"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/changelog_2_0.md:9
+#, no-wrap
+msgid "---\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/changelog_2_0.md:12
+msgid "## v2.0 RC"
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/jb/Projects/Simon/content/pages/changelog_2_0.md:27
+msgid "✔ Email forward configuration *(kload, beudbeud)*"
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/jb/Projects/Simon/content/pages/changelog_2_0.md:27
+msgid "✔ Make pending official apps *(Ju)*"
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/jb/Projects/Simon/content/pages/changelog_2_0.md:27
+msgid "✔ SFTP *(kload)*"
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/jb/Projects/Simon/content/pages/changelog_2_0.md:27
+msgid "✔ Fix DNS zone *(kload)*"
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/jb/Projects/Simon/content/pages/changelog_2_0.md:27
+msgid "✔ SSOwat stuffs (presistent rules, public root website) *(ezpen)*"
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/jb/Projects/Simon/content/pages/changelog_2_0.md:27
+msgid "✔ Email configuration tests *(beudbeud)*"
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/jb/Projects/Simon/content/pages/changelog_2_0.md:27
+msgid ""
+"✔ Test and upgrade official apps like Owncloud, Roundcube and Radicale *(app "
+"maintainers)*"
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/jb/Projects/Simon/content/pages/changelog_2_0.md:27
+msgid "✔ Upgrade function + view *(beudbeud, opi)*"
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/jb/Projects/Simon/content/pages/changelog_2_0.md:27
+msgid "✔ uPnP rework *(kload, titoko)*"
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/jb/Projects/Simon/content/pages/changelog_2_0.md:27
+msgid "✔ Add warning in a sample backup view *(opi)*"
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/jb/Projects/Simon/content/pages/changelog_2_0.md:27
+msgid "✔ User interface design *(Courgette, opi)*"
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/jb/Projects/Simon/content/pages/changelog_2_0.md:27
+msgid "✔ Moulinette/API refactoring *(jerome)*"
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/jb/Projects/Simon/content/pages/changelog_2_0.md:27
+msgid "✔ Security check and complete patterns"
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/jb/Projects/Simon/content/pages/changelog_2_0.md:27
+msgid "✔ Internationalization I18n *(opi, jerome)*"
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/jb/Projects/Simon/content/pages/changelog_2_0.md:27
+msgid "✔ Lack of hairpinning hack *(kload)*"
+msgstr ""

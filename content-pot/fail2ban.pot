@@ -1,0 +1,140 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2017-02-15 23:16+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/fail2ban.md:2
+msgid "Title: Fail2ban"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/fail2ban.md:4
+msgid ""
+"For a number of reasons, an IP adresse may be wrongly blacklisted. If you "
+"wish to access your server through this specify IP you will need to unblock "
+"it."
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/fail2ban.md:6
+msgid "## IP unblock"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/fail2ban.md:8
+msgid "First, list all iptables rules with: `iptables -L --line-numbers` :"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/fail2ban.md:18
+#, no-wrap
+msgid ""
+"```bash\n"
+"root@beudi:~# iptables -L --line-numbers\n"
+"Chain INPUT (policy ACCEPT)\n"
+"num  target     prot opt source               destination         \n"
+"1    fail2ban-yunohost  tcp  --  anywhere             anywhere             "
+"multiport dports http,https\n"
+"2    fail2ban-nginx  tcp  --  anywhere             anywhere             "
+"multiport dports http,https\n"
+"3    fail2ban-dovecot  tcp  --  anywhere             anywhere             "
+"multiport dports smtp,ssmtp,imap2,imap3,imaps,pop3,pop3s\n"
+"4    fail2ban-sasl  tcp  --  anywhere             anywhere             "
+"multiport dports smtp,ssmtp,imap2,imap3,imaps,pop3,pop3s\n"
+"5    fail2ban-ssh  tcp  --  anywhere             anywhere             "
+"multiport dports ssh\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/fail2ban.md:21
+#, no-wrap
+msgid ""
+"Chain FORWARD (policy ACCEPT)\n"
+"num  target     prot opt source               destination         \n"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/fail2ban.md:24
+#, no-wrap
+msgid ""
+"Chain OUTPUT (policy ACCEPT)\n"
+"num  target     prot opt source               destination         \n"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/fail2ban.md:28
+#, no-wrap
+msgid ""
+"Chain fail2ban-dovecot (1 references)\n"
+"num  target     prot opt source               destination         \n"
+"1    RETURN     all  --  anywhere             anywhere            \n"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/fail2ban.md:32
+#, no-wrap
+msgid ""
+"Chain fail2ban-nginx (1 references)\n"
+"num  target     prot opt source               destination         \n"
+"1    RETURN     all  --  anywhere             anywhere            \n"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/fail2ban.md:36
+#, no-wrap
+msgid ""
+"Chain fail2ban-sasl (1 references)\n"
+"num  target     prot opt source               destination         \n"
+"1    RETURN     all  --  anywhere             anywhere            \n"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/fail2ban.md:40
+#, no-wrap
+msgid ""
+"Chain fail2ban-ssh (1 references)\n"
+"num  target     prot opt source               destination         \n"
+"1    RETURN     all  --  anywhere             anywhere            \n"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/fail2ban.md:46
+#, no-wrap
+msgid ""
+"Chain fail2ban-yunohost (1 references)\n"
+"num  target     prot opt source               destination         \n"
+"1    DROP       all  --  80.215.197.201       anywhere            \n"
+"2    RETURN     all  --  anywhere             anywhere \n"
+"```\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/fail2ban.md:49
+msgid ""
+"Here, Ip adress `80.215.197.201` is banned in the `fail2ban-yunohost` rule.  "
+"To unblock:"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/fail2ban.md:53
+msgid "```bash iptables -D rule_name entry_number ```"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/fail2ban.md:57
+msgid "For intance: ```bash iptables -D fail2ban-yunohost 1 ```"
+msgstr ""

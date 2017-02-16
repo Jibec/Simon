@@ -1,0 +1,519 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2017-02-15 23:16+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/contributor/build_system.md:2
+msgid "Title: Debian package creation"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/contributor/build_system.md:5
+msgid ""
+"## Architecture The system contains `rebuildd`, a front-end for `pbuilder`, "
+"some chroot pbuilder for i386, amd64, armhf and `reprepro` for debian "
+"repository system."
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/contributor/build_system.md:6 /home/jb/Projects/Simon/content/pages/contributor/build_system.md:112 /home/jb/Projects/Simon/content/pages/contributor/build_system.md:124
+#, no-wrap
+msgid "---\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/contributor/build_system.md:9
+msgid "## Workflow"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/contributor/build_system.md:12
+msgid ""
+"There is 3 repositories (`unstable`, `testing` & `stable`): * Packages from "
+"`unstable` (aka `daily`) are the latest version from git and are build "
+"automatically every night."
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/jb/Projects/Simon/content/pages/contributor/build_system.md:14
+msgid ""
+"Packages from `testing` (aka `test`) allow to set up a new package version "
+"to be tested."
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/jb/Projects/Simon/content/pages/contributor/build_system.md:16
+msgid "Packages from `stable` (aka `megusta`) contains only production versions."
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/contributor/build_system.md:18
+msgid ""
+"This workflow purpose is to avoid any manual interaction (script launch, "
+"...) on your server and to focus on package management through Github only."
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/contributor/build_system.md:20
+msgid ""
+"Thus, each yunohost package has three branches, matching the three "
+"repositories (`unstable`, `testing` et `stable`). The build server will "
+"**automatically** build and deploy Debian source packages and binaries into "
+"the corresponding state on Github"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/contributor/build_system.md:23
+msgid ""
+"### Unstable branch Commits to the unstable branch will not modify the "
+"`debian/changelog` file because it is automatically updated during daily "
+"builds with corresponding date and time."
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/contributor/build_system.md:25
+msgid ""
+"Any commit that will alter a package behaviour need to be done to the "
+"`unstable` branch first."
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/contributor/build_system.md:27
+#, no-wrap
+msgid "**`TODO`** Add pre-commit hook to avoid errors ?\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/contributor/build_system.md:29
+msgid "### Testing et stable branch - standard workflow"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/contributor/build_system.md:31
+msgid ""
+"No commit can be done directly in those branches. You need to use merges "
+"(merge from `unstable` to `testing` & merge from `testing` to `stable`)."
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/contributor/build_system.md:33
+msgid ""
+"The only specific changes that occur on the repositories are version changes "
+"(modification of `debian/changelog`, then tag)."
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/contributor/build_system.md:40
+msgid ""
+"As a YunoHost application maintainer, you may find specific tools in the "
+"repository "
+"[yunohost-debhelper](https://github.com/YunoHost/yunohost-debhelper)  "
+"```bash git clone https://github.com/YunoHost/yunohost-debhelper "
+"yunohost-debhelper/setup_git_alias.sh ``` The previous instructions will "
+"configure a new git alias named `yunobump`. It is global and located at "
+"`~/.gitconfig`, therefore accessible through any local git repository."
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/contributor/build_system.md:44
+msgid ""
+"<div class=\"alert alert-warning\"> **Cauttion:** this helper `yunobump` "
+"only works for Ubuntu or Debian Jessie for the moment. You **need** to "
+"install `git` and `git-buildpackage` packages in order to make this helper "
+"work properly.  </div>"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/contributor/build_system.md:46
+msgid "#### Without helper"
+msgstr ""
+
+#. type: Bullet: '1. '
+#: /home/jb/Projects/Simon/content/pages/contributor/build_system.md:58
+msgid "Go into the repository you wish to build"
+msgstr ""
+
+#. type: Bullet: '2. '
+#: /home/jb/Projects/Simon/content/pages/contributor/build_system.md:58
+msgid "Make sure `unstable` branch contains all modifications you wish to apply"
+msgstr ""
+
+#. type: Bullet: '3. '
+#: /home/jb/Projects/Simon/content/pages/contributor/build_system.md:58
+msgid "Get the current version number: `head debian/changelog`"
+msgstr ""
+
+#. type: Bullet: '4. '
+#: /home/jb/Projects/Simon/content/pages/contributor/build_system.md:58
+msgid "Move to the `testing` or `stable` branch"
+msgstr ""
+
+#. type: Bullet: '5. '
+#: /home/jb/Projects/Simon/content/pages/contributor/build_system.md:58
+msgid "Merge or cherry-pick commits you want to insert into the `unstable` branch"
+msgstr ""
+
+#. type: Bullet: '6. '
+#: /home/jb/Projects/Simon/content/pages/contributor/build_system.md:58
+msgid ""
+"Add to `debian/changelog` the corresponding commits messages (or use "
+"`git-dch` to do it automatically)"
+msgstr ""
+
+#. type: Bullet: '7. '
+#: /home/jb/Projects/Simon/content/pages/contributor/build_system.md:58
+msgid ""
+"Tag the current branch (`testing` or `stable`) with the next superior value "
+"for version number"
+msgstr ""
+
+#. type: Bullet: '8. '
+#: /home/jb/Projects/Simon/content/pages/contributor/build_system.md:58
+msgid "Push modifications **and tags** into GitHub repository"
+msgstr ""
+
+#. type: Bullet: '9. '
+#: /home/jb/Projects/Simon/content/pages/contributor/build_system.md:58
+msgid "Go back to `unstable` branch"
+msgstr ""
+
+#. type: Bullet: '10. '
+#: /home/jb/Projects/Simon/content/pages/contributor/build_system.md:58
+msgid "Merge changelog"
+msgstr ""
+
+#. type: Bullet: '11. '
+#: /home/jb/Projects/Simon/content/pages/contributor/build_system.md:58
+msgid "Push `unstable` branch"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/contributor/build_system.md:60
+msgid "#### With helper"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/contributor/build_system.md:65
+msgid ""
+"```bash # You Only Clone Once $ git clone "
+"git@github.com:YunoHost/yunohost-config-nginx.git $ cd yunohost-config-nginx"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/contributor/build_system.md:68
+msgid ""
+"# Be sure to be up-to-date, and don't forget to get the tags ! $ git fetch "
+"--tags"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/contributor/build_system.md:71
+msgid "# Checkout your branch: stable or testing $ git checkout testing"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/contributor/build_system.md:76
+msgid ""
+"# Do your 'functional' modifications: either merge unstable in testing, or "
+"merge testing in stable $ git pull origin unstable # Or just $ git merge "
+"unstable"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/contributor/build_system.md:81
+msgid ""
+"# What is the current version number in test? $ dpkg-parsechangelog | grep "
+"\"^Version\" | cut -d ' ' -f 2 # Or just $ head debian/changelog"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/contributor/build_system.md:84
+msgid ""
+"# Update changelog and do a proper tag (explained below)  $ git yunobump "
+"x.y.z-p"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/contributor/build_system.md:87
+msgid ""
+"# Push the branch state AND the tags to the remote repository $ git push "
+"origin --tags testing:testing"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/contributor/build_system.md:93
+msgid ""
+"# Merge changelog modifications to the `unstable` branch $ git checkout "
+"unstable $ git merge testing $ git push origin unstable ```"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/contributor/build_system.md:95
+#, no-wrap
+msgid ""
+"**`TODO`** Tag format policy: actually $branch/$version to enable the same "
+"version into two different branches. Is it necessary?\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/contributor/build_system.md:97
+#, no-wrap
+msgid ""
+"**`TODO`** Under normal circumstances, every push to test or stable, the "
+"last commit will result in a changelog commit properly tagged. It should be "
+"possible to set a pre-push git hook that prevents from pushing unfinished "
+"work\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/contributor/build_system.md:99
+msgid "#### Test and stable branches - hotfix"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/contributor/build_system.md:101
+msgid ""
+"Exceptionally, you may hotfix (for security purposes for example) `stable` "
+"or `test` packages, leading to a merge into daily branch which is not "
+"acceptable (too much new features in development)."
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/contributor/build_system.md:103
+#, no-wrap
+msgid "** This MUST remain exceptional **\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/contributor/build_system.md:105
+#, no-wrap
+msgid "**`TODO`** Describe\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/contributor/build_system.md:107
+#, no-wrap
+msgid ""
+"**`TODO`** Develop a 'git yunohotfix ...' helper that commit into stable and "
+"cherry-pick right away into daily? or the opposite?\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/contributor/build_system.md:109
+msgid "#### Not YunoHost packages"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/contributor/build_system.md:111
+msgid ""
+"« not-YunoHost » packages (`python-bottle` for example) don't go through "
+"`unstable` repository. Once package tests are completed, they need to be "
+"manually transferred into `backport` repository."
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/contributor/build_system.md:115
+msgid "## Version number"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/contributor/build_system.md:117
+msgid ""
+"So far, YunoHost global base version is **2**. The current convention for "
+"the version number is **2.x.x**."
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/contributor/build_system.md:119
+msgid ""
+"The second section of the number string is incremented if a major functional "
+"change has occured: addition of a new functionality, modification of a "
+"behaviour. For now, all packages are versionned **2.1.x**."
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/contributor/build_system.md:121
+msgid ""
+"The third section of the number string is incremented if a bugfix or a minor "
+"functional change has occured. For example, you may currently find **2.1.3** "
+"or **2.1.5** packages"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/contributor/build_system.md:123
+msgid ""
+"A fourth section is dedicated for exceptional cases like bugfixes in stable "
+"branch. In this case, we want to pass on a unique change directly into "
+"stable branch, therefore we add **-x** to the number string. This may result "
+"into something like this: **2.1.3-1**."
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/contributor/build_system.md:127
+msgid "## Packages management"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/contributor/build_system.md:129
+msgid "#### Daily build"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/contributor/build_system.md:132
+msgid ""
+"A cron task defined for `pbuilder` user is executed **every day at "
+"01:00**. The script will update the `packages` git repository and submodules "
+"(`ssowat`, `moulinette`, `moulinette-yunohost` & `admin_js`).  Once sources "
+"are up to date, the script will rebuild packages that have been updated the "
+"day."
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/contributor/build_system.md:134
+msgid ""
+"Sources packages will then need to be created and moved into "
+"`/var/www/repo.yunohost.org/daily/incomming` folder."
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/contributor/build_system.md:136
+msgid ""
+"Launch source file addition to the repository. This will automatically "
+"launch a `rebuildd` job (see daily repository configuration: "
+"`/var/www/repo.yunohost.org/daily/conf/distribustion`)."
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/contributor/build_system.md:138
+msgid "Once packages are built, they are added to the `unstable` repository."
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/contributor/build_system.md:141
+msgid "#### (Re)build a YunoHost package"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/contributor/build_system.md:143
+msgid "You may manualy launch a package build by typing:"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/contributor/build_system.md:147
+msgid "```bash $ daily_build -p package_name ```"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/contributor/build_system.md:149
+msgid "#### Build a not YunoHost package"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/contributor/build_system.md:153
+msgid "```bash $ build_deb /path/of/package ```"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/contributor/build_system.md:155
+#, no-wrap
+msgid ""
+"**`TODO`** Describe : need to bump the version to pass from test to stable "
+"\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/contributor/build_system.md:157
+msgid "### Passing from `daily` to `test`"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/contributor/build_system.md:162
+msgid ""
+"```bash $ push-packages-test -p package_name ``` You may add the `-v` "
+"argument to manually define the package version."
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/contributor/build_system.md:164
+msgid ""
+"The script will get the `daily` sources package and define the version and "
+"changelist into the changelog. Build package will be added to the rebuildd "
+"jobs list that will pass everything to the `test` repository."
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/contributor/build_system.md:166
+#, no-wrap
+msgid ""
+"**Attention :** Version name must not contain `daily` otherwise the package "
+"will be added to the `daily` repository.\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/contributor/build_system.md:169
+msgid "### Passing from `test` to `stable`"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/contributor/build_system.md:173
+msgid "```bash $ push-package-stable -p package_name ```"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/contributor/build_system.md:175
+msgid ""
+"The previous command only passes the package from `test` to `stable` "
+"repository, without rebuild."
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/contributor/build_system.md:178
+msgid "### Repository management with `reprepro`"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/contributor/build_system.md:183
+#, no-wrap
+msgid ""
+"* Delete a package\n"
+"```bash\n"
+"$ reprepro -V -b /var/www/repo.yunohost.org/repo_name/ remove megusta "
+"package_name\n"
+"```\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/contributor/build_system.md:188
+#, no-wrap
+msgid ""
+"* Add a Debian package into a repository\n"
+"```bash\n"
+"$ reprepro -V -b /var/www/repo.yunohost.org/repo_name/ includedeb megusta "
+"package_name.deb\n"
+"```\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/contributor/build_system.md:195
+msgid ""
+"### Backports management Packages from backports repository can be quickly "
+"into Yunohost `test` repository.  To do so, you need to add the package name "
+"into the `/var/www/repo.yunohost.org/test/conf/list` file and type in the "
+"following command: ```bash $ reprepro -V -b /var/www/repo.yunohost.org/test "
+"update megusta ``` Now packages will be downloaded and added to `test` "
+"repository."
+msgstr ""

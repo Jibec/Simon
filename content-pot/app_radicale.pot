@@ -1,0 +1,182 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2017-02-15 23:16+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/user/app_radicale.md:2
+msgid "Title: Radicale"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/user/app_radicale.md:4
+msgid ""
+"Radical is a calendar and contact server CalDAV/CardDAV. It does not have a "
+"graphical administration interface."
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/user/app_radicale.md:6
+msgid ""
+"Radical is installed by default with the web client InfCloud that will view "
+"and edit your calendars and address books."
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/user/app_radicale.md:8
+msgid "To connect another client to radical, we must inform these addresses:"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/user/app_radicale.md:12
+msgid ""
+"### Complete CalDAV/CardDAV collection of a user - URL: "
+"https://domain.tld/path/user/ - Exemple : https://example.org/radicale/me/"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/user/app_radicale.md:16
+msgid ""
+"### To connect a calendar in particular - URL: "
+"https://domain.tld/path/user/calendar.ics/ - Exemple: "
+"https://example.org/radicale/me/calendar.ics/"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/user/app_radicale.md:20
+msgid ""
+"### To connect an address book in particular - URL: "
+"https://domain.tld/path/user/AddressBook.vcf/ - Exemple: "
+"https://example.org/radicale/me/AddressBook.vcf/"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/user/app_radicale.md:23
+msgid ""
+"### Create a new schedule or a new address book Create a new schedule or a "
+"new address book is very simple with radical, just go there! Radical create "
+"all new calendar or notebook to nonexistent addresses if you try to access "
+"it."
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/user/app_radicale.md:26
+msgid ""
+"So just log on (as before) to a calendar or a nonexistent address book to "
+"create it.  This can be done simply with a browser, to appear in a "
+"collection already connected to a client."
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/user/app_radicale.md:29
+msgid ""
+"### Go to a calendar or an address book of another user Previous addresses "
+"also work to access resources not owned by the authenticated user."
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/user/app_radicale.md:36
+msgid ""
+"> Example: > User1 can connect to the collection of user2 > "
+"https://example.org/radicale/user2/ > Simply to indicate the login and "
+"password of user1.  > It's sharing rules (see below) that will allow or not "
+"to user1 to see the contents of the collection of user2.  > By default, no "
+"sharing is allowed."
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/user/app_radicale.md:37 /home/jb/Projects/Simon/content/pages/user/app_radicale.md:85 /home/jb/Projects/Simon/content/pages/user/app_radicale.md:93
+#, no-wrap
+msgid "---\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/user/app_radicale.md:43
+msgid ""
+"### Configure the access rights and sharing of calendars and address books "
+"By default, any user has the right to read and write on its own calendars "
+"and address books.  It is possible to refine these default rules and to "
+"allow sharing by allowing users to access their resources do not own.  The "
+"rules governing these rights should be included in the "
+"*/etc/radicale/rights*"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/user/app_radicale.md:57
+msgid ""
+"Each rule is in this form: ```bash # Comment before rule and explaining that "
+"(optional of course): [Rule Name] user: user concerned collection: calendar, "
+"book or collection concerned.  permission: permission, r (read), w (write) "
+"or rw (read/write)  ``` *Rights* file contains several examples that can be "
+"exploited.  To validate changes to the */etc/radicale/rights* file, radical "
+"must be recharged via uwsgi service.  ```bash sudo service uwsgi restart ```"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/user/app_radicale.md:73
+msgid ""
+"### Share resources To share a calendar or address book, just write a rule "
+"permitting. Sharing can be done with another user.  ```bash user: ^user1$ "
+"collection: ^user2/shared2.ics$ permission: rw ``` Or publicly for a remote "
+"user does not use the same server.  ```bash user: .* collection: "
+"^user2/shared2.ics$ permission: r ``` In both cases, the sharing works only "
+"using the full address of the calendar or collection. In other words, the "
+"shares do not appear in the collection of a user.  This limitation may be "
+"blocking for clients managing a single collection, as InfCloud. In this "
+"particular case, a solution overcomes this problem."
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/user/app_radicale.md:76
+msgid ""
+"#### Share resources directly in the collection of a user > This solution is "
+"functional, but is an hack ..."
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/user/app_radicale.md:84
+msgid ""
+"To enable sharing to occur directly in the collection of a user, it must "
+"exploit the use of files in Radicale.  By simply creating a symbolic link to "
+"the resource sharing.  ```bash ln -sr user2/shared.ics "
+"user1/user2_shared.ics ``` The shared resource becomes a resource from the "
+"collection of user1, while it physically remains in the collection of "
+"user2.  However, without recourse to the rules for each resource in the "
+"collection of user1, the general rule applies. user1 gets so read and write "
+"access by default on the shared resource because it is part of his "
+"collection."
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/user/app_radicale.md:92
+msgid ""
+"### Making Radical log more verbose By default, the Radical log is set to "
+"INFO. This method savings the hard drive but does not debug Radicale in case "
+"of problems.  To pass Radicale in DEBUG mode, edit the "
+"*/etc/radicale/logging* and change INFO to DEBUG in sections *[logger_root]* "
+"and *[handler_file]*. Then reload the uwsgi service.  Now, the log displays "
+"all requests that are made to Radicale and analysis of *rights* file.  "
+"However, do not stay on this mode because the log is filled very quickly."
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/user/app_radicale.md:100
+msgid ""
+"### Change config of InfCloud The configuration of InfCloud is in the "
+"*infcloud/config.js* file To load any changes in the *config.js* file (or "
+"other file of InfCloud) must reload the cache with the script provided.  "
+"```bash sudo ./cache_update.sh ```"
+msgstr ""

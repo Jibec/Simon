@@ -1,0 +1,123 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2017-02-15 23:16+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/dns_dynamicip.md:2
+msgid "Title: DNS with a dynamic IP"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/dns_dynamicip.md:4
+msgid ""
+"<div class=\"alert alert-warning\">Before going further, make sure your "
+"global IP address is dynamic with: "
+"[ip.yunohost.org](http://ip.yunohost.org/). The global IP address of your "
+"box change almost every days.</div>"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/dns_dynamicip.md:6
+msgid ""
+"This tutorial aim to get around dynamic IP issue who's nest: when the IP "
+"address public of the box change, the DNS zone is not update to point "
+"towards the new IP address."
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/dns_dynamicip.md:8
+msgid ""
+"After put in place the solution proposed in this tutorial, the redirection "
+"from your domain name to the real IP address will not be loose anymore."
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/dns_dynamicip.md:10
+msgid ""
+"The method which will be put in place consist to make automatic the fact the "
+"box annonce to the dynamic DNS it has change global IP address, and then the "
+"DNS zone will automatically be changed."
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/dns_dynamicip.md:12
+msgid ""
+"If you own a domain name at **OVH**, you could go to step 4 and follow this "
+"[tutorial](OVH_fr) because OVH propose a DynDNS service."
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/dns_dynamicip.md:20
+msgid ""
+"#### 1. Create an account to a Dynamic DNS service Here is sites which offer "
+"a DynDNS service free of charge: * "
+"[DNSexit](https://www.dnsexit.com/Direct.sv?cmd=dynDns)  * "
+"[No-IP](https://www.noip.com/remote-access)  * "
+"[ChangeIP](https://changeip.com)  * [DynDNS (in italian)](https://dyndns.it)  "
+"* [DynDNS with your own "
+"domain](https://github.com/jodumont/DynDNS-with-HE.NET)"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/dns_dynamicip.md:22
+msgid "Register to one of them."
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/dns_dynamicip.md:25
+msgid ""
+"#### 2. Move the DNS zones Move the [DNS zones](dns_config), excepted the NS "
+"fields, from the [registrar](registrar_en) where you bought your domain name "
+"to the dynamic DNS service you registrer at step 1."
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/dns_dynamicip.md:29
+msgid ""
+"#### 3. Toggle management of your domain name to the dynamic DNS server This "
+"step consist to say to the [registrar](registrar_en) that DNS service will "
+"be manage by the DynDNS service.  Redirect NS field to the IP address gived "
+"by the DynDNS service."
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/dns_dynamicip.md:31
+msgid ""
+"Then, remove [DNS zones](dns_config), excepted NS fields, from the "
+"[registrar](registrar_en)."
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/dns_dynamicip.md:36
+msgid ""
+"#### 4. Create a Dynamic DNS login On the dynamic DNS service create a login "
+"that you will enter on a dynamic DNS client.  This client could be your box "
+"or a package installed on your server as `ddclient`.  We gone use the client "
+"installed on the box which is more easy way."
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/dns_dynamicip.md:39
+msgid ""
+"#### 5. Configure the box Put the login of the dynamic DNS and the [public "
+"IP address](http://ip.yunohost.org/) on your box."
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/dns_dynamicip.md:40
+msgid "<img src=\"/images/dns_dynamic-ip_box_conf.png\" width=600>"
+msgstr ""

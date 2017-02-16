@@ -1,0 +1,91 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2017-02-15 23:16+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/burn_or_copy_iso.md:2
+msgid "Title: Copy ISO image"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/burn_or_copy_iso.md:4
+msgid ""
+"Now that you have the ISO image of YunoHost, you have to put it on a "
+"physical medium: **USB key** or **CD/DVD**"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/burn_or_copy_iso.md:7
+msgid "<img src=\"/images/usb_key.png\"> <img src=\"/images/cd.jpg\" width=200>"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/burn_or_copy_iso.md:8 /home/jb/Projects/Simon/content/pages/administrator/burn_or_copy_iso.md:20
+#, no-wrap
+msgid "---\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/burn_or_copy_iso.md:11
+msgid "## USB key"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/burn_or_copy_iso.md:13
+msgid ""
+"Download <a href=\"http://unetbootin.sourceforge.net/\" "
+"target=\"_blank\">UnetBootin</a> for your operating system and install it."
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/burn_or_copy_iso.md:16
+msgid "<img src=\"/images/unetbootin.png\">"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/burn_or_copy_iso.md:18
+msgid "Put your USB key on, select your YunoHost ISO and click \"OK\""
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/burn_or_copy_iso.md:23
+msgid "## CD/DVD"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/burn_or_copy_iso.md:25
+msgid "The software to use differs regarding your operating system."
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/jb/Projects/Simon/content/pages/administrator/burn_or_copy_iso.md:27
+msgid ""
+"On Windows, use [ImgBurn](http://www.imgburn.com/) to write the image file "
+"on the disc"
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/jb/Projects/Simon/content/pages/administrator/burn_or_copy_iso.md:29
+msgid "On Mac OS, use [Disk Utility](http://support.apple.com/kb/ph7025)"
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/jb/Projects/Simon/content/pages/administrator/burn_or_copy_iso.md:30
+msgid ""
+"On GNU/Linux, you have plenty of choices, like "
+"[Brasero](https://wiki.gnome.org/Apps/Brasero) or [K3b](http://www.k3b.org/)"
+msgstr ""

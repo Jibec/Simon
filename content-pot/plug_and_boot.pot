@@ -1,0 +1,71 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2017-02-15 23:16+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/plug_and_boot.md:2
+msgid "Title: Plug and boot your server up"
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/jb/Projects/Simon/content/pages/administrator/plug_and_boot.md:4
+msgid ""
+"Plug your server in wired Ethernet, or configure the wifi connection as "
+"explained "
+"[here](https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md). "
+"You can also mount the second partition of the SD card and edit the "
+"wpa-supplicant.conf file prior to boot the card for the first time - on "
+"Windows you can use [Paragon "
+"ExtFS](https://www.paragon-software.com/home/extfs-windows/), don't forget "
+"to unmount everytime for changes to take effect."
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/jb/Projects/Simon/content/pages/administrator/plug_and_boot.md:6
+msgid ""
+"Do not forget to **plug a screen** if you want to see how boot is going, and "
+"a keyboard if you want to have a **command-line access** to your server."
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/jb/Projects/Simon/content/pages/administrator/plug_and_boot.md:8
+msgid ""
+"Power up the server, wait for the first reboot to happen, and then wait "
+"until you see a big squared `Y` :"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/plug_and_boot.md:10
+msgid "<br>"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/plug_and_boot.md:12
+msgid "<div class=\"text-center\"><img src=\"/images/boot_screen.png\">"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/plug_and_boot.md:16
+msgid ""
+"<p markdown=\"1\"> *Write down the `IP address` field visible on the screen: "
+"It is your server's **local IP address**.* </p>"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/plug_and_boot.md:17
+msgid "</div>"
+msgstr ""

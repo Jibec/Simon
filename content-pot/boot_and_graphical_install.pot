@@ -1,0 +1,195 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2017-02-15 23:16+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/boot_and_graphical_install.md:2
+msgid "Title: Graphical installation"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/boot_and_graphical_install.md:4
+msgid "Now that your YunoHost install medium, you can start with the installation."
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/boot_and_graphical_install.md:6
+msgid "## <small>1.</small> Plug the network cable"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/boot_and_graphical_install.md:8
+msgid ""
+"If you want the network configuration to be set up automatically, you have "
+"to plug your server with an **Ethernet** cable **right behind your main "
+"router**."
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/boot_and_graphical_install.md:10
+msgid ""
+"The wireless connections are not supported yet, and if you use intermediate "
+"routers, the network ports opening will not be automatic: Your server will "
+"not be accessible externally."
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/boot_and_graphical_install.md:13
+msgid "## <small>2.</small> Boot on CD / USB key"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/boot_and_graphical_install.md:16
+#, no-wrap
+msgid ""
+"Boot up your server with the USB key or a CD-ROM inserted, and select it as "
+"**bootable device** by pressing one of the following keys (hardware "
+"specific):    \n"
+"```<ESC>```, ```<F8>```, ```<F10>```, ```<F11>```, ```<F12>``` or "
+"```<SUPPR>```\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/boot_and_graphical_install.md:18
+msgid "## <small>3.</small> Launch graphical installation"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/boot_and_graphical_install.md:20
+msgid "You should see a screen like this:"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/boot_and_graphical_install.md:22
+msgid "<img src=\"/images/virtualbox_3.png\">"
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/jb/Projects/Simon/content/pages/administrator/boot_and_graphical_install.md:25
+msgid "Select `Graphical install`"
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/jb/Projects/Simon/content/pages/administrator/boot_and_graphical_install.md:27
+msgid "Select your language, your location and your keyboard layout"
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/jb/Projects/Simon/content/pages/administrator/boot_and_graphical_install.md:29
+msgid "If a partitioning screen appears, confirm."
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/boot_and_graphical_install.md:31
+#, no-wrap
+msgid ""
+"    <div class=\"alert alert-danger\"><b>Caution:</b> This will totally "
+"erase the data on your hard drive</div>\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/jb/Projects/Simon/content/pages/administrator/boot_and_graphical_install.md:34
+msgid ""
+"Let the installer do the rest, it will download required packages and "
+"install them."
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/boot_and_graphical_install.md:37
+#, no-wrap
+msgid ""
+"   <div class=\"alert alert-info\">If it fails, you probably have an "
+"Internet connection issue.    \n"
+"Check that your computer is physically connected and retry.</div>\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: /home/jb/Projects/Simon/content/pages/administrator/boot_and_graphical_install.md:39
+msgid "It should reboot automatically."
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/boot_and_graphical_install.md:41
+msgid "## <small>4.</small> Proceed to post-installation"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/boot_and_graphical_install.md:43
+msgid "Once booted, your computer should display a screen like this:"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/boot_and_graphical_install.md:45
+msgid "<img src=\"/images/virtualbox_4.png\">"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/boot_and_graphical_install.md:47
+msgid ""
+"You can proceed to post-installation right away, or access the **IP** "
+"address shown on this screen from another computer's web browser (usually "
+"`http://192.168.x.x`)"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/boot_and_graphical_install.md:49
+msgid ""
+"<img src=\"/images/postinstall_error.png\" "
+"style=\"max-width:100%;border-radius: 5px;border: 1px solid "
+"rgba(0,0,0,0.15);box-shadow: 0 5px 15px rgba(0,0,0,0.35);\">"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/boot_and_graphical_install.md:53
+#, no-wrap
+msgid ""
+"If you encounter this kind of error, click on \"**Proceed**\" or \"**Add an "
+"exception**\".    \n"
+"This means that you have to trust the certificate which secures your "
+"server's connections.    \n"
+"Since this is your server, you can bypass it serenely here :-)\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/boot_and_graphical_install.md:55
+msgid "<br>"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/boot_and_graphical_install.md:57
+msgid ""
+"<img src=\"/images/postinstall_web.png\" "
+"style=\"max-width:100%;border-radius: 5px;border: 1px solid "
+"rgba(0,0,0,0.15);box-shadow: 0 5px 15px rgba(0,0,0,0.35);\">"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/boot_and_graphical_install.md:58
+#, no-wrap
+msgid "---\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/boot_and_graphical_install.md:61
+msgid "#### More information on the post-installation here:"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/boot_and_graphical_install.md:62
+#, no-wrap
+msgid "**[yunohost.org/postinstall](/postinstall)**\n"
+msgstr ""

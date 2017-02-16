@@ -1,0 +1,120 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2017-02-15 23:16+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/regenerate_certificate.md:2
+msgid "Title: Regenerate certificate"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/regenerate_certificate.md:4
+msgid ""
+"If you want to generate again -- not renewing -- a certificate for a domain, "
+"you can follow those steps:"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/regenerate_certificate.md:6
+msgid "(replace **example.org** with your domain)"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/regenerate_certificate.md:10
+msgid ""
+"```bash # Save YunoHost's SSL directory location for readability "
+"ssldir=/usr/share/yunohost/yunohost-config/ssl/yunoCA"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/regenerate_certificate.md:13
+msgid ""
+"# Save the final SSL path (do not forget to change your domain)  "
+"finalpath=/etc/yunohost/certs/example.org"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/regenerate_certificate.md:16
+msgid ""
+"# Save the serial number of the new certificate serial=$(cat "
+"\"$ssldir/serial\")"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/regenerate_certificate.md:19
+msgid ""
+"# Backup current certificates for your domain cp -a $finalpath "
+"$finalpath.back"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/regenerate_certificate.md:22
+msgid ""
+"# Remove certs and configuration file in it rm "
+"$finalpath/{crt.pem,key.pem,openssl.cnf}"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/regenerate_certificate.md:25
+msgid "# Copy openSSL's configuration file cp $ssldir/openssl.cnf $finalpath/"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/regenerate_certificate.md:29
+msgid ""
+"# Change yunohost.org with your domain in the configuration # DO NOT FORGET "
+"TO REPLACE example.org ! sed -i \"s/yunohost.org/example.org/g\" "
+"$finalpath/openssl.cnf"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/regenerate_certificate.md:32
+msgid ""
+"# Generate certificate and key openssl req -new -config "
+"$finalpath/openssl.cnf -days 3650 -out $ssldir/certs/yunohost_csr.pem "
+"-keyout $ssldir/certs/yunohost_key.pem -nodes -batch"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/regenerate_certificate.md:35
+msgid ""
+"# Sign certificate with your server's CA openssl ca -config "
+"$finalpath/openssl.cnf -days 3650 -in $ssldir/certs/yunohost_csr.pem -out "
+"$ssldir/certs/yunohost_crt.pem -batch"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/regenerate_certificate.md:39
+msgid ""
+"# Copy certificate and key to the right place cp "
+"$ssldir/newcerts/$serial.pem $finalpath/crt.pem cp "
+"$ssldir/certs/yunohost_key.pem $finalpath/key.pem"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/regenerate_certificate.md:44
+msgid ""
+"# Fix permissions chmod 755 $finalpath chmod 640 $finalpath/key.pem "
+"$finalpath/crt.pem chmod 600 $finalpath/openssl.cnf"
+msgstr ""
+
+#. type: Plain text
+#: /home/jb/Projects/Simon/content/pages/administrator/regenerate_certificate.md:47
+msgid ""
+"# Allow metronome to access those certificates chown root:metronome "
+"$finalpath/key.pem $finalpath/crt.pem ```"
+msgstr ""
