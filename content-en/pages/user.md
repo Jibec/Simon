@@ -1,4 +1,5 @@
 Title: User documentation
+Lang: en
 
 * [What is YunoHost](../whatsyunohost)
 * [User interface](user_interface)

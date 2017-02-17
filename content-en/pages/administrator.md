@@ -1,4 +1,5 @@
 Title: Administrator documentation
+Lang: en
 
 *For want of anything better, here is an index of interesting pages for the YunoHost server's administrator.*
 

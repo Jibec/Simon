@@ -1,4 +1,5 @@
 Title: Official apps
+Lang: en
 
 <img src="/images/roundcube.png" width=50>
 <img src="/images/ttrss.png" width=50>

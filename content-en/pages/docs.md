@@ -1,4 +1,5 @@
 Title: Documentation
+Lang: en
 
 <p class="lead">
 YunoHost's documentation has 3 different sections:

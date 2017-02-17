@@ -1,4 +1,5 @@
 Title: Contributors
+Lang: en
 
 Here is a non exhaustive list of mains contributors.
 

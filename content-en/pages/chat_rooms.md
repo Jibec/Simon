@@ -1,4 +1,5 @@
 Title: Chat rooms
+Lang: en
 
 Amoung other communication tools, YunoHost project use chat rooms to communicate.
 

@@ -1,4 +1,5 @@
 Title: Apps wishlist
+Lang: en
 
 <a class="btn btn-lg btn-default" href="/apps_en">Official apps</a> <a class="btn btn-lg btn-default" href="/apps_in_progress_en">Apps in progress</a> <a class="btn btn-lg btn-default disabled" href="/apps_wishlist_en">Apps wishlist</a>
 

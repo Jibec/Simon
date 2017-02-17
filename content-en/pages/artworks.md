@@ -1,4 +1,6 @@
 Title: Art Works
+Lang: en
+
 Black and white YunoHost png logo done by ToZz (400 × 400 px):
 
 <a href="/images/ynh_logo_black.png"><img src="/images/ynh_logo_black.png" width=220></a>
