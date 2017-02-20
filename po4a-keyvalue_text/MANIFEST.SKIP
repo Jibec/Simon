@@ -1,0 +1,38 @@
+^\.git/
+^\.svn/
+\.bak$
+~$
+
+# Avoid configuration metadata file
+^MYMETA\.
+
+# Avoid Module::Build generated and utility files.
+\bBuild$
+\bBuild.bat$
+\b_build
+\bBuild.COM$
+\bBUILD.COM$
+\bbuild.com$
+^MANIFEST\.SKIP
+
+# Avoid archives of this distribution
+\bpo4a-[\d\.\_]+
+
+^blib/
+^lib/Locale/Po4a/Debconf.pm
+^lib/Locale/Po4a/Html.pm
+^lib/Locale/Po4a/NewsDebian.pm
+^extension/
+^t/22-html.t
+^t/data-22/
+^testsuite/
+^t/tmp/
+^MYMETA\.yml$
+^MYMETA\.json$
+^share/Makefile$
+^share/doc/.*/po4a.*\.xml
+
+.travis.yml
+po/bin/zanata.xml
+po/pod/zanata.xml
+po/bin/messages.mo

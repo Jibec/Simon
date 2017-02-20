@@ -5,21 +5,24 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: YunoHost-Documentation 20170217\n"
+"Project-Id-Version: YunoHost-Documentation 20170220\n"
 "Report-Msgid-Bugs-To: contrib@list.yunohost.org\n"
-"POT-Creation-Date: 2017-02-17 07:45+0100\n"
-"PO-Revision-Date: 2017-02-17 07:45+0100\n"
+"POT-Creation-Date: 2017-02-20 14:16+0100\n"
+"PO-Revision-Date: 2017-02-20 14:16+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. type: Plain text
 #: content-en/pages/changelog_2_0.md:3
-msgid "Title: Changelog 2.0 Lang: en"
+#, no-wrap
+msgid ""
+"Title: Changelog 2.0\n"
+"Lang: en\n"
 msgstr ""
 
 #. type: Plain text
@@ -35,94 +38,169 @@ msgid "v2.0 <small><small>12 june 2014</small></small>"
 msgstr ""
 
 #. type: Bullet: '* '
-#: content-en/pages/changelog_2_0.md:9
-msgid " Add sexiness and a menu to YunoHost.org frontpage *(kload)*"
+#: content-en/pages/changelog_2_0.md:10
+msgid "✔ Add sexiness and a menu to YunoHost.org frontpage *(kload)*"
 msgstr ""
 
 #. type: Bullet: '* '
-#: content-en/pages/changelog_2_0.md:9
-msgid " **DOCUMENTATIONNNNNNN** *(everyone <3)*"
+#: content-en/pages/changelog_2_0.md:10
+msgid "✔ **DOCUMENTATIONNNNNNN** *(everyone <3)*"
+msgstr ""
+
+#. type: Bullet: '* '
+#: content-en/pages/changelog_2_0.md:10
+msgid "tests"
 msgstr ""
 
 #. type: Title ##
-#: content-en/pages/changelog_2_0.md:12
+#: content-en/pages/changelog_2_0.md:13
 #, no-wrap
 msgid "v2.0 RC"
 msgstr ""
 
 #. type: Bullet: '* '
-#: content-en/pages/changelog_2_0.md:28
-msgid " Email forward configuration *(kload, beudbeud)*"
+#: content-en/pages/changelog_2_0.md:29
+msgid "✔ Email forward configuration *(kload, beudbeud)*"
 msgstr ""
 
 #. type: Bullet: '* '
-#: content-en/pages/changelog_2_0.md:28
-msgid " Make pending official apps *(Ju)*"
+#: content-en/pages/changelog_2_0.md:29
+msgid "✔ Make pending official apps *(Ju)*"
 msgstr ""
 
 #. type: Bullet: '* '
-#: content-en/pages/changelog_2_0.md:28
-msgid " SFTP *(kload)*"
+#: content-en/pages/changelog_2_0.md:29
+msgid "✔ SFTP *(kload)*"
 msgstr ""
 
 #. type: Bullet: '* '
-#: content-en/pages/changelog_2_0.md:28
-msgid " Fix DNS zone *(kload)*"
+#: content-en/pages/changelog_2_0.md:29
+msgid "✔ Fix DNS zone *(kload)*"
 msgstr ""
 
 #. type: Bullet: '* '
-#: content-en/pages/changelog_2_0.md:28
-msgid " SSOwat stuffs (presistent rules, public root website) *(ezpen)*"
+#: content-en/pages/changelog_2_0.md:29
+msgid "✔ SSOwat stuffs (presistent rules, public root website) *(ezpen)*"
 msgstr ""
 
 #. type: Bullet: '* '
-#: content-en/pages/changelog_2_0.md:28
-msgid " Email configuration tests *(beudbeud)*"
+#: content-en/pages/changelog_2_0.md:29
+msgid "✔ Email configuration tests *(beudbeud)*"
 msgstr ""
 
 #. type: Bullet: '* '
-#: content-en/pages/changelog_2_0.md:28
+#: content-en/pages/changelog_2_0.md:29
 msgid ""
-" Test and upgrade official apps like Owncloud, Roundcube and Radicale *(app "
+"✔ Test and upgrade official apps like Owncloud, Roundcube and Radicale *(app "
 "maintainers)*"
 msgstr ""
 
 #. type: Bullet: '* '
-#: content-en/pages/changelog_2_0.md:28
-msgid " Upgrade function + view *(beudbeud, opi)*"
+#: content-en/pages/changelog_2_0.md:29
+msgid "✔ Upgrade function + view *(beudbeud, opi)*"
 msgstr ""
 
 #. type: Bullet: '* '
-#: content-en/pages/changelog_2_0.md:28
-msgid " uPnP rework *(kload, titoko)*"
+#: content-en/pages/changelog_2_0.md:29
+msgid "✔ uPnP rework *(kload, titoko)*"
 msgstr ""
 
 #. type: Bullet: '* '
-#: content-en/pages/changelog_2_0.md:28
-msgid " Add warning in a sample backup view *(opi)*"
+#: content-en/pages/changelog_2_0.md:29
+msgid "✔ Add warning in a sample backup view *(opi)*"
 msgstr ""
 
 #. type: Bullet: '* '
-#: content-en/pages/changelog_2_0.md:28
-msgid " User interface design *(Courgette, opi)*"
+#: content-en/pages/changelog_2_0.md:29
+msgid "✔ User interface design *(Courgette, opi)*"
 msgstr ""
 
 #. type: Bullet: '* '
-#: content-en/pages/changelog_2_0.md:28
-msgid " Moulinette/API refactoring *(jerome)*"
+#: content-en/pages/changelog_2_0.md:29
+msgid "✔ Moulinette/API refactoring *(jerome)*"
 msgstr ""
 
 #. type: Bullet: '* '
-#: content-en/pages/changelog_2_0.md:28
-msgid " Security check and complete patterns"
+#: content-en/pages/changelog_2_0.md:29
+msgid "✔ Security check and complete patterns"
 msgstr ""
 
 #. type: Bullet: '* '
-#: content-en/pages/changelog_2_0.md:28
-msgid " Internationalization I18n *(opi, jerome)*"
+#: content-en/pages/changelog_2_0.md:29
+msgid "✔ Internationalization I18n *(opi, jerome)*"
 msgstr ""
 
 #. type: Bullet: '* '
-#: content-en/pages/changelog_2_0.md:28
-msgid " Lack of hairpinning hack *(kload)*"
+#: content-en/pages/changelog_2_0.md:29
+msgid "✔ Lack of hairpinning hack *(kload)*"
+msgstr ""
+
+#. type: Plain text
+#: content-en/pages/changelog_2_2.md:3
+#, no-wrap
+msgid ""
+"Title: Changelog 2.2\n"
+"Lang: en\n"
+msgstr ""
+
+#. type: Title ##
+#: content-en/pages/changelog_2_2.md:6
+#, no-wrap
+msgid "v2.2 <small><small>12 may 2015</small></small>"
+msgstr ""
+
+#. type: Plain text
+#: content-en/pages/changelog_2_2.md:17
+#, no-wrap
+msgid ""
+"Core:\n"
+"* ✔ Migrate YunoHost to Debian Jessie\n"
+"* ✔ Update Metronome to v3.6 and make a more Debian-friendly package *(jerome)*\n"
+"* ✔ Update of Nginx, Postfix and Dovecot regarding the late Poodle attack\n"
+"* ✔ Migrate Bind9 to Dnsmasq *(kload)*\n"
+"* ✔ Add email quota *(beudbeud, jerome)*\n"
+"* ✔ Implement a simple backup and restore system *(jerome, kload)*\n"
+"* ✔ Add logging to the moulinette for each action *(jerome)*\n"
+"* ✔ Review the app manifest format and integrate it *(app maintainers, jerome, opi)*\n"
+"* ✔ Fix a security bug in SSOwat *(kload)*\n"
+msgstr ""
+
+#. type: Plain text
+#: content-en/pages/changelog_2_2.md:23
+msgid ""
+"Web administration: * ✔ Install unofficial apps *(opi)* * ✔ Add firewall "
+"*(opi)* * ✔ Warn admin about security updates *(opi)* * ✔ Fix websocket "
+"issue for Raspberry Pi *(jerome, kload)*"
+msgstr ""
+
+#. type: Plain text
+#: content-en/pages/changelog_2_2.md:30
+#, no-wrap
+msgid ""
+"Apps:\n"
+"* ✔ 21 official apps and 88 unofficial apps *(app maintainers)*\n"
+"* ✔ Migrate to Baikal and deprecate Radicale *(ju)*\n"
+"* ✔ Add Shell in a box and remove GateOne from official apps *(kload)*\n"
+"* ✔ OpenVPN configuration page and access control *(kload)*\n"
+"* ✔ Add a download files button on Transmission interface *(opi)*\n"
+msgstr ""
+
+#. type: Plain text
+#: content-en/pages/changelog_2_2.md:36
+#, no-wrap
+msgid ""
+"Installs:\n"
+"* ✔ Create an image for La Brique Internet on Olimex *(kload)*\n"
+"* ✔ Create an image for Raspberry Pi 1 and 2 *(matlink)*\n"
+"* ✔ Create an image for Cubieboard 2 *(Moul)*\n"
+"* ✔ Update Docker image *(kload)*\n"
+msgstr ""
+
+#. type: Plain text
+#: content-en/pages/changelog_2_2.md:39
+#, no-wrap
+msgid ""
+"Others:\n"
+"* ✔ Install and switch to a new build system on a new server *(beudbeud)*\n"
+"* ✔ Improve documentation, to make YunoHost more accessible *(Moul)*\n"
 msgstr ""

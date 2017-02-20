@@ -6,6 +6,7 @@ Lang: en
 ## v2.0 <small><small>12 june 2014</small></small>
 * ✔ Add sexiness and a menu to YunoHost.org frontpage *(kload)*
 * ✔ **DOCUMENTATIONNNNNNN** *(everyone <3)*
+* tests
 
 ---
 
