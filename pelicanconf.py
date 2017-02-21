@@ -15,7 +15,6 @@ THEME="./themes/yunohost/"
 
 PAGE_URL = '{slug}/'
 PAGE_SAVE_AS = '{slug}/index.html'
-SLUGIFY_SOURCE = 'basename'
 
 I18N_UNTRANSLATED_ARTICLES = 'remove'
 I18N_UNTRANSLATED_PAGES = 'remove'
@@ -25,6 +24,10 @@ I18N_SUBSITES = {
         'SITENAME': 'Documentation en français',
         }
     }
+
+JINJA_EXTENSIONS = ['jinja2.ext.i18n']
+I18N_GETTEXT_LOCALEDIR = './l10n/po/'
+I18N_GETTEXT_DOMAIN = 'ynh_template'
 
 DEFAULT_PAGINATION = False
 DISPLAY_PAGES_ON_MENU = False

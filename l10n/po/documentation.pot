@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: YunoHost-Documentation 20170221\n"
 "Report-Msgid-Bugs-To: contrib@list.yunohost.org\n"
-"POT-Creation-Date: 2017-02-21 13:34+0100\n"
+"POT-Creation-Date: 2017-02-21 15:18+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,28 +18,30 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
-#: ./content-en/pages/organisation.md:3
+#: ./content-en/pages/organisation.md:4
 #, no-wrap
 msgid ""
 "Title: Organisation documentation\n"
 "Lang: en\n"
+"Slug: organisation\n"
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/organisation.md:4
+#: ./content-en/pages/organisation.md:5
 msgid "this is a test page"
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/roadmap.md:3
+#: ./content-en/pages/roadmap.md:4
 #, no-wrap
 msgid ""
 "Title: Roadmap\n"
 "Lang: en\n"
+"Slug: roadmap\n"
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/roadmap.md:5 ./content-en/pages/changelog_2_2.md:5 ./content-en/pages/changelog_2_0.md:5
+#: ./content-en/pages/roadmap.md:6 ./content-en/pages/changelog_2_2.md:6 ./content-en/pages/changelog_2_0.md:6
 #, no-wrap
 msgid ""
 "<a class=\"btn btn-lg btn-default\" href=\"/changelog_2_0_en\">2.0</a> <a "
@@ -48,13 +50,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ##
-#: ./content-en/pages/roadmap.md:6
+#: ./content-en/pages/roadmap.md:7
 #, no-wrap
 msgid "v2.4"
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/roadmap.md:17
+#: ./content-en/pages/roadmap.md:18
 #, no-wrap
 msgid ""
 "Core:\n"
@@ -73,14 +75,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/roadmap.md:22
+#: ./content-en/pages/roadmap.md:23
 msgid ""
 "Web interface: * ✔ Use Gulp for administration and user web interfaces "
 "*(opi)* * User avatar *(opi)* * Plugin system for the admin panel *(ljf)*"
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/roadmap.md:25
+#: ./content-en/pages/roadmap.md:26
 #, no-wrap
 msgid ""
 "Applications:\n"
@@ -88,7 +90,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/roadmap.md:27
+#: ./content-en/pages/roadmap.md:28
 #, no-wrap
 msgid ""
 "Other:\n"
@@ -96,20 +98,21 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/contributor.md:3
+#: ./content-en/pages/contributor.md:4
 #, no-wrap
 msgid ""
 "Title: Contributor documentation\n"
 "Lang: en\n"
+"Slug: contributor\n"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ./content-en/pages/contributor.md:14
+#: ./content-en/pages/contributor.md:15
 msgid "[How to contribute](contribute)"
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/contributor.md:14
+#: ./content-en/pages/contributor.md:15
 #, no-wrap
 msgid ""
 "* [What is YunoHost](../whatsyunohost)\n"
@@ -125,20 +128,21 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/artworks.md:3
+#: ./content-en/pages/artworks.md:4
 #, no-wrap
 msgid ""
 "Title: Art Works\n"
 "Lang: en\n"
+"Slug: artworks\n"
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/artworks.md:5
+#: ./content-en/pages/artworks.md:6
 msgid "Black and white YunoHost png logo done by ToZz (400 × 400 px):"
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/artworks.md:7
+#: ./content-en/pages/artworks.md:8
 #, no-wrap
 msgid ""
 "<a href=\"/images/ynh_logo_black.png\"><img "
@@ -146,7 +150,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/artworks.md:9
+#: ./content-en/pages/artworks.md:10
 #, no-wrap
 msgid ""
 "<a href=\"/images/ynh_logo_white.png\"><img "
@@ -154,12 +158,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/artworks.md:11
+#: ./content-en/pages/artworks.md:12
 msgid "Click to download."
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/artworks.md:12
+#: ./content-en/pages/artworks.md:13
 #, no-wrap
 msgid "Licence: CC-BY-SA 4.0\n"
 msgstr ""
@@ -189,21 +193,22 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/changelog_2_2.md:3
+#: ./content-en/pages/changelog_2_2.md:4
 #, no-wrap
 msgid ""
 "Title: Changelog 2.2\n"
 "Lang: en\n"
+"Slug: Changelog-2-2\n"
 msgstr ""
 
 #. type: Title ##
-#: ./content-en/pages/changelog_2_2.md:6
+#: ./content-en/pages/changelog_2_2.md:7
 #, no-wrap
 msgid "v2.2 <small><small>12 may 2015</small></small>"
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/changelog_2_2.md:17
+#: ./content-en/pages/changelog_2_2.md:18
 #, no-wrap
 msgid ""
 "Core:\n"
@@ -221,7 +226,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/changelog_2_2.md:23
+#: ./content-en/pages/changelog_2_2.md:24
 msgid ""
 "Web administration: * ✔ Install unofficial apps *(opi)* * ✔ Add firewall "
 "*(opi)* * ✔ Warn admin about security updates *(opi)* * ✔ Fix websocket "
@@ -229,7 +234,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/changelog_2_2.md:30
+#: ./content-en/pages/changelog_2_2.md:31
 #, no-wrap
 msgid ""
 "Apps:\n"
@@ -241,7 +246,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/changelog_2_2.md:36
+#: ./content-en/pages/changelog_2_2.md:37
 #, no-wrap
 msgid ""
 "Installs:\n"
@@ -252,7 +257,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/changelog_2_2.md:39
+#: ./content-en/pages/changelog_2_2.md:40
 #, no-wrap
 msgid ""
 "Others:\n"
@@ -416,7 +421,7 @@ msgid ""
 msgstr ""
 
 #. type: Title ###
-#: ./content-en/pages/user/user_interface.md:15 ./content-en/pages/whatsyunohost.md:24
+#: ./content-en/pages/user/user_interface.md:15 ./content-en/pages/whatsyunohost.md:25
 #, no-wrap
 msgid "Software"
 msgstr ""
@@ -1395,30 +1400,31 @@ msgid "With the last version of firefox mobile it's same than for desktop."
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/sitemap.md:3
+#: ./content-en/pages/sitemap.md:4
 #, no-wrap
 msgid ""
 "Title: Sitemap\n"
 "Lang: en\n"
+"Slug: sitemap\n"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ./content-en/pages/sitemap.md:5
+#: ./content-en/pages/sitemap.md:6
 msgid "[Homepage](/index)"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ./content-en/pages/sitemap.md:7
+#: ./content-en/pages/sitemap.md:8
 msgid "[What's YunoHost](/whatsyunohost)"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ./content-en/pages/sitemap.md:9
+#: ./content-en/pages/sitemap.md:10
 msgid "[Documentation](/docs)"
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/sitemap.md:12
+#: ./content-en/pages/sitemap.md:13
 #, no-wrap
 msgid ""
 "    * Try YunoHost\n"
@@ -1426,7 +1432,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/sitemap.md:69
+#: ./content-en/pages/sitemap.md:70
 #, no-wrap
 msgid ""
 "    * [Administrator guide](/admindoc)\n"
@@ -1492,7 +1498,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/sitemap.md:82
+#: ./content-en/pages/sitemap.md:83
 #, no-wrap
 msgid ""
 "    * [User guide](/userdoc)\n"
@@ -1510,7 +1516,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/sitemap.md:109
+#: ./content-en/pages/sitemap.md:110
 #, no-wrap
 msgid ""
 "    * [Contributor guide](/contribute)\n"
@@ -1545,7 +1551,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/sitemap.md:123
+#: ./content-en/pages/sitemap.md:124
 #, no-wrap
 msgid ""
 "* Project's life:\n"
@@ -1565,15 +1571,16 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/administrator.md:3
+#: ./content-en/pages/administrator.md:4
 #, no-wrap
 msgid ""
 "Title: Administrator documentation\n"
 "Lang: en\n"
+"Slug: administrator\n"
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/administrator.md:5
+#: ./content-en/pages/administrator.md:6
 #, no-wrap
 msgid ""
 "*For want of anything better, here is an index of interesting pages for the "
@@ -1581,17 +1588,17 @@ msgid ""
 msgstr ""
 
 #. type: Bullet: '* '
-#: ./content-en/pages/administrator.md:36
+#: ./content-en/pages/administrator.md:37
 msgid "[What is Self-hosting](selfhosting)"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ./content-en/pages/administrator.md:36
+#: ./content-en/pages/administrator.md:37
 msgid "[Compatible hardware](hardware)"
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/administrator.md:36
+#: ./content-en/pages/administrator.md:37
 #, no-wrap
 msgid ""
 "* [Installation guide](install)\n"
@@ -1626,45 +1633,46 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/contribs.md:3
+#: ./content-en/pages/contribs.md:4
 #, no-wrap
 msgid ""
 "Title: Contributors\n"
 "Lang: en\n"
+"Slug: contribs\n"
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/contribs.md:5
+#: ./content-en/pages/contribs.md:6
 msgid "Here is a non exhaustive list of mains contributors."
 msgstr ""
 
 #. type: Bullet: '* '
-#: ./content-en/pages/contribs.md:7
+#: ./content-en/pages/contribs.md:8
 msgid "kload"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ./content-en/pages/contribs.md:9
+#: ./content-en/pages/contribs.md:10
 msgid "beudbeud"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ./content-en/pages/contribs.md:11
+#: ./content-en/pages/contribs.md:12
 msgid "jerome: main dev of [Moulinette](moulinette)"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ./content-en/pages/contribs.md:13
+#: ./content-en/pages/contribs.md:14
 msgid "opi: main dev of [web admin](admin)"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ./content-en/pages/contribs.md:15
+#: ./content-en/pages/contribs.md:16
 msgid "ju: apps"
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/contribs.md:20
+#: ./content-en/pages/contribs.md:21
 #, no-wrap
 msgid ""
 "* Moul: \n"
@@ -1674,25 +1682,26 @@ msgid ""
 msgstr ""
 
 #. type: Bullet: '* '
-#: ./content-en/pages/contribs.md:22
+#: ./content-en/pages/contribs.md:23
 msgid "courgette: design"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ./content-en/pages/contribs.md:23
+#: ./content-en/pages/contribs.md:24
 msgid "titoko"
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/apps_wishlist.md:3
+#: ./content-en/pages/apps_wishlist.md:4
 #, no-wrap
 msgid ""
 "Title: Apps wishlist\n"
 "Lang: en\n"
+"Slug: apps-wishlist\n"
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/apps_wishlist.md:5
+#: ./content-en/pages/apps_wishlist.md:6
 #, no-wrap
 msgid ""
 "<a class=\"btn btn-lg btn-default\" href=\"/apps_en\">Official apps</a> <a "
@@ -1702,21 +1711,21 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/apps_wishlist.md:7
+#: ./content-en/pages/apps_wishlist.md:8
 msgid ""
 "The following list is a compiled wishlist of applications that would be "
 "nice-to-have."
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/apps_wishlist.md:9
+#: ./content-en/pages/apps_wishlist.md:10
 msgid ""
 "[Edit this list](/write_documentation) to add your own favorite app, or "
 "learn to [package apps](/packaging_apps) yourself."
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/apps_wishlist.md:161
+#: ./content-en/pages/apps_wishlist.md:162
 msgid ""
 "- [List of awesome selfhosted "
 "apps](https://github.com/Kickball/awesome-selfhosted)  - [List of awesome "
@@ -1849,15 +1858,16 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/apps.md:3
+#: ./content-en/pages/apps.md:4
 #, no-wrap
 msgid ""
 "Title: Official apps\n"
 "Lang: en\n"
+"Slug: official-apps\n"
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/apps.md:12
+#: ./content-en/pages/apps.md:13
 #, no-wrap
 msgid ""
 "<img src=\"/images/roundcube.png\" width=50>\n"
@@ -1871,7 +1881,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/apps.md:14
+#: ./content-en/pages/apps.md:15
 #, no-wrap
 msgid ""
 "<a class=\"btn btn-lg btn-default disabled\" href=\"/apps_en\">Official "
@@ -1881,7 +1891,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/apps.md:18
+#: ./content-en/pages/apps.md:19
 #, no-wrap
 msgid ""
 "<div class=\"clearfix\" style=\"margin-bottom: 1em;\">\n"
@@ -1891,13 +1901,13 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/apps.md:20
+#: ./content-en/pages/apps.md:21
 #, no-wrap
 msgid "<div class=\"panel-group\" id=\"app-accordion\"></div>\n"
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/apps.md:41
+#: ./content-en/pages/apps.md:42
 #, no-wrap
 msgid ""
 "<script type=\"text/template\" id=\"app-template\">\n"
@@ -1930,7 +1940,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/apps.md:56 ./content-en/pages/apps_in_progress.md:83
+#: ./content-en/pages/apps.md:57 ./content-en/pages/apps_in_progress.md:84
 #, no-wrap
 msgid ""
 "<script>\n"
@@ -1951,7 +1961,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/apps.md:77
+#: ./content-en/pages/apps.md:78
 #, no-wrap
 msgid ""
 "$(document).ready(function () {\n"
@@ -1977,7 +1987,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/apps.md:83 ./content-en/pages/apps_in_progress.md:121
+#: ./content-en/pages/apps.md:84 ./content-en/pages/apps_in_progress.md:122
 #, no-wrap
 msgid ""
 "      if (infos.manifest.developer) {\n"
@@ -1988,7 +1998,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/apps.md:89 ./content-en/pages/apps_in_progress.md:127
+#: ./content-en/pages/apps.md:90 ./content-en/pages/apps_in_progress.md:128
 #, no-wrap
 msgid ""
 "      if (infos.manifest.maintainer) {\n"
@@ -1999,7 +2009,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/apps.md:95
+#: ./content-en/pages/apps.md:96
 #, no-wrap
 msgid ""
 "      $('#app-accordion').append(html);\n"
@@ -2011,15 +2021,16 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/whatsyunohost.md:3
+#: ./content-en/pages/whatsyunohost.md:4
 #, no-wrap
 msgid ""
 "Title: What is YunoHost?\n"
 "Lang: en\n"
+"Slug: whatisyunohost\n"
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/whatsyunohost.md:5
+#: ./content-en/pages/whatsyunohost.md:6
 msgid ""
 "YunoHost is a **server operating system** aiming to make "
 "[self-hosting](selfhosting) accessible to everyone. It is based on [Debian "
@@ -2027,7 +2038,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/whatsyunohost.md:7
+#: ./content-en/pages/whatsyunohost.md:8
 #, no-wrap
 msgid ""
 "<img src=\"/images/debian-logo.png\" width=100>\n"
@@ -2035,13 +2046,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ###
-#: ./content-en/pages/whatsyunohost.md:9
+#: ./content-en/pages/whatsyunohost.md:10
 #, no-wrap
 msgid "Features"
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/whatsyunohost.md:19
+#: ./content-en/pages/whatsyunohost.md:20
 msgid ""
 "- multi-user with LDAP integration - multi-domains - an email system - an "
 "instant messaging server - a Single sign-on (SSO)  - an application system - "
@@ -2049,27 +2060,27 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/whatsyunohost.md:21
+#: ./content-en/pages/whatsyunohost.md:22
 #, no-wrap
 msgid "<img src=\"/images/YunoHost_logo_vertical.png\" width=400>\n"
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/whatsyunohost.md:27
+#: ./content-en/pages/whatsyunohost.md:28
 msgid ""
 "Basically YunoHost **automatically installs** and configures some services "
 "around LDAP, and **provides tools** to administrate them."
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/whatsyunohost.md:29
+#: ./content-en/pages/whatsyunohost.md:30
 msgid ""
 "It can thus be considered as a distribution, including the following "
 "software:"
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/whatsyunohost.md:37
+#: ./content-en/pages/whatsyunohost.md:38
 #, no-wrap
 msgid ""
 "<img src=\"/images/nginx.png\">\n"
@@ -2082,42 +2093,42 @@ msgid ""
 msgstr ""
 
 #. type: Bullet: '* '
-#: ./content-en/pages/whatsyunohost.md:47
+#: ./content-en/pages/whatsyunohost.md:48
 msgid "[Nginx](http://nginx.org/): a Web server"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ./content-en/pages/whatsyunohost.md:47
+#: ./content-en/pages/whatsyunohost.md:48
 msgid "[Postfix](http://www.postfix.org/): an SMTP e-mail server"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ./content-en/pages/whatsyunohost.md:47
+#: ./content-en/pages/whatsyunohost.md:48
 msgid "[Dovecot](http://www.dovecot.org/): an IMAP and a POP3 e-mail server"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ./content-en/pages/whatsyunohost.md:47
+#: ./content-en/pages/whatsyunohost.md:48
 msgid "[Rspamd](https://rspamd.com/): an e-mail spam filtering"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ./content-en/pages/whatsyunohost.md:47
+#: ./content-en/pages/whatsyunohost.md:48
 msgid "[Metronome](http://www.lightwitch.org/metronome): an XMPP server"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ./content-en/pages/whatsyunohost.md:47
+#: ./content-en/pages/whatsyunohost.md:48
 msgid "[OpenLDAP](http://www.openldap.org/): an LDAP server"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ./content-en/pages/whatsyunohost.md:47
+#: ./content-en/pages/whatsyunohost.md:48
 msgid "[Dnsmasq](http://www.thekelleys.org.uk/dnsmasq/doc.html): a DNS server"
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/whatsyunohost.md:47
+#: ./content-en/pages/whatsyunohost.md:48
 #, no-wrap
 msgid ""
 "* [SSOwat](https://github.com/Kloadut/SSOwat): a Single Sign On (SSO) web "
@@ -2126,13 +2137,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ###
-#: ./content-en/pages/whatsyunohost.md:50
+#: ./content-en/pages/whatsyunohost.md:51
 #, no-wrap
 msgid "App system"
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/whatsyunohost.md:53
+#: ./content-en/pages/whatsyunohost.md:54
 msgid ""
 "Additionally, YunoHost comes with an **app** system which is, in other "
 "words, **a community repository** of validated helper scripts to install "
@@ -2140,7 +2151,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/whatsyunohost.md:55
+#: ./content-en/pages/whatsyunohost.md:56
 msgid ""
 "The most interesting thing about this system is that **web applications "
 "benefits from the LDAP** through the SSO (Single Sign On), which "
@@ -2148,7 +2159,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/whatsyunohost.md:57
+#: ./content-en/pages/whatsyunohost.md:58
 msgid ""
 "You may be interessed in reading the [packaging "
 "documentation](/packaging_apps) and the [SSOwat GitHub "
@@ -2156,7 +2167,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/whatsyunohost.md:66
+#: ./content-en/pages/whatsyunohost.md:67
 #, no-wrap
 msgid ""
 "<img src=\"/images/roundcube.png\">\n"
@@ -2170,18 +2181,18 @@ msgid ""
 msgstr ""
 
 #. type: Title ###
-#: ./content-en/pages/whatsyunohost.md:69
+#: ./content-en/pages/whatsyunohost.md:70
 #, no-wrap
 msgid "Origin"
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/whatsyunohost.md:72
+#: ./content-en/pages/whatsyunohost.md:73
 msgid "YunoHost was created in February 2012 after something like this:"
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/whatsyunohost.md:75
+#: ./content-en/pages/whatsyunohost.md:76
 #, no-wrap
 msgid ""
 " <blockquote><p>\"Shit, I'm too lazy to reconfigure my mail "
@@ -2191,7 +2202,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/whatsyunohost.md:77
+#: ./content-en/pages/whatsyunohost.md:78
 msgid ""
 "All that was needed was an administration interface for Beudbeud's server to "
 "make something usable, so Kload decided to develop one. Finally, after "
@@ -2200,7 +2211,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/whatsyunohost.md:79
+#: ./content-en/pages/whatsyunohost.md:80
 msgid ""
 "Noting the growing enthusiasm around YunoHost and around self-hosting in "
 "general, the original developers along with new contributors decided to "
@@ -2209,13 +2220,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ###
-#: ./content-en/pages/whatsyunohost.md:82
+#: ./content-en/pages/whatsyunohost.md:83
 #, no-wrap
 msgid "Goal"
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/whatsyunohost.md:85
+#: ./content-en/pages/whatsyunohost.md:86
 msgid ""
 "YunoHost's goal is to make installing and administering a server accessible "
 "to as many people as possible, without taking away from the quality and "
@@ -2223,7 +2234,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/whatsyunohost.md:87
+#: ./content-en/pages/whatsyunohost.md:88
 msgid ""
 "Everything is done with the goal of simplifying deployment on as many "
 "different kinds of hardware as possible, and in any condition (at home, on a "
@@ -2231,13 +2242,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ###
-#: ./content-en/pages/whatsyunohost.md:90
+#: ./content-en/pages/whatsyunohost.md:91
 #, no-wrap
 msgid "Name"
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/whatsyunohost.md:94
+#: ./content-en/pages/whatsyunohost.md:95
 #, no-wrap
 msgid ""
 "**YunoHost** comes from the jargon \"Y U NO Host\". The [Internet "
@@ -2247,13 +2258,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ####
-#: ./content-en/pages/whatsyunohost.md:97 ./content-en/pages/chat_rooms.md:17
+#: ./content-en/pages/whatsyunohost.md:98 ./content-en/pages/chat_rooms.md:18
 #, no-wrap
 msgid "Development"
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/whatsyunohost.md:100
+#: ./content-en/pages/whatsyunohost.md:101
 msgid ""
 "YunoHost is developed to be as **simple** and minimally-intrusive as "
 "possible, to retain compatibility with Debian. It merely proposes a package "
@@ -2262,7 +2273,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/whatsyunohost.md:102
+#: ./content-en/pages/whatsyunohost.md:103
 msgid ""
 "YunoHost is **entirely** a free software project. The philosophy of "
 "self-hosting is, to us, incompatible with any other model of software "
@@ -2270,18 +2281,18 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/whatsyunohost.md:104
+#: ./content-en/pages/whatsyunohost.md:105
 msgid "Do not hesitate to visit the [\"contribute\" page](/contribute)."
 msgstr ""
 
 #. type: Title ###
-#: ./content-en/pages/whatsyunohost.md:107
+#: ./content-en/pages/whatsyunohost.md:108
 #, no-wrap
 msgid "Security"
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/whatsyunohost.md:111
+#: ./content-en/pages/whatsyunohost.md:112
 msgid ""
 "All the efforts have been made to keep YunoHost secure, and **communications "
 "encrypted**. You can read more about this subject on the related page: "
@@ -2289,20 +2300,20 @@ msgid ""
 msgstr ""
 
 #. type: Title ###
-#: ./content-en/pages/whatsyunohost.md:114
+#: ./content-en/pages/whatsyunohost.md:115
 #, no-wrap
 msgid "What YunoHost is not?"
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/whatsyunohost.md:117
+#: ./content-en/pages/whatsyunohost.md:118
 msgid ""
 "Even if YunoHost can handle multiple domains and multiple users, it is **not "
 "meant to be a mutualized system**."
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/whatsyunohost.md:119
+#: ./content-en/pages/whatsyunohost.md:120
 msgid ""
 "First, the software is too young, not tested at large scale and thus "
 "probably not optimized to be put in production for hundreds of users at the "
@@ -2313,7 +2324,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/whatsyunohost.md:121
+#: ./content-en/pages/whatsyunohost.md:122
 msgid ""
 "You can host your friends, your family and your company safely and with "
 "ease, but you have to **trust your users**, and they have to trust you above "
@@ -2322,15 +2333,16 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/apps_in_progress.md:3
+#: ./content-en/pages/apps_in_progress.md:4
 #, no-wrap
 msgid ""
 "Title: Apps in progress\n"
 "Lang: en\n"
+"Slug: apps-in-progress\n"
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/apps_in_progress.md:12
+#: ./content-en/pages/apps_in_progress.md:13
 #, no-wrap
 msgid ""
 "<img src=\"/images/freshrss_logo.png\" width=40>\n"
@@ -2344,7 +2356,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/apps_in_progress.md:16
+#: ./content-en/pages/apps_in_progress.md:17
 #, no-wrap
 msgid ""
 "<a class=\"btn btn-lg btn-default\" href=\"/apps_en\">Official apps</a> \n"
@@ -2355,7 +2367,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/apps_in_progress.md:21
+#: ./content-en/pages/apps_in_progress.md:22
 #, no-wrap
 msgid ""
 "The following applications are being packaged on by a growing number of "
@@ -2368,7 +2380,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/apps_in_progress.md:26
+#: ./content-en/pages/apps_in_progress.md:27
 #, no-wrap
 msgid ""
 "You can install them through the [administration web interface](/admin) by "
@@ -2379,7 +2391,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/apps_in_progress.md:28
+#: ./content-en/pages/apps_in_progress.md:29
 msgid ""
 "The packagers will appreciate your remarks. If you test them and find "
 "issues, or ideas for improvement, do not hesitate to file issues directly on "
@@ -2387,7 +2399,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/apps_in_progress.md:34
+#: ./content-en/pages/apps_in_progress.md:35
 #, no-wrap
 msgid ""
 "<div class=\"clearfix\" style=\"margin-bottom: 1em;\">\n"
@@ -2402,7 +2414,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/apps_in_progress.md:37
+#: ./content-en/pages/apps_in_progress.md:38
 #, no-wrap
 msgid ""
 "<h2>Declared as working applications</h2>\n"
@@ -2412,13 +2424,13 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/apps_in_progress.md:39
+#: ./content-en/pages/apps_in_progress.md:40
 #, no-wrap
 msgid "<div class=\"panel-group\" id=\"app-accordion2-working\"></div>\n"
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/apps_in_progress.md:42
+#: ./content-en/pages/apps_in_progress.md:43
 #, no-wrap
 msgid ""
 "<h2>Work in progress applications</h2>\n"
@@ -2427,13 +2439,13 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/apps_in_progress.md:44
+#: ./content-en/pages/apps_in_progress.md:45
 #, no-wrap
 msgid "<div class=\"panel-group\" id=\"app-accordion2-inprogress\"></div>\n"
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/apps_in_progress.md:47
+#: ./content-en/pages/apps_in_progress.md:48
 #, no-wrap
 msgid ""
 "<h2>Broken applications</h2>\n"
@@ -2442,13 +2454,13 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/apps_in_progress.md:49
+#: ./content-en/pages/apps_in_progress.md:50
 #, no-wrap
 msgid "<div class=\"panel-group\" id=\"app-accordion2-notworking\"></div>\n"
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/apps_in_progress.md:68
+#: ./content-en/pages/apps_in_progress.md:69
 #, no-wrap
 msgid ""
 "<script type=\"text/template\" id=\"app-template2\">\n"
@@ -2477,7 +2489,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/apps_in_progress.md:103
+#: ./content-en/pages/apps_in_progress.md:104
 #, no-wrap
 msgid ""
 "$(document).ready(function () {\n"
@@ -2503,7 +2515,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/apps_in_progress.md:115
+#: ./content-en/pages/apps_in_progress.md:116
 #, no-wrap
 msgid ""
 "      html = $('#app-template2').html()\n"
@@ -2520,7 +2532,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/apps_in_progress.md:133
+#: ./content-en/pages/apps_in_progress.md:134
 #, no-wrap
 msgid ""
 "      $('#app-accordion2-' + infos.state).append(html);\n"
@@ -2532,20 +2544,21 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/support.md:3
+#: ./content-en/pages/support.md:4
 #, no-wrap
 msgid ""
 "Title: Support\n"
 "Lang: en\n"
+"Slug: support\n"
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/support.md:5
+#: ./content-en/pages/support.md:6
 msgid "The YunoHost support is provided by the community members."
 msgstr ""
 
 #. type: Bullet: '* '
-#: ./content-en/pages/support.md:7
+#: ./content-en/pages/support.md:8
 msgid ""
 "The **best and fastest** way to get answers remains the community chatroom, "
 "accessible on the bottom-right corner of this page, or via an XMPP "
@@ -2554,7 +2567,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/support.md:9
+#: ./content-en/pages/support.md:10
 #, no-wrap
 msgid ""
 "    "
@@ -2562,18 +2575,18 @@ msgid ""
 msgstr ""
 
 #. type: Bullet: '* '
-#: ./content-en/pages/support.md:13
+#: ./content-en/pages/support.md:14
 msgid "You may also want to visit the **discussion forum**:"
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/support.md:15
+#: ./content-en/pages/support.md:16
 #, no-wrap
 msgid "    **[forum.yunohost.org](https://forum.yunohost.org/)**\n"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ./content-en/pages/support.md:19
+#: ./content-en/pages/support.md:20
 msgid ""
 "However, if you want to write specificaly to the YunoHost team, do not "
 "hesitate to send us an email. Please note that **we do not provide any "
@@ -2581,41 +2594,42 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/support.md:20
+#: ./content-en/pages/support.md:21
 #, no-wrap
 msgid "    **[yunohost@yunohost.org](mailto:yunohost@yunohost.org)**\n"
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/user.md:3
+#: ./content-en/pages/user.md:4
 #, no-wrap
 msgid ""
 "Title: User documentation\n"
 "Lang: en\n"
+"Slug: user-documentation\n"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ./content-en/pages/user.md:14
+#: ./content-en/pages/user.md:15
 msgid "[What is YunoHost](../whatsyunohost)"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ./content-en/pages/user.md:14
+#: ./content-en/pages/user.md:15
 msgid "[User interface](user_interface)"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ./content-en/pages/user.md:14
+#: ./content-en/pages/user.md:15
 msgid "[Configure an email client](email_configure_client)"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ./content-en/pages/user.md:14
+#: ./content-en/pages/user.md:15
 msgid "[Instant messaging usage](XMPP)"
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/user.md:14
+#: ./content-en/pages/user.md:15
 #, no-wrap
 msgid ""
 "* [Official applications](../apps)\n"
@@ -3441,167 +3455,169 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/changelog_2_0.md:3
+#: ./content-en/pages/changelog_2_0.md:4
 #, no-wrap
 msgid ""
 "Title: Changelog 2.0\n"
 "Lang: en\n"
+"Slug: Changelog-2-0\n"
 msgstr ""
 
 #. type: Title ##
-#: ./content-en/pages/changelog_2_0.md:6
+#: ./content-en/pages/changelog_2_0.md:7
 #, no-wrap
 msgid "v2.0 <small><small>12 june 2014</small></small>"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ./content-en/pages/changelog_2_0.md:10
+#: ./content-en/pages/changelog_2_0.md:11
 msgid "✔ Add sexiness and a menu to YunoHost.org frontpage *(kload)*"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ./content-en/pages/changelog_2_0.md:10
+#: ./content-en/pages/changelog_2_0.md:11
 msgid "✔ **DOCUMENTATIONNNNNNN** *(everyone <3)*"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ./content-en/pages/changelog_2_0.md:10
+#: ./content-en/pages/changelog_2_0.md:11
 msgid "tests"
 msgstr ""
 
 #. type: Title ##
-#: ./content-en/pages/changelog_2_0.md:13
+#: ./content-en/pages/changelog_2_0.md:14
 #, no-wrap
 msgid "v2.0 RC"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ./content-en/pages/changelog_2_0.md:29
+#: ./content-en/pages/changelog_2_0.md:30
 msgid "✔ Email forward configuration *(kload, beudbeud)*"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ./content-en/pages/changelog_2_0.md:29
+#: ./content-en/pages/changelog_2_0.md:30
 msgid "✔ Make pending official apps *(Ju)*"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ./content-en/pages/changelog_2_0.md:29
+#: ./content-en/pages/changelog_2_0.md:30
 msgid "✔ SFTP *(kload)*"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ./content-en/pages/changelog_2_0.md:29
+#: ./content-en/pages/changelog_2_0.md:30
 msgid "✔ Fix DNS zone *(kload)*"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ./content-en/pages/changelog_2_0.md:29
+#: ./content-en/pages/changelog_2_0.md:30
 msgid "✔ SSOwat stuffs (presistent rules, public root website) *(ezpen)*"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ./content-en/pages/changelog_2_0.md:29
+#: ./content-en/pages/changelog_2_0.md:30
 msgid "✔ Email configuration tests *(beudbeud)*"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ./content-en/pages/changelog_2_0.md:29
+#: ./content-en/pages/changelog_2_0.md:30
 msgid ""
 "✔ Test and upgrade official apps like Owncloud, Roundcube and Radicale *(app "
 "maintainers)*"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ./content-en/pages/changelog_2_0.md:29
+#: ./content-en/pages/changelog_2_0.md:30
 msgid "✔ Upgrade function + view *(beudbeud, opi)*"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ./content-en/pages/changelog_2_0.md:29
+#: ./content-en/pages/changelog_2_0.md:30
 msgid "✔ uPnP rework *(kload, titoko)*"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ./content-en/pages/changelog_2_0.md:29
+#: ./content-en/pages/changelog_2_0.md:30
 msgid "✔ Add warning in a sample backup view *(opi)*"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ./content-en/pages/changelog_2_0.md:29
+#: ./content-en/pages/changelog_2_0.md:30
 msgid "✔ User interface design *(Courgette, opi)*"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ./content-en/pages/changelog_2_0.md:29
+#: ./content-en/pages/changelog_2_0.md:30
 msgid "✔ Moulinette/API refactoring *(jerome)*"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ./content-en/pages/changelog_2_0.md:29
+#: ./content-en/pages/changelog_2_0.md:30
 msgid "✔ Security check and complete patterns"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ./content-en/pages/changelog_2_0.md:29
+#: ./content-en/pages/changelog_2_0.md:30
 msgid "✔ Internationalization I18n *(opi, jerome)*"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ./content-en/pages/changelog_2_0.md:29
+#: ./content-en/pages/changelog_2_0.md:30
 msgid "✔ Lack of hairpinning hack *(kload)*"
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/chat_rooms.md:3
+#: ./content-en/pages/chat_rooms.md:4
 #, no-wrap
 msgid ""
 "Title: Chat rooms\n"
 "Lang: en\n"
+"Slug: chat-rooms\n"
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/chat_rooms.md:5
+#: ./content-en/pages/chat_rooms.md:6
 msgid ""
 "Amoung other communication tools, YunoHost project use chat rooms to "
 "communicate."
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/chat_rooms.md:7
+#: ./content-en/pages/chat_rooms.md:8
 msgid ""
 "This instant messaging chat rooms, which uses [XMPP protocol](XMPP_en), are "
 "hosted on our XMPP server."
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/chat_rooms.md:9
+#: ./content-en/pages/chat_rooms.md:10
 msgid ""
 "You could join this chat rooms with an [XMPP "
 "client](https://en.wikipedia.org/wiki/Comparison_of_instant_messaging_clients#XMPP-related_features)."
 msgstr ""
 
 #. type: Title ###
-#: ./content-en/pages/chat_rooms.md:10
+#: ./content-en/pages/chat_rooms.md:11
 #, no-wrap
 msgid "Chat rooms"
 msgstr ""
 
 #. type: Title ####
-#: ./content-en/pages/chat_rooms.md:11
+#: ./content-en/pages/chat_rooms.md:12
 #, no-wrap
 msgid "Mutual aid"
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/chat_rooms.md:13
+#: ./content-en/pages/chat_rooms.md:14
 msgid ""
 "[Mutual aid](support_en) chat room is here to allow YunoHost's users to help "
 "each other."
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/chat_rooms.md:16
+#: ./content-en/pages/chat_rooms.md:17
 msgid ""
 "- A [web client](https://chat.yunohost.org) is here to easily join _mutual "
 "aid_ chat room.  - "
@@ -3609,7 +3625,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/chat_rooms.md:21
+#: ./content-en/pages/chat_rooms.md:22
 msgid ""
 "YunoHost core development chat room. Currently, the main chat room for "
 "contributions on YunoHost project.  For help, thanks to do it on `support` "
@@ -3618,13 +3634,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ##
-#: ./content-en/pages/chat_rooms.md:22 ./content-en/pages/administrator/troubleshooting_guide.md:277
+#: ./content-en/pages/chat_rooms.md:23 ./content-en/pages/administrator/troubleshooting_guide.md:277
 #, no-wrap
 msgid "Applications"
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/chat_rooms.md:25
+#: ./content-en/pages/chat_rooms.md:26
 msgid ""
 "Application packaging development chat room. It allow packagers to help each "
 "other.  It also allow to discuss packaging evolution, continuous integration "
@@ -3633,53 +3649,54 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/faq.md:3
+#: ./content-en/pages/faq.md:4
 #, no-wrap
 msgid ""
 "Title: Frequently asked questions\n"
 "Lang: en\n"
+"Slug: faq\n"
 msgstr ""
 
 #. type: Title ####
-#: ./content-en/pages/faq.md:4
+#: ./content-en/pages/faq.md:5
 #, no-wrap
 msgid "YunoHost ported on Ubuntu?"
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/faq.md:6
+#: ./content-en/pages/faq.md:7
 msgid "YunoHost team does not have energy to port and maintain YunoHost on Ubuntu."
 msgstr ""
 
 #. type: Title ####
-#: ./content-en/pages/faq.md:7
+#: ./content-en/pages/faq.md:8
 #, no-wrap
 msgid "YunoHost is distributed under which license?"
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/faq.md:9
+#: ./content-en/pages/faq.md:10
 msgid "YunoHost packages are under free licenses GNU AGPL v.3."
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/faq.md:11
+#: ./content-en/pages/faq.md:12
 msgid "YunoHost is based on Debian, so on licenses of Debian based elements."
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/faq.md:13
+#: ./content-en/pages/faq.md:14
 msgid "Applications and applications packages have there respectives licenses."
 msgstr ""
 
 #. type: Title ####
-#: ./content-en/pages/faq.md:14
+#: ./content-en/pages/faq.md:15
 #, no-wrap
 msgid "Can we host many independents websites with differents domain names?"
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/faq.md:16
+#: ./content-en/pages/faq.md:17
 msgid ""
 "We can host many websites cause YunoHost is multi-domain and that some "
 "applications for websites management, like *WordPress* or *Web App Multi "
@@ -3688,13 +3705,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ####
-#: ./content-en/pages/faq.md:17
+#: ./content-en/pages/faq.md:18
 #, no-wrap
 msgid "Why can I access to applications via the IP address?"
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/faq.md:18
+#: ./content-en/pages/faq.md:19
 msgid ""
 "The [SSO](https://github.com/Kloadut/SSOwat/) does not allow access to the "
 "user part (apps included) via an IP address. For this purpose, you should "
@@ -3704,15 +3721,16 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/docs.md:3
+#: ./content-en/pages/docs.md:4
 #, no-wrap
 msgid ""
 "Title: Documentation\n"
 "Lang: en\n"
+"Slug: docs\n"
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/docs.md:7
+#: ./content-en/pages/docs.md:8
 #, no-wrap
 msgid ""
 "<p class=\"lead\">\n"
@@ -3721,13 +3739,13 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/docs.md:9
+#: ./content-en/pages/docs.md:10
 #, no-wrap
 msgid "<div class=\"row text-center\">\n"
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/docs.md:14
+#: ./content-en/pages/docs.md:15
 #, no-wrap
 msgid ""
 "<div class=\"col col-md-4 col-md-offset-1\">\n"
@@ -3739,7 +3757,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/docs.md:19
+#: ./content-en/pages/docs.md:20
 #, no-wrap
 msgid ""
 "<div class=\"col col-md-4 col-md-offset-1\">\n"
@@ -3751,7 +3769,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/docs.md:24
+#: ./content-en/pages/docs.md:25
 #, no-wrap
 msgid ""
 "<div class=\"col col-md-5 col-md-offset-3\">\n"
@@ -3763,13 +3781,13 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/docs.md:26 ./content-en/pages/administrator/install.md:22 ./content-en/pages/administrator/install.md:27 ./content-en/pages/administrator/install.md:53 ./content-en/pages/administrator/install.md:72 ./content-en/pages/administrator/install.md:91 ./content-en/pages/administrator/plug_and_boot.md:17
+#: ./content-en/pages/docs.md:27 ./content-en/pages/administrator/install.md:22 ./content-en/pages/administrator/install.md:27 ./content-en/pages/administrator/install.md:53 ./content-en/pages/administrator/install.md:72 ./content-en/pages/administrator/install.md:91 ./content-en/pages/administrator/plug_and_boot.md:17
 #, no-wrap
 msgid "</div>\n"
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/docs.md:32
+#: ./content-en/pages/docs.md:33
 #, no-wrap
 msgid ""
 "<div class=\"row text-center\" style=\"margin-top: 2em;\">\n"

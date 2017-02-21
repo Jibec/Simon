@@ -1,5 +1,6 @@
 Title: Chat rooms
 Lang: en
+Slug: chat-rooms
 
 Amoung other communication tools, YunoHost project use chat rooms to communicate.
 

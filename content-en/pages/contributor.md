@@ -1,5 +1,6 @@
 Title: Contributor documentation
 Lang: en
+Slug: contributor
 
 * [How to contribute](contribute)
 * [What is YunoHost](../whatsyunohost)

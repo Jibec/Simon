@@ -1,5 +1,6 @@
 Title: Apps in progress
 Lang: en
+Slug: apps-in-progress
 
 <img src="/images/freshrss_logo.png" width=40>
 <img src="/images/Icons_mumble.svg" width=40>

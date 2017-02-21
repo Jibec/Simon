@@ -1,5 +1,6 @@
 Title: Art Works
 Lang: en
+Slug: artworks
 
 Black and white YunoHost png logo done by ToZz (400 × 400 px):
 

@@ -1,5 +1,6 @@
 Title: Support
 Lang: en
+Slug: support
 
 The YunoHost support is provided by the community members.
 

@@ -1,5 +1,6 @@
 Title: Sitemap
 Lang: en
+Slug: sitemap
 
 * [Homepage](/index)
 

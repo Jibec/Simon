@@ -1,0 +1,29 @@
+# French translations for PROJECT.
+# Copyright (C) 2017 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+#
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+# jean-baptiste <jean-baptiste@holcroft.fr>, 2017.
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2017-02-21 18:33+0100\n"
+"PO-Revision-Date: 2017-02-21 14:22+0100\n"
+"Last-Translator: jean-baptiste <jean-baptiste@holcroft.fr>\n"
+"Language: fr\n"
+"Language-Team: French <kde-i18n-doc@kde.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: themes/yunohost/templates/index.html:17
+msgid "Other articles"
+msgstr ""
+
+#: themes/yunohost/templates/index.html:53
+msgid "Pages"
+msgstr "Pages en français !"
+

@@ -1,5 +1,6 @@
 Title: Frequently asked questions
 Lang: en
+Slug: faq
 
 #### YunoHost ported on Ubuntu?
 YunoHost team does not have energy to port and maintain YunoHost on Ubuntu.
