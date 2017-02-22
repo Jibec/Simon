@@ -1,4 +1,5 @@
 Title: Certificate
+Lang: en
 
 Certificates are used to certify that your server is the genuine one and not a falsified one.
 

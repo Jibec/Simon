@@ -16,8 +16,8 @@ THEME="./themes/yunohost/"
 PAGE_URL = '{slug}/'
 PAGE_SAVE_AS = '{slug}/index.html'
 
-I18N_UNTRANSLATED_ARTICLES = 'remove'
-I18N_UNTRANSLATED_PAGES = 'remove'
+I18N_UNTRANSLATED_ARTICLES = 'keep'
+I18N_UNTRANSLATED_PAGES = 'keep'
 
 I18N_SUBSITES = {
     'fr': {

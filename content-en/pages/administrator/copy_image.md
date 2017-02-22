@@ -1,4 +1,5 @@
 Title: Copy an image to an SD card
+Lang: en
 
 Now that you have the YunoHost image, you have to copy its content to an SD card.    
 The process differs regarding your operating system.

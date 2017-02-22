@@ -1,4 +1,5 @@
 Title: Security team
+Lang: en
 
 Contact the security team by mail: `security@yunohost.org`.
 

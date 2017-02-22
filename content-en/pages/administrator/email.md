@@ -1,4 +1,5 @@
 Title: Email
+Lang: en
 
 ### Summary
 * [Configure email client](email_configure_client_en)

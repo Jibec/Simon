@@ -1,4 +1,5 @@
 Title: Get involved
+Lang: en
 
 <p class="lead">
 YunoHost depends exclusively on the participation of people like you.

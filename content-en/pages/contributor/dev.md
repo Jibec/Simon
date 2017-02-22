@@ -1,4 +1,5 @@
 Title: Contributing to the YunoHost core
+Lang: en
 Summary: Short version for index and feeds
 
 ## Contributing to the YunoHost core

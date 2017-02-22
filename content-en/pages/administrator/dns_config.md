@@ -1,4 +1,5 @@
 Title: DNS zone configuration
+Lang: en
 
 Sample DNS zone configuration for `domain.tld` domain name:
 

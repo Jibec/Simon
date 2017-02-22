@@ -1,4 +1,5 @@
 Title: Install YunoHost manually
+Lang: en
 
 Once you have access to your server, either directly or by SSH, you can install YunoHost using the install script.
 

@@ -1,4 +1,5 @@
 Title: YunoHost Debian Packages
+Lang: en
 
 ## Architecture
 

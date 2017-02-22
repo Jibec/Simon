@@ -1,4 +1,5 @@
 Title: Local network access to your server
+Lang: en
 
 After completing your server installation, it is most likely that your domain will not be accessible through the local network. This is a know issue known as [hairpinning](http://en.wikipedia.org/wiki/Hairpinning).
 

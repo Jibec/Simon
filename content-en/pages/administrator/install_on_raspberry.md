@@ -1,4 +1,5 @@
 Title: Install YunoHost on a Raspberry Pi
+Lang: en
 
 *Find all the ways to install YunoHost **[here](/install)**.*
 

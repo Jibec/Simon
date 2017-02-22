@@ -1,4 +1,6 @@
 Title: Roundcube - Webmail
+Lang: en
+
 #<img src="/images/roundcube.png">Roundcube - Webmail
 
 Roundcube is a web client for email messaging also called webmail.

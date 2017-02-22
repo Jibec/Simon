@@ -1,4 +1,5 @@
 Title: YunoHost project organisation
+Lang: en
 
 ## Document objective
 

@@ -1,4 +1,5 @@
 Title: Registar
+Lang: en
 
 Here is a list of Registrars to book domain names:
 * [OVH](http://ovh.com/)

@@ -1,4 +1,5 @@
 Title: Copy ISO image
+Lang: en
 
 Now that you have the ISO image of YunoHost, you have to put it on a physical medium: **USB key** or **CD/DVD**
 

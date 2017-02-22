@@ -1,4 +1,5 @@
 Title: Blacklist forms
+Lang: en
 
 It could happen sometimes that your IP is blacklisted by some email provider, or anti-spam services.
 

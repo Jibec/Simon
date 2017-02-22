@@ -1,4 +1,5 @@
 Title: Moulinette
+Lang: en
 
 **Moulinette** is the command line interface (CLI) of YunoHost administration. It allows to manage entirely YunoHost:
 

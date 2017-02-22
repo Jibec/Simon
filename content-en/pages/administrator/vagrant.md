@@ -1,4 +1,5 @@
 Title: Vagrant and YunoHost
+Lang: en
 
 *If you need testing some code, you should using directly [ynh-dev](https://github.com/yunohost/ynh-dev)*
 

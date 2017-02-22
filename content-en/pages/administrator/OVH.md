@@ -1,4 +1,6 @@
 Title: DNS Configuration with OVH
+Lang: en
+Slug: dns-configuration-with-OVH
 
 Let's see how to properly set the DNS redirections with [OVH](http://www.ovh.com).
 

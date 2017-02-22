@@ -1,4 +1,5 @@
 Title: Install on an OlinuXino board
+Lang: en
 
 <div class="alert alert-info" markdown="1">
 The simplest way to install YunoHost on an OLinuXino board is to use the image provided by the [*Internet Cube project*](http://labriqueinter.net). It's an image specifically designed for the OLinuXino boards.

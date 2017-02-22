@@ -1,4 +1,6 @@
 Title: XMPP
+Lang: en
+
 <img src="/images/XMPP_logo.png" width=100>
 <abbr title="Extensible Messaging and Presence Protocol">XMPP</abbr> is a communication protocol of instant messaging, VoIP (Voice over IP), videoconferencing.
 

@@ -1,4 +1,5 @@
 Title: Install YunoHost on VitualBox
+Lang: en
 
 *Find other ways to install YunoHost **[here](/install)**.*
 

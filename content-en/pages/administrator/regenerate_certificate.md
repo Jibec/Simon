@@ -1,4 +1,5 @@
 Title: Regenerate certificate
+Lang: en
 
 If you want to generate again -- not renewing -- a certificate for a domain, you can follow those steps: 
 

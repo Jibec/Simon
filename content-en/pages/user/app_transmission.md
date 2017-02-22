@@ -1,4 +1,6 @@
 Title: Transmission
+Lang: en
+
 # <img src="/images/transmission.png">Transmission
 
 ### What is  Transmission?

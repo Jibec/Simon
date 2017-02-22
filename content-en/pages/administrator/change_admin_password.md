@@ -1,4 +1,5 @@
 Title: Change administration password 
+Lang: en
 
 For security reasons you may have to change your administration password. To achieve this, 2 different methods exists.
 

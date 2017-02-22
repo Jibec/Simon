@@ -1,4 +1,5 @@
 Title: Firefox Sync
+Lang: en
 
 Firefox Sync permits synchronize plugins, tabs, bookmarks, favorites, history over many Firefox instances.
 

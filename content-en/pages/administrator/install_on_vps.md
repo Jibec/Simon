@@ -1,4 +1,5 @@
 Title: Install on a dedicated server
+Lang: en
 
 *Find other ways to install YunoHost **[here](/install)**.*
 

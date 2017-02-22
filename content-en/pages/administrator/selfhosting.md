@@ -1,4 +1,5 @@
 Title: Self-hosting
+Lang: en
 
 #### Definition
 **Self-hosting** is having a server at home in order to host personnal data and services on it.

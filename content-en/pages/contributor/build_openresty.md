@@ -1,4 +1,5 @@
 Title: Openresty build
+Lang: en
 
 **Note:** Since nginx-extras is not working on Raspbian, we have to build a similar nginx flavor, here [Openresty](http://openresty.org).
 

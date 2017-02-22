@@ -1,4 +1,5 @@
 Title: Hardware
+Lang: en
 
 YunoHost is compatible with most of the hardware.    
 Before proceeding to the installation it is important to identify the model of your computer.

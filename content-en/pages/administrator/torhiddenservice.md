@@ -1,4 +1,5 @@
 Title: Using YunoHost as a Tor Hidden Service
+Lang: en
 
 See https://www.torproject.org/docs/tor-hidden-service.html.en
 

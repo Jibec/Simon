@@ -1,4 +1,5 @@
 Title: Upgrade your applications
+Lang: en
 
 Once you installed applications, you may need to updgrade them, sooner or later. 
 

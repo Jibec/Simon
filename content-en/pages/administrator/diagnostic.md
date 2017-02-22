@@ -1,4 +1,5 @@
 Title: Diagnose YunoHost functioning
+Lang: en
 
 If you have successfully [installed](/install) YunoHost and passed through the [post-installation](/postinstall), you probably have a **working server**.
 

@@ -1,4 +1,6 @@
 Title: Nginx configuration
+Lang: en
+
 This tutorial aim to help setup Nginx configuration for application packaging.
 
 #### Nginx configuration

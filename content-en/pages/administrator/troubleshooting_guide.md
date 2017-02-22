@@ -1,4 +1,5 @@
 Title: YunoHost troubleshooting guide
+Lang: en
 
 You can consider this as some kind of administrator guide for troubleshooting or what to check when there is something wrong with your YunoHost server. It's not a step by step guide to make your YunoHost work but more of a list of things to check to help diagnose the issue you may have. This can also be useful for debug when packaging a new application or trying to understand YunoHost architecture.
 

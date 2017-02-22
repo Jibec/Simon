@@ -1,4 +1,6 @@
 Title: Multi-instance
+Lang: en
+
 <a class="btn btn-lg btn-default" href="packaging_apps_en">Application packaging</a>
 
 ### Multi-instance

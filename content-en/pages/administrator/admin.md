@@ -1,4 +1,6 @@
 Title: Administrator web interface
+Lang: en
+Slug: administrator-web-interface
 
 Yunohost has an administrator web interface. The other way to administer your Yunohost install is through the [CLI called "moulinette"](/moulinette)
 

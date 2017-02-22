@@ -1,4 +1,5 @@
 Title: Configuration box/router
+Lang: en
 
 <a class="btn btn-lg btn-default" href="http://ports.yunohost.org">Check ports are open</a>
 

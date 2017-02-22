@@ -1,4 +1,5 @@
 Title: Graphical installation
+Lang: en
 
 Now that your YunoHost install medium, you can start with the installation.
 

@@ -1,4 +1,5 @@
 Title: Minidlna
+Lang: en
 
 Minidlna is a lightweight [dlna](https://fr.wikipedia.org/wiki/Digital_Living_Network_Alliance) server.
 It allows to easily share multimedia files with any compatible devices present on the LAN.

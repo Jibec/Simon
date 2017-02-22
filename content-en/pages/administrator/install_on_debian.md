@@ -1,4 +1,5 @@
 Title: Installation on Debian
+Lang: en
 
 *Find other ways to install YunoHost **[here](/install)**.*
 

@@ -1,4 +1,5 @@
 Title: Jappix
+Lang: en
 
 <img src="/images/jappix.png">Jappix
 

@@ -1,4 +1,5 @@
 Title: Fail2ban
+Lang: en
 
 For a number of reasons, an IP adresse may be wrongly blacklisted. If you wish to access your server through this specify IP you will need to unblock it.
 

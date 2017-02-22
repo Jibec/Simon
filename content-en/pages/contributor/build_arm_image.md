@@ -1,4 +1,5 @@
 Title: Build ARM image
+Lang: en
 
 This tutorial's goal is to build a plug-and-play image for YunoHost for ARM boards.
 

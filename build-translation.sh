@@ -36,7 +36,8 @@ pybabel extract --mapping babel.cfg --output ./l10n/po/ynh_template.pot .
 	#--locale fr \
 	#--domain ynh_template
 
-#pybabel compile --directory ./l10n/po/ --domain ynh_template
 pybabel update --input-file ./l10n/po/ynh_template.pot \
 	--output-dir ./l10n/po/ \
 	--domain ynh_template
+
+pybabel compile --directory ./l10n/po/ --domain ynh_template

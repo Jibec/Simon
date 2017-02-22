@@ -194,7 +194,6 @@ sub initialize {
 
     if (defined $options{'keyvalue'}) {
         $keyvalue = 1;
-        print "setting keyvalue\n";
     }
 
     if (defined $options{'nobullets'}) {

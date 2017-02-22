@@ -1,4 +1,5 @@
 Title: Migrate his emails
+Lang: en
 
 *[Documentation linked to YunoHost email](/email_fr)*.
 

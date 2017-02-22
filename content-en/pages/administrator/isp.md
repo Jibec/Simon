@@ -1,4 +1,5 @@
 Title: Internet service providers
+Lang: en
 
 <a class="btn btn-lg btn-default" href="/isp_box_config_fr"> Main configuration box</a>
 

@@ -1,4 +1,5 @@
 Title: How to update the system
+Lang: en
 
 On the administraton panel, choose Tools.
 Click on Upgrade the system.
