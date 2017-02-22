@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: YunoHost-Documentation 20170220\n"
 "Report-Msgid-Bugs-To: contrib@list.yunohost.org\n"
-"POT-Creation-Date: 2017-02-22 12:59+0100\n"
-"PO-Revision-Date: 2017-02-22 12:53+0100\n"
+"POT-Creation-Date: 2017-02-22 13:34+0100\n"
+"PO-Revision-Date: 2017-02-22 13:35+0100\n"
 "Last-Translator: jean-baptiste <jean-baptiste@holcroft.fr>\n"
 "Language-Team: French <kde-i18n-doc@kde.org>\n"
 "Language: fr\n"
@@ -306,81 +306,87 @@ msgstr ""
 "* ✔ Improve documentation, to make YunoHost more accessible *(Moul)*\n"
 
 #. type: Plain text
-#: content-en/pages/user/app_transmission.md:3
-#, fuzzy, no-wrap
-#| msgid ""
-#| "Title: Administrator documentation\n"
-#| "Lang: en\n"
-#| "Slug: administrator\n"
+#: content-en/pages/user/app_transmission.md:4
+#, no-wrap
 msgid ""
 "Title: Transmission\n"
 "Lang: en\n"
+"Slug: app_transmission\n"
 msgstr ""
-"Title: Administrator documentation\n"
+"Title: Transmission\n"
 "Lang: fr\n"
-"Slug: administrator\n"
+"Slug: app_transmission\n"
 
 #. type: Title #
-#: content-en/pages/user/app_transmission.md:4
+#: content-en/pages/user/app_transmission.md:5
 #, no-wrap
 msgid "<img src=\"/images/transmission.png\">Transmission"
-msgstr ""
+msgstr "<img src=\"/images/transmission.png\">Transmission"
 
 #. type: Title ###
-#: content-en/pages/user/app_transmission.md:6
+#: content-en/pages/user/app_transmission.md:7
 #, no-wrap
 msgid "What is  Transmission?"
-msgstr ""
+msgstr "Qu'est ce que Transmission ?"
 
 #. type: Plain text
-#: content-en/pages/user/app_transmission.md:10
+#: content-en/pages/user/app_transmission.md:11
 msgid ""
 "Transmission is a share software based on BitTorrent protocol.  * "
 "[Transmission web site](http://transmissionbt.com/)"
 msgstr ""
+"Transmission is a share software based on BitTorrent protocol.  * "
+"[Transmission web site](http://transmissionbt.com/)"
 
 #. type: Title ###
-#: content-en/pages/user/app_transmission.md:11
+#: content-en/pages/user/app_transmission.md:12
 #, no-wrap
 msgid "How to download completed files?"
-msgstr ""
+msgstr "How to download completed files?"
 
 #. type: Plain text
-#: content-en/pages/user/app_transmission.md:14
+#: content-en/pages/user/app_transmission.md:15
 msgid ""
 "If Transmission is installed on `/torrent/`, you could download your "
 "completed files to the following address: https://your-domain-name.org/"
 "torrent/downloads/"
 msgstr ""
+"If Transmission is installed on `/torrent/`, you could download your "
+"completed files to the following address: https://your-domain-name.org/"
+"torrent/downloads/"
 
 #. type: Title ###
-#: content-en/pages/user/app_transmission.md:15
+#: content-en/pages/user/app_transmission.md:16
 #, no-wrap
 msgid "Sending files towards server for seeding"
-msgstr ""
+msgstr "Sending files towards server for seeding"
 
 #. type: Plain text
-#: content-en/pages/user/app_transmission.md:18
+#: content-en/pages/user/app_transmission.md:19
 msgid ""
 "In YunoHost, completed files are saved in: `/home/yunohost.transmission/"
 "completed`"
 msgstr ""
+"In YunoHost, completed files are saved in: `/home/yunohost.transmission/"
+"completed`"
 
 #. type: Title ####
-#: content-en/pages/user/app_transmission.md:19
+#: content-en/pages/user/app_transmission.md:20
 #, no-wrap
 msgid "With SFTP"
-msgstr ""
+msgstr "With SFTP"
 
 #. type: Plain text
-#: content-en/pages/user/app_transmission.md:22
+#: content-en/pages/user/app_transmission.md:23
 msgid ""
 "With your [file manager](https://en.wikipedia.org/wiki/File_manager) (under "
 "GNU/Linux) do `CTRL + L` then enter:"
 msgstr ""
+"With your [file manager](https://en.wikipedia.org/wiki/File_manager) (under "
+"GNU/Linux) do `CTRL + L` then enter:"
 
 #. type: Plain text
-#: content-en/pages/user/app_transmission.md:27
+#: content-en/pages/user/app_transmission.md:28
 #, no-wrap
 msgid ""
 "```bash\n"
@@ -388,45 +394,56 @@ msgid ""
 "```\n"
 "user = admin or root\n"
 msgstr ""
+"```bash\n"
+"sftp://<user>@<your-domain.org>/home/yunohost.transmission/completed\n"
+"```\n"
+"user = admin or root\n"
 
 #. type: Title ####
-#: content-en/pages/user/app_transmission.md:28
+#: content-en/pages/user/app_transmission.md:29
 #, no-wrap
 msgid "With SCP (complex)"
-msgstr ""
+msgstr "With SCP (complex)"
 
 #. type: Plain text
-#: content-en/pages/user/app_transmission.md:30
+#: content-en/pages/user/app_transmission.md:31
 msgid "To transfer file, type in the following command:"
-msgstr ""
+msgstr "To transfer file, type in the following command:"
 
 #. type: Plain text
-#: content-en/pages/user/app_transmission.md:34
+#: content-en/pages/user/app_transmission.md:35
 msgid ""
 "```bash scp (-r) /your/file/ root@your-domain.org:/home/yunohost."
 "transmission/completed ```"
 msgstr ""
+"```bash scp (-r) /your/file/ root@your-domain.org:/home/yunohost."
+"transmission/completed ```"
 
 #. type: Title #####
-#: content-en/pages/user/app_transmission.md:35
+#: content-en/pages/user/app_transmission.md:36
 #, no-wrap
 msgid "How to download a complete folder?"
-msgstr ""
+msgstr "How to download a complete folder?"
 
 #. type: Plain text
-#: content-en/pages/user/app_transmission.md:41
+#: content-en/pages/user/app_transmission.md:42
 msgid ""
 "Once connected to your server, using [SSH](ssh), move to the download folder "
 "and zip it : ```bash cd /home/yunohost.transmission/completed zip -r "
 "your_archive.zip [dossier] ```"
 msgstr ""
+"Once connected to your server, using [SSH](ssh), move to the download folder "
+"and zip it : ```bash cd /home/yunohost.transmission/completed zip -r "
+"your_archive.zip [dossier] ```"
 
 #. type: Plain text
-#: content-en/pages/user/app_transmission.md:42
+#: content-en/pages/user/app_transmission.md:43
 msgid ""
 "More informations about file transfer using *scp*: http://doc.ubuntu-fr.org/"
 "ssh#transfert_-_copie_de_fichiers (french, need english documentation)"
 msgstr ""
+"More informations about file transfer using *scp*: http://doc.ubuntu-fr.org/"
+"ssh#transfert_-_copie_de_fichiers (french, need english documentation)"
 
 #. type: Plain text
 #: content-en/pages/user/user_interface.md:3
@@ -2600,39 +2617,35 @@ msgstr ""
 
 #. type: Plain text
 #: content-en/pages/user.md:4
-#, fuzzy, no-wrap
-#| msgid ""
-#| "Title: Administrator documentation\n"
-#| "Lang: en\n"
-#| "Slug: administrator\n"
+#, no-wrap
 msgid ""
 "Title: User documentation\n"
 "Lang: en\n"
-"Slug: user-documentation\n"
+"Slug: user\n"
 msgstr ""
-"Title: Administrator documentation\n"
+"Title: Documentation utilisateur\n"
 "Lang: fr\n"
-"Slug: administrator\n"
+"Slug: user\n"
 
 #. type: Bullet: '* '
 #: content-en/pages/user.md:15
 msgid "[What is YunoHost](../whatsyunohost)"
-msgstr ""
+msgstr "[What is YunoHost](../whatsyunohost)"
 
 #. type: Bullet: '* '
 #: content-en/pages/user.md:15
 msgid "[User interface](user_interface)"
-msgstr ""
+msgstr "[User interface](user_interface)"
 
 #. type: Bullet: '* '
 #: content-en/pages/user.md:15
 msgid "[Configure an email client](email_configure_client)"
-msgstr ""
+msgstr "[Configure an email client](email_configure_client)"
 
 #. type: Bullet: '* '
 #: content-en/pages/user.md:15
 msgid "[Instant messaging usage](XMPP)"
-msgstr ""
+msgstr "[Instant messaging usage](XMPP)"
 
 #. type: Plain text
 #: content-en/pages/user.md:15
@@ -2646,6 +2659,13 @@ msgid ""
 "   * [Radicale](app_radicale)\n"
 "   * [RoundCube](app_roundcube)\n"
 msgstr ""
+"* [Official applications](../apps)\n"
+"   * [Baikal](app_baikal)\n"
+"   * [Firefox Sync](app_ffsync)\n"
+"   * [Tiny Tiny RSS](app_ttrss)\n"
+"   * [Transmission](app_transmission)\n"
+"   * [Radicale](app_radicale)\n"
+"   * [RoundCube](app_roundcube)\n"
 
 #. type: Plain text
 #: content-en/pages/organisation/yunohost_project_organization.md:3

@@ -1,5 +1,6 @@
 Title: Transmission
 Lang: en
+Slug: app_transmission
 
 # <img src="/images/transmission.png">Transmission
 
