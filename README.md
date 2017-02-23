@@ -4,17 +4,28 @@ YunoHost Documentation - POC Pelican + po4a
 
 ## Pelican (python)
 
-Install Pelican (I use version 3.6.3 on Fedora).
+Install Pelican >=3.7 and markdown.
+
+> virtualenv ./
+
+> source bin/activate
+
+> pip install pelican markdown
 
 ## Po4a
 
 Go to po4a-keyvalue_text and run:
 
 > perl Build.PL
+
 > ./Build
 
 Po4a will ask you to install needed packages.
 It's a clone of Brian Excelbierd's repository https://github.com/bexelbie/po4a/tree/keyvalue_text
+
+## Babel
+
+> dnf install babel
 
 # Test it
 

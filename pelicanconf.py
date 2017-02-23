@@ -22,15 +22,19 @@ I18N_UNTRANSLATED_PAGES = 'remove'
 I18N_SUBSITES = {
     'fr': {
         'SITENAME': 'Documentation en français',
+        'SITEMAP' : {'format': 'xml'},
         }
     }
 
-JINJA_EXTENSIONS = ['jinja2.ext.i18n']
+JINJA_ENVIRONMENT = {'extensions':['jinja2.ext.i18n']}
+#JINJA_EXTENSIONS = ['jinja2.ext.i18n']
 I18N_GETTEXT_LOCALEDIR = './l10n/po/'
 I18N_GETTEXT_DOMAIN = 'ynh_template'
 
 DEFAULT_PAGINATION = False
 DISPLAY_PAGES_ON_MENU = False
+
+SITEMAP = {'format': 'xml'}
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
