@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 BASEDIR=.
-DOCDIR=$BASEDIR/content-en/
+DOCDIR=$BASEDIR/content-v2/
 OUTPUTDIR=$BASEDIR/content/
 PO4ACONF=./po4a.cfg
 
@@ -13,7 +13,7 @@ cp -r $DOCDIR* $OUTPUTDIR
 
 # update list of file to translate
 # if we want to exclude some files, we'll have to change this script
-find $DOCDIR -name '*.md' | sed -r 's!(.*)(content)-en(.*)\.md![type: text] \1\2-en\3.md $lang:\1\2\3.$lang.md!' >> $PO4ACONF
+find $DOCDIR -name '*.md' | sed -r 's!(.*)(content)-v2(.*)\.md![type: text] \1\2-en\3.md $lang:\1\2\3.$lang.md!' >> $PO4ACONF
 
 awk '!x[$0]++' $PO4ACONF > $PO4ACONF.tmp
 

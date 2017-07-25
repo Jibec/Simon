@@ -15,9 +15,10 @@ THEME="./themes/yunohost/"
 
 PAGE_URL = '{slug}/'
 PAGE_SAVE_AS = '{slug}/index.html'
+PATH_METADATA = 'pages/(?P<path>.*)\..*'
 
-I18N_UNTRANSLATED_ARTICLES = 'remove'
-I18N_UNTRANSLATED_PAGES = 'remove'
+I18N_UNTRANSLATED_ARTICLES = 'keep'
+I18N_UNTRANSLATED_PAGES = 'keep'
 
 I18N_SUBSITES = {
     'fr': {
@@ -27,7 +28,7 @@ I18N_SUBSITES = {
     }
 
 JINJA_ENVIRONMENT = {'extensions':['jinja2.ext.i18n']}
-#JINJA_EXTENSIONS = ['jinja2.ext.i18n']
+
 I18N_GETTEXT_LOCALEDIR = './l10n/po/'
 I18N_GETTEXT_DOMAIN = 'ynh_template'
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2017-02-23 07:47+0100\n"
+"POT-Creation-Date: 2017-07-25 17:47+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,5 +23,15 @@ msgstr ""
 
 #: themes/yunohost/templates/index.html:53
 msgid "Pages"
+msgstr ""
+
+#: themes/yunohost/templates/translations.html:3
+msgid "Translation: "
+msgstr ""
+
+#: themes/yunohost/templates/translations.html:8
+msgid ""
+"Contribute translation on <a "
+"href=\"https://translate.yunohost.org\">Weblate</a>"
 msgstr ""
 
