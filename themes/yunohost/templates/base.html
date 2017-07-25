@@ -22,7 +22,6 @@
 </head>
 
 <body id="index" class="home">
-{% include 'github.html' %}
         <header id="banner" class="body">
                 <h1><a href="{{ SITEURL }}/">{{ SITENAME }} {% if SITESUBTITLE %} <strong>{{ SITESUBTITLE }}</strong>{% endif %}</a></h1>
                 <nav><ul>
@@ -42,13 +41,6 @@
                 </ul></nav>
                 <!-- SNIP -->
                 <nav><ul>
-                {% if extra_siteurls %}
-                    {% for lang, url in extra_siteurls.items() %}
-                    <li><a href="{{ url }}/">{{ lang }}</a></li>
-                    {% endfor %}
-                    <!-- separator -->
-                    <li style="background-color: white; padding: 5px;">&nbsp</li>
-                {% endif %}
                 {% for title, link in MENUITEMS %}
                       <li><a href="{{ link }}/">{{ title }}</a></li>
                 {% endfor %}
@@ -71,8 +63,5 @@
             • <a href="{filename}/support">Support</a>
             • Datalove <span class="glyphicon glyphicon-heart"></span>
         </footer><!-- /#contentinfo -->
-
-{% include 'analytics.html' %}
-{% include 'disqus_script.html' %}
 </body>
 </html>
