@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: YunoHost-Documentation 20170725\n"
+"Project-Id-Version: YunoHost-Documentation 20170726\n"
 "Report-Msgid-Bugs-To: contrib@list.yunohost.org\n"
-"POT-Creation-Date: 2017-07-25 11:52+0200\n"
+"POT-Creation-Date: 2017-07-26 11:31+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
-#: ./content-en/pages/contributor.md:4
+#: ./content-v2/pages/contributor.md:4
 #, no-wrap
 msgid ""
 "Title: Contributor documentation\n"
@@ -27,87 +27,30 @@ msgid ""
 msgstr ""
 
 #. type: Bullet: '* '
-#: ./content-en/pages/contributor.md:15
-msgid "[How to contribute](contribute)"
+#: ./content-v2/pages/contributor.md:5
+msgid "[How to contribute]({filename}/pages/contributor/contribute.md)"
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/contributor.md:15
-#, no-wrap
-msgid ""
-"* [What is YunoHost](../whatsyunohost)\n"
-"    * Developement\n"
-"        * [Roadmap](../roadmap)\n"
-"        * [List of available applications](../apps)\n"
-"        * [Package new applications](packaging_apps)\n"
-"        * [Develop on Docker](docker)\n"
-"        * [Build OpenResty (Web server) for Raspberry Pi](build_openresty)\n"
-"    * Documentation\n"
-"       * [Account creation to edit documentation](accounting)\n"
-"       * [Write documentation](write_documentation)\n"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/user/XMPP.md:3
+#: ./content-v2/pages/user/XMPP.md:4
 #, no-wrap
 msgid ""
 "Title: XMPP\n"
 "Lang: en\n"
+"Slug: XMPP\n"
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/user/XMPP.md:6
+#: ./content-v2/pages/user/XMPP.md:5
 #, no-wrap
 msgid ""
-"<img src=\"/images/XMPP_logo.png\" width=100>\n"
 "<abbr title=\"Extensible Messaging and Presence Protocol\">XMPP</abbr> is a "
 "communication protocol of instant messaging, VoIP (Voice over IP), "
 "videoconferencing.\n"
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/user/XMPP.md:10
-msgid ""
-"YunoHost provide: * [Metronome](http://www.lightwitch.org/metronome): a XMPP "
-"server * [Jappix](/apps): a web XMPP client"
-msgstr ""
-
-#. type: Title ##
-#: ./content-en/pages/user/XMPP.md:11
-#, no-wrap
-msgid "Desktop XMPP client"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/user/XMPP.md:14
-msgid ""
-"You can connect to your XMPP server with any standard desktop XMPP client, "
-"such as [Pidgin](http://pidgin.im/), [Gajim](http://gajim.org), "
-"[Jitsi](http://jitsi.org/) or [Adium](https://adium.im/)."
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/user/XMPP.md:18
-msgid ""
-"The credentials to give are : * The first part of your email address "
-"(without the @domain.tld)  * Your standard YunoHost password"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/user/XMPP.md:20
-msgid ""
-"Your XMPP server runs on the standard port 5222. Your administrator might "
-"need to forward this port if the server is behind a router."
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/user/XMPP.md:21
-#, no-wrap
-msgid "<img src=\"/images/Pidgin-add-acount.png\" width=500>\n"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/administrator.md:4
+#: ./content-v2/pages/administrator.md:4
 #, no-wrap
 msgid ""
 "Title: Administrator documentation\n"
@@ -116,7 +59,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/administrator.md:6
+#: ./content-v2/pages/administrator.md:6
 #, no-wrap
 msgid ""
 "*For want of anything better, here is an index of interesting pages for the "
@@ -124,52 +67,12 @@ msgid ""
 msgstr ""
 
 #. type: Bullet: '* '
-#: ./content-en/pages/administrator.md:37
-msgid "[What is Self-hosting](selfhosting)"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ./content-en/pages/administrator.md:37
-msgid "[Compatible hardware](hardware)"
+#: ./content-v2/pages/administrator.md:7
+msgid "[demo admin page]({filename}/pages/administrator/admin.md)"
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/administrator.md:37
-#, no-wrap
-msgid ""
-"* [Installation guide](install)\n"
-"    * [On an OLinuXino board](install_on_olinuxino)\n"
-"    * [On an ARM board](install_on_arm_board)\n"
-"    * [On a Raspberry Pi](install_on_raspberry)\n"
-"    * [From an ISO](install_iso)\n"
-"    * [On Debian](install_on_debian)\n"
-"    * [On VirtualBox](install_on_virtualbox)\n"
-"    * [On Vagrant](vagrant)\n"
-"    * [On a dedicated or a virtual private server](install_on_vps)\n"
-"    * Installation steps\n"
-"       * [Burn or copy iso](burn_or_copy_iso)\n"
-"       * [Boot and graphical install](boot_and_graphical_install)\n"
-"       * [Copy YunoHost image on SD card](copy_image)\n"
-"       * [Manual instalation](install_manually)\n"
-"       * [Plug and boot your server](plug_and_boot)\n"
-"       * [Post-instalation](postinstall)\n"
-"* [Available applications](apps)\n"
-"* [Administration interface usage](admin)\n"
-"* [Command-line interface usage](moulinette)\n"
-"* [List of friendly ISPs](isp)\n"
-"* [Security](security)\n"
-"* [Hide services with Tor](torhiddenservice)\n"
-"* [DNS understanding](dns)\n"
-"* [What is YunoHost](../whatsyunohost)\n"
-"* [Unlock IP in iptables](fail2ban)\n"
-"* [SSL certificate installation](certificate)\n"
-"* [Troubleshooting guide](troubleshooting_guide)\n"
-"* [Backup](backup)\n"
-"* [Update](update)\n"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/contribs.md:4
+#: ./content-v2/pages/contribs.md:4
 #, no-wrap
 msgid ""
 "Title: Contributors\n"
@@ -178,57 +81,22 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/contribs.md:6
+#: ./content-v2/pages/contribs.md:6
 msgid "Here is a non exhaustive list of mains contributors."
 msgstr ""
 
 #. type: Bullet: '* '
-#: ./content-en/pages/contribs.md:8
+#: ./content-v2/pages/contribs.md:9
 msgid "kload"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ./content-en/pages/contribs.md:10
-msgid "beudbeud"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ./content-en/pages/contribs.md:12
-msgid "jerome: main dev of [Moulinette](moulinette)"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ./content-en/pages/contribs.md:14
-msgid "opi: main dev of [web admin](admin)"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ./content-en/pages/contribs.md:16
-msgid "ju: apps"
+#: ./content-v2/pages/contribs.md:9 ./content-v2/pages/contribs.md:9
+msgid "bla"
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/contribs.md:21
-#, no-wrap
-msgid ""
-"* Moul: \n"
-"  * Documentation\n"
-"  * Cubieboard\n"
-"  * moul[at]moul.re\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ./content-en/pages/contribs.md:23
-msgid "courgette: design"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ./content-en/pages/contribs.md:24
-msgid "titoko"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/apps.md:4
+#: ./content-v2/pages/apps.md:4
 #, no-wrap
 msgid ""
 "Title: Official apps\n"
@@ -237,161 +105,25 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/apps.md:13
-#, no-wrap
+#: ./content-v2/pages/apps.md:13
 msgid ""
-"<img src=\"/images/roundcube.png\" width=50>\n"
-"<img src=\"/images/ttrss.png\" width=50>\n"
-"<img src=\"/images/wordpress.png\" width=50>\n"
-"<img src=\"/images/transmission.png\" width=50>\n"
-"<img src=\"/images/jappix.png\" width=50>\n"
-"<img src=\"/images/logo-jirafeau.jpeg\" width=50>\n"
-"<img src=\"/images/Logo-wallabag-svg.svg\" width=50>\n"
-"<img src=\"/images/Searx_logo.svg\" width=50>\n"
+"![Roundcube]({filename}/images/roundcube.png)  "
+"![Roundcube]({filename}/images/ttrss.png)  "
+"![Roundcube]({filename}/images/wordpress.png)  "
+"![Roundcube]({filename}/images/transmission.png)  "
+"![Roundcube]({filename}/images/jappix.png)  "
+"![Roundcube]({filename}/images/logo-jirafeau.jpeg)  "
+"![Roundcube]({filename}/images/Logo-wallabag-svg.svg)  "
+"![Roundcube]({filename}/images/Searx_logo.svg)"
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/apps.md:15
-#, no-wrap
-msgid ""
-"<a class=\"btn btn-lg btn-default disabled\" href=\"/apps_en\">Official "
-"apps</a> <a class=\"btn btn-lg btn-default\" "
-"href=\"/apps_in_progress_en\">Apps in progress</a> <a class=\"btn btn-lg "
-"btn-default\" href=\"/apps_wishlist_en\">Apps wishlist</a>\n"
+#: ./content-v2/pages/apps.md:14
+msgid "Beaucoup d'applications !"
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/apps.md:19
-#, no-wrap
-msgid ""
-"<div class=\"clearfix\" style=\"margin-bottom: 1em;\">\n"
-"<div class=\"btn btn-default btn-xs pull-right\" data-toggle=\"collapse\" "
-"data-target=\"#app-accordion .collapse\">View all</div>\n"
-"</div>\n"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/apps.md:21
-#, no-wrap
-msgid "<div class=\"panel-group\" id=\"app-accordion\"></div>\n"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/apps.md:42
-#, no-wrap
-msgid ""
-"<script type=\"text/template\" id=\"app-template\">\n"
-"  <div class=\"panel panel-default\">\n"
-"    <div class=\"panel-heading\">\n"
-"      <div class=\"panel-title\">\n"
-"        <a data-toggle=\"collapse\" data-parent=\"#app-accordion\" "
-"href=\"apps_en/#app_{app_id}\">{app_name} "
-"<em><small>({app_id})</small></em></a>\n"
-"      </div>\n"
-"    </div>\n"
-"    <div class=\"panel-collapse collapse app_{app_id}\">\n"
-"      <div class=\"panel-body\">\n"
-"        <p><strong>Description</strong>: {app_description}</p>\n"
-"        <p><strong>Last update (UTC)</strong>: {app_update}</p>\n"
-"        <p><strong>Level</strong>: {app_level}</p>\n"
-"        <p><strong>Maintainer</strong>: {app_maintainer} <small "
-"class=\"text-muted\">({app_mail})</small></p>\n"
-"        <p><strong>Git repository</strong>: <a href=\"{app_git}\" "
-"target=\"_blank\">{app_git}</a> <small "
-"class=\"text-muted\">({app_branch})</small></p>\n"
-"        <a href=\"#/app_{app_id}\" target=\"_blank\" class=\"btn "
-"btn-default\">Documentation</a>\n"
-"    </div>\n"
-"  </div>\n"
-"</script>\n"
-"<br />\n"
-"<div class=\"alert alert-info\">All official applications are under free "
-"licenses.</div>\n"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/apps.md:57
-#, no-wrap
-msgid ""
-"<script>\n"
-"function timeConverter(UNIX_timestamp) {\n"
-"    var a = new Date(UNIX_timestamp*1000);\n"
-"    var months = "
-"['January','February','March','April','May','June','July','August','September','October','November','December'];\n"
-"    var year = a.getFullYear();\n"
-"    var month = months[a.getMonth()];\n"
-"    var date = a.getDate();\n"
-"    var hour = a.getHours();\n"
-"    var min = a.getMinutes();\n"
-"    if (hour < 10) { hour = '0' + hour; }\n"
-"    if (min < 10) { min = '0' + min; }\n"
-"    var time = date+' '+month+' '+year+' at '+hour+':'+min;\n"
-"    return time;\n"
-"}\n"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/apps.md:78
-#, no-wrap
-msgid ""
-"$(document).ready(function () {\n"
-"  $.getJSON('https://app.yunohost.org/official.json', function(app_list) {\n"
-"    // Cast as array\n"
-"    var app_list = $.map(app_list, function(el) { return el; });\n"
-"    // Sort alpha\n"
-"    app_list.sort(function(a, b){\n"
-"      if (a.manifest.id > b.manifest.id) {return 1;}\n"
-"      else if (a.manifest.id < b.manifest.id) {return -1;}\n"
-"      return 0;\n"
-"    });\n"
-"    $.each(app_list, function(k, infos) {\n"
-"      app_id = infos.manifest.id;\n"
-"      html = $('#app-template').html()\n"
-"             .replace(/{app_id}/g, app_id)\n"
-"             .replace(/{app_name}/g, infos.manifest.name)\n"
-"             .replace('{app_description}', infos.manifest.description.en)\n"
-"             .replace(/{app_git}/g, infos.git.url)\n"
-"             .replace('{app_branch}', infos.git.branch)\n"
-"             .replace('{app_level}', infos.level)\n"
-"             .replace('{app_update}', timeConverter(infos.lastUpdate));\n"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/apps.md:84
-#, no-wrap
-msgid ""
-"      if (infos.manifest.developer) {\n"
-"        html = html\n"
-"          .replace('{app_maintainer}', infos.manifest.developer.name)\n"
-"          .replace('{app_mail}', infos.manifest.developer.email);\n"
-"      }\n"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/apps.md:90
-#, no-wrap
-msgid ""
-"      if (infos.manifest.maintainer) {\n"
-"        html = html\n"
-"          .replace('{app_maintainer}', infos.manifest.maintainer.name)\n"
-"          .replace('{app_mail}', infos.manifest.maintainer.email);\n"
-"      }\n"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/apps.md:96
-#, no-wrap
-msgid ""
-"      $('#app-accordion').append(html);\n"
-"      $('.app_'+ app_id).attr('id', 'app_'+ app_id);\n"
-"    });\n"
-"  });\n"
-"});\n"
-"</script>\n"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/user.md:4
+#: ./content-v2/pages/user.md:4
 #, no-wrap
 msgid ""
 "Title: User documentation\n"
@@ -400,855 +132,34 @@ msgid ""
 msgstr ""
 
 #. type: Bullet: '* '
-#: ./content-en/pages/user.md:15
-msgid "[What is YunoHost](../whatsyunohost)"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ./content-en/pages/user.md:15
-msgid "[User interface](user_interface)"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ./content-en/pages/user.md:15
-msgid "[Configure an email client](email_configure_client)"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ./content-en/pages/user.md:15
-msgid "[Instant messaging usage](XMPP)"
+#: ./content-v2/pages/user.md:5
+msgid "[XMPP documentation]({filename}/pages/user/XMPP.md)"
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/user.md:15
-#, no-wrap
-msgid ""
-"* [Official applications](../apps)\n"
-"   * [Baikal](app_baikal)\n"
-"   * [Firefox Sync](app_ffsync)\n"
-"   * [Tiny Tiny RSS](app_ttrss)\n"
-"   * [Transmission](app_transmission)\n"
-"   * [Radicale](app_radicale)\n"
-"   * [RoundCube](app_roundcube)\n"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/organisation/yunohost_project_organization.md:3
+#: ./content-v2/pages/organisation/yunohost_project_organization.md:4
 #, no-wrap
 msgid ""
 "Title: YunoHost project organisation\n"
 "Lang: en\n"
+"slug: yunohost_project_organization\n"
 msgstr ""
 
 #. type: Title ##
-#: ./content-en/pages/organisation/yunohost_project_organization.md:4
+#: ./content-v2/pages/organisation/yunohost_project_organization.md:5
 #, no-wrap
 msgid "Document objective"
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/organisation/yunohost_project_organization.md:10
+#: ./content-v2/pages/organisation/yunohost_project_organization.md:7
 msgid ""
 "This document aims at allowing contributors to feel legitimate in "
-"contributing to the YunoHost project together with collective feedback.  The "
-"project is community-based and hasty decisions made by a restricted group of "
-"contributors can generate frustrations at a later stage.  To address this "
-"issue, the proposed solution here is to ensure that decisions are taken "
-"collectively and that they are sufficiently thought out.  An advisory "
-"council provides orientations for the evolution of the YunoHost project and "
-"special interest groups allow more efficient contribution in relation to "
-"each specific topic."
-msgstr ""
-
-#. type: Title ##
-#: ./content-en/pages/organisation/yunohost_project_organization.md:11
-#, no-wrap
-msgid "Definition of YunoHost"
+"contributing to the YunoHost project together with collective feedback."
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/organisation/yunohost_project_organization.md:13
-#, no-wrap
-msgid "###Objectives\n"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/organisation/yunohost_project_organization.md:16
-msgid ""
-"The goal of YunoHost is to make accessible to the largest number of people, "
-"the installation and administration of a server, without prejudice to the "
-"quality and reliability of the software."
-msgstr ""
-
-#. type: Title ###
-#: ./content-en/pages/organisation/yunohost_project_organization.md:17
-#, no-wrap
-msgid "Values"
-msgstr ""
-
-#. type: Title ####
-#: ./content-en/pages/organisation/yunohost_project_organization.md:19
-#, no-wrap
-msgid "A free and community-based software"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/organisation/yunohost_project_organization.md:22
-msgid ""
-"YunoHost is a software under free licence, fully community-based and based "
-"on applications which are themselves community-based and often free "
-"(roundcube, baikal, etc.)"
-msgstr ""
-
-#. type: Title ####
-#: ./content-en/pages/organisation/yunohost_project_organization.md:23
-#, no-wrap
-msgid "That everyone can appropriate"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/organisation/yunohost_project_organization.md:26
-msgid ""
-"Historically, the project has been very close to initiatives which aim at "
-"creating a neutral and decentralised Internet. This proximity especially "
-"with the [FFDN](https://www.ffdn.org/), has materialised by having some "
-"contributors to create the InternetCu.be whose mission is to facilitate "
-"self-hosting by providing a complete solution including a service (via a "
-"VPN) and a device. This militant aspect does not inhibit commercial software "
-"initiatives hereby companies could propose support or hosting."
-msgstr ""
-
-#. type: Title ##
-#: ./content-en/pages/organisation/yunohost_project_organization.md:27
-#, no-wrap
-msgid "YunoHost organisation"
-msgstr ""
-
-#. type: Title ###
-#: ./content-en/pages/organisation/yunohost_project_organization.md:29
-#, no-wrap
-msgid "A theme-based, open structure"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/organisation/yunohost_project_organization.md:32
-msgid ""
-"The objective of the YunoHost organisation is to allow the largest number of "
-"people to contribute to software improvement, whether from a technical point "
-"of view (development, application packaging) or otherwise (communication, "
-"end-user assistance, documentation, etc.). Inspired by the projects which "
-"were reviewed at a recent event (Kodi, Debian, Django, Fedora, Wikipedia, "
-"etc.) and by ideas stemming from YunoHost contributors (Jérôme, Bram, opi, "
-"scith, ju), a decision was made to organise work by special interest groups, "
-"federated thanks to a council to key contributors."
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/organisation/yunohost_project_organization.md:34
-msgid "YunoHost project organisation schema"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/organisation/yunohost_project_organization.md:36
-#, no-wrap
-msgid ""
-"<img "
-"src=\"https://raw.githubusercontent.com/YunoHost/yunohost-project-organization/master/organization_schema.png\" "
-"height=\"600px\" />\n"
-msgstr ""
-
-#. type: Title ####
-#: ./content-en/pages/organisation/yunohost_project_organization.md:37
-#, no-wrap
-msgid "Definition and structure of groups"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/organisation/yunohost_project_organization.md:40
-msgid ""
-"Groups are structured as a result of the fact that YunoHost counts many "
-"sub-projects (a total of 13), but without always knowing who is in charge or "
-"who is competent. It has therefore been decided to simplify the organisation "
-"into sub-projects according to theme-based groups:"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/organisation/yunohost_project_organization.md:48
-#, no-wrap
-msgid ""
-"- ##### Core Dev Group\n"
-" - YunoHost Core\n"
-" - Moulinette\n"
-" - Web admin\n"
-" - SSOwat\n"
-" - Dynette\n"
-" - YNH-Dev\n"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/organisation/yunohost_project_organization.md:53
-#, no-wrap
-msgid ""
-"- ##### Distribution Group\n"
-" - Creation and maintenance of installation images on various "
-"architectures\n"
-" - Distribution of images\n"
-" - Management of Debian packages distribution\n"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/organisation/yunohost_project_organization.md:64
-#, no-wrap
-msgid ""
-"- ##### Infra/Sysadmin Group\n"
-" - Infrastructure\n"
-" - Website (wiki, forum, chat room, redmine, mumble)\n"
-" - Demo\n"
-" - Services\n"
-"    - [ip.yunohost.org](https://ip.yunohost.org/) and ip6.yunohost.org\n"
-"    - [yunoports](http://ports.yunohost.org/)\n"
-"    - nohost.me and noho.st\n"
-"    - [yunodash](https://dash.yunohost.org/)\n"
-"    - [yunopaste](http://paste.yunohost.org/)\n"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/organisation/yunohost_project_organization.md:69
-#, no-wrap
-msgid ""
-"- ##### Apps Group\n"
-" - Official apps\n"
-" - Community-based apps\n"
-" - App development tools (package_checker, package linter)\n"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/organisation/yunohost_project_organization.md:75
-#, no-wrap
-msgid ""
-"- ##### Communication Group\n"
-" - Documentation\n"
-" - Communication (announcement of project evolutions on the forum, social "
-"networks)\n"
-" - Translation\n"
-" - Mutual assistance (support)\n"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/organisation/yunohost_project_organization.md:78
-msgid ""
-"Groups are open to all contributors willing to participate to the "
-"development of YunoHost. Everyone can register with the communication "
-"channels associated with the group they want to get involved with. Everyone "
-"is free to exchange with the rest of the group and to submit a decision "
-"point which will follow a prior stage of exchange and improvement of the "
-"proposal.  In order to facilitate its management, each group names a "
-"coordinator (and a deputy) whose role is:"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/organisation/yunohost_project_organization.md:81
-msgid ""
-"- to welcome and to federate new regular contributors to the group - to keep "
-"the Council informed of decisions taken within the group (see next point)"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/organisation/yunohost_project_organization.md:83
-msgid ""
-"The choice of a communication tool is left to each group depending on its "
-"relevance (forum, chat, email, etc.)"
-msgstr ""
-
-#. type: Title ####
-#: ./content-en/pages/organisation/yunohost_project_organization.md:84
-#, no-wrap
-msgid "Definition and structure of the Council"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/organisation/yunohost_project_organization.md:88
-msgid ""
-"YunoHost is growing and it's important to maintain a coherence among all the "
-"groups. However, it is impossible to impose on every member within every "
-"group to take interest or to get involved in all aspects of the project (due "
-"to time and competency constraints). To address this, it has been suggested "
-"that a meta-group be created where every group has at least one "
-"representative: hence the Council.  The Council is independent of groups and "
-"brings together contributors wishing to get involved in the project to the "
-"maximum extent. It's role is to:"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/organisation/yunohost_project_organization.md:92
-msgid ""
-"- take important decisions affecting YunoHost which are dependent on one "
-"single group (for instance, changing the wiki engine)  - regularly follow up "
-"on the overall aspect of the project to ensure its cohesion (Mumble meeting)  "
-"- call on the whole community of contributors (or even end-users) when a "
-"decision appears divisive between groups or within the Council"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/organisation/yunohost_project_organization.md:95
-msgid ""
-"To take part at Council-level votes, you must have contributed to the "
-"project and have obtained a right to vote (or right of entry) at the "
-"Council. This right is delivered by the Council (and may be upon "
-"request). The Council is free at any moment to change its decision process.  "
-"To be a member of the Council does not imply that you have access to all "
-"resources (infrastructure, repositories, etc.)."
-msgstr ""
-
-#. type: Title ###
-#: ./content-en/pages/organisation/yunohost_project_organization.md:96
-#, no-wrap
-msgid "A decision process based on soft consensus"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/organisation/yunohost_project_organization.md:99
-msgid "Decisions to be taken can be of 2 kinds:"
-msgstr ""
-
-#. type: Bullet: '1. '
-#: ./content-en/pages/organisation/yunohost_project_organization.md:102
-msgid ""
-"for a group (for example, \"to merge a PR\" would be assumed by the Dev "
-"Group whereas to \"post a tweet\" would fall under the responsibility of the "
-"Communication Group)"
-msgstr ""
-
-#. type: Bullet: '2. '
-#: ./content-en/pages/organisation/yunohost_project_organization.md:102
-msgid ""
-"for the overall project (for instance, to decide on a release with new "
-"features)"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/organisation/yunohost_project_organization.md:104
-msgid ""
-"If a consensus is not reached over a decision within a particular group, "
-"they must refer to the Council for further discussions. If no consensus has "
-"been reached, the proposal will be submitted to a vote by all contributors."
-msgstr ""
-
-#. type: Title ####
-#: ./content-en/pages/organisation/yunohost_project_organization.md:105
-#, no-wrap
-msgid "The decision process in detail"
-msgstr ""
-
-#. type: Title #####
-#: ./content-en/pages/organisation/yunohost_project_organization.md:107
-#, no-wrap
-msgid "1) Initiating a decision"
-msgstr ""
-
-#. type: Bullet: '- '
-#: ./content-en/pages/organisation/yunohost_project_organization.md:115
-msgid ""
-"can be initiated by anyone following predefined media within each group "
-"(e.g. to open a PR automatically triggers this process)"
-msgstr ""
-
-#. type: Bullet: '- '
-#: ./content-en/pages/organisation/yunohost_project_organization.md:115
-msgid ""
-"necessarily public with the exception of well-defined situations (bug "
-"related to a critical security issue or vote relative to individuals)"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/organisation/yunohost_project_organization.md:115
-#, no-wrap
-msgid ""
-"- an end-date is automatically set for every type of proposition. This date "
-"is used for various reasons:\n"
-"    - to leave enough time for everyone to express themselves and to avoid "
-"hasty decisions\n"
-"    - to maintain a certain rhythm otherwise if the quota of responses is "
-"reached then there's no need to wait for everyone's views within a group\n"
-"       - the quota is evaluated according to people registered in a group "
-"(or the Council, depending on the situation) who have expressed their desire "
-"to be considered as a regular voter => for instance kload could wish to give "
-"their opinion at a particular occasion, but with no intention of applying as "
-"a active voting member at the Council \n"
-"   - so it can be postponed upon simple request by any one member of the "
-"group—and only the group, not all contributors.\n"
-msgstr ""
-
-#. type: Title #####
-#: ./content-en/pages/organisation/yunohost_project_organization.md:116
-#, no-wrap
-msgid "2) Opening a discussion with several possible responses:"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/organisation/yunohost_project_organization.md:118
-msgid ""
-"Anyone can change their position at any moment, but it's expected to let the "
-"group react if necessary (e.g. avoid going from positive to negative to "
-"reject a proposal altogether after just 3 minutes)."
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/organisation/yunohost_project_organization.md:126
-#, no-wrap
-msgid ""
-"- \"simple\" replies\n"
-"   - \"I agree\" –> counts as a positive view\n"
-"   - \"It seems good to me, but I'd rather abide by others' opinion\" –> if "
-"there are only such views (or like the next one) and at least one positive "
-"view and the due date is past, then the proposal is accepted\n"
-"   - \"no views\" / \"I'm not in a position to express a helpful view "
-"(e.g. I can't code in X)\"\n"
-"   - delayed reponse\n"
-"   - request for clarification, in which case the decision is suspended\n"
-"   - refusal: any refusal should be argued and justified\n"
-msgstr ""
-
-#. type: Title #####
-#: ./content-en/pages/organisation/yunohost_project_organization.md:127
-#, no-wrap
-msgid "3) Suspension/Postponement"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/organisation/yunohost_project_organization.md:130
-msgid ""
-"- while there is no response, a decision is considered suspended; at the "
-"moment of a response, the end date is automatically postponed (if needed) "
-"(for a duration to be determined, which is shorter than the initial time)  - "
-"in a situation where there are positive and negative views, or where there "
-"is a choice between several proposals"
-msgstr ""
-
-#. type: Title #####
-#: ./content-en/pages/organisation/yunohost_project_organization.md:131
-#, no-wrap
-msgid "4) Request for modifications"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/organisation/yunohost_project_organization.md:135
-msgid ""
-"- however, it may happen that discussions take place around these "
-"modifications; if such is the case, there is a new decision to be added to "
-"the list of existing decisions, and the process applies again (with a "
-"postponement of the date)  - if there aren't enough people agreeing, the "
-"date is postponed and a recall must be sent - if the result is very close, "
-"the group is invited to rediscuss the matter if it is important, otherwise "
-"this could turn into a divisive issue and of tensions in the future"
-msgstr ""
-
-#. type: Title #####
-#: ./content-en/pages/organisation/yunohost_project_organization.md:136
-#, no-wrap
-msgid "5) Closure"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/organisation/yunohost_project_organization.md:144
-#, no-wrap
-msgid ""
-"- if the group is unanimous in its decision\n"
-"   - with agreements only \n"
-"   - with refusals only\n"
-"   - no opinions (relying on others' views)\n"
-"- For a minor or standard decision, if the quota of responses is reached by "
-"the minimal deadline and there's a consensus.\n"
-"- The quota of responses means necessary views as detailed below according "
-"to different types of decisions. The percentage is based on the number of "
-"active members in the group. The coordinator and its deputy are in charge of "
-"managing active and inactive members in a group, as they maintain an "
-"up-to-date list of members at least at every decision point within the "
-"group. (An inactive member who shows up for a decision automatically becomes "
-"active).\n"
-"- If it isn't possible to have enough people (vacations, not enough members "
-"in a group to provide their views), a group can request closing a vote "
-"before the voting quota is reached; there's then a new postponement and if "
-"the new postponed date is reached, then the proposal is closed according to "
-"recorded views.\n"
-msgstr ""
-
-#. type: Title ######
-#: ./content-en/pages/organisation/yunohost_project_organization.md:145
-#, no-wrap
-msgid "Micro-decision:"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/organisation/yunohost_project_organization.md:147
-msgid ""
-"- A decision taken and immediately applied by a single member. This kind of "
-"decision must necessarily be reversible, and can be questioned by anyone "
-"from any group."
-msgstr ""
-
-#. type: Title ######
-#: ./content-en/pages/organisation/yunohost_project_organization.md:148
-#, no-wrap
-msgid "Minor decision"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/organisation/yunohost_project_organization.md:153
-msgid ""
-"- Initial duration: 1 week.  - Minimal duration: 3 days.  - Postponement, if "
-"necessary: 3 days.  - Necessary views: 2 members of a group (the person who "
-"initiated the decision can express their view); in an anticipated format, 3 "
-"of which 2 members of the group."
-msgstr ""
-
-#. type: Title ######
-#: ./content-en/pages/organisation/yunohost_project_organization.md:154
-#, no-wrap
-msgid "Standard decision:"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/organisation/yunohost_project_organization.md:160
-msgid ""
-"- Initial duration: 2 weeks.  - Minimal duration: 1 week.  - Postponement, "
-"if necessary: 1 week.  - Necessary views: 50% of members of a group (the "
-"person who initiated the decision can express their view); in an anticipated "
-"format, 66% of members.  - Validation by voting (when applicable): 75% of "
-"positive votes."
-msgstr ""
-
-#. type: Title ######
-#: ./content-en/pages/organisation/yunohost_project_organization.md:161
-#, no-wrap
-msgid "Major decision:"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/organisation/yunohost_project_organization.md:166
-msgid ""
-"- Initial duration: 1 month.  - Postponement, if necessary: 2 weeks.  - "
-"Necessary views: 75% of members of a group (the person who initiated the "
-"decision can express their view).  - Validation by voting (when applicable): "
-"90% of positive votes."
-msgstr ""
-
-#. type: Title #####
-#: ./content-en/pages/organisation/yunohost_project_organization.md:167
-#, no-wrap
-msgid "6) Application"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/organisation/yunohost_project_organization.md:169
-msgid ""
-"Then a member of a group can announce their decision as effective (and "
-"proceed with necessary actions such as releasing, merging, announcing, "
-"etc.). If certain actions are required, it's important that people commit "
-"themselves to performing them, since a decision without designated people is "
-"of little use"
-msgstr ""
-
-#. type: Title ##
-#: ./content-en/pages/organisation/yunohost_project_organization.md:170
-#, no-wrap
-msgid "Composition of groups"
-msgstr ""
-
-#. type: Bullet: '- '
-#: ./content-en/pages/organisation/yunohost_project_organization.md:182
-msgid "Distribution : Heyyounow"
-msgstr ""
-
-#. type: Bullet: '- '
-#: ./content-en/pages/organisation/yunohost_project_organization.md:182
-msgid "Council : Bram, ju, ljf, Maniack, Moul, opi, theodore"
-msgstr ""
-
-#. type: Bullet: '- '
-#: ./content-en/pages/organisation/yunohost_project_organization.md:182
-msgid "Core Dev : AlexAubin, Bram, Ju, ljf, Moul, opi"
-msgstr ""
-
-#. type: Bullet: '- '
-#: ./content-en/pages/organisation/yunohost_project_organization.md:182
-msgid "Apps : Bram, Ju, ljf, Maniack C, Moul, Scith, Tostaki"
-msgstr ""
-
-#. type: Bullet: '- '
-#: ./content-en/pages/organisation/yunohost_project_organization.md:182
-msgid "Infra : Bram, Ju, Maniack C, Moul, opi"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/organisation/yunohost_project_organization.md:182
-#, no-wrap
-msgid ""
-"- Communication\n"
-"  - Com : Bram, Moul, ljf, opi\n"
-"  - Doc : Moul, Theodore\n"
-"  - Trans : Jean-Baptiste\n"
-"- Distribution : Heyyounow\n"
-msgstr ""
-
-#. type: Title ##
-#: ./content-en/pages/organisation/yunohost_project_organization.md:183
-#, no-wrap
-msgid "Summary table of the number of views required for a decision "
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/organisation/yunohost_project_organization.md:186
-#, no-wrap
-msgid "_Values are rounded (e.g. 5.4 => 5 and 5.5 => 6)._\n"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/organisation/yunohost_project_organization.md:218
-#, no-wrap
-msgid ""
-"|                      | **Minor** | **Standard** | **Major** |\n"
-"|----------------------|---------|----------|---------|\n"
-"| **Council**              |\n"
-"|    Standard closure |    2    |     4    |    5    |\n"
-"|    Anticipated closure |    3*   |     5    |\n"
-"|    Closure by voting  |    5    |     5    |    6    |\n"
-"| **Core Dev**             |\n"
-"|    Standard closure |    2    |     3    |    5    |\n"
-"|    Anticipated closure |    3*   |     4    |\n"
-"|    Closure by voting  |    4    |     5    |    5    |\n"
-"| **Apps**                 |\n"
-"|    Standard closure |    2    |     4    |    5    |\n"
-"|    Anticipated closure |    3*   |     5    |\n"
-"|    Closure by voting  |    5    |     5    |    6    |\n"
-"| **Infra**                |\n"
-"|    Standard closure |    2    |     3    |    4    |\n"
-"|    Anticipated closure |    3*   |     3    |\n"
-"|    Closure by voting  |    3    |     4    |    5    |\n"
-"| **Communication -> Com** |\n"
-"|    Standard closure |    2    |     2    |    3    |\n"
-"|    Anticipated closure |    3*   |     3    |\n"
-"|    Closure by voting  |    3    |     3    |    4    |\n"
-"| **Communication -> Doc** |\n"
-"|    Standard closure |    1    |     1    |    Council    |\n"
-"|    Anticipated closure |    2*   |     2*   |\n"
-"|    Closure by voting  |    Council    |     Council    |    Council    |\n"
-"| **Distribution**         |\n"
-"|    Standard closure |    1    |     Council    |    Council    |\n"
-"|    Anticipated closure |    1    |     Council    |\n"
-"|    Closure by voting  |    1    |     Council    |    Council    |\n"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/organisation/yunohost_project_organization.md:220
-msgid "\\* of which 1 view can be external to the group"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/organisation/yunohost_project_organization.md:222
-msgid "For the translation group, the process needs to be adapted."
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/organisation/yunohost_project_organization.md:224
-msgid ""
-"For the documentation group, the number of views for an anticipated closure "
-"of a minor decision eat for the moment limited (there are only 2 people in "
-"the group). The other types of decision are taken by the Council."
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/organisation/yunohost_project_organization.md:226
-msgid ""
-"For the distribution group, since there's only Heyyounow at the moment, the "
-"Council will have the task of making Standard and Major decisions."
-msgstr ""
-
-#. type: Title ###
-#: ./content-en/pages/organisation/yunohost_project_organization.md:227
-#, no-wrap
-msgid "Pending decisions for the groups"
-msgstr ""
-
-#. type: Title ####
-#: ./content-en/pages/organisation/yunohost_project_organization.md:229
-#, no-wrap
-msgid "Council"
-msgstr ""
-
-#. type: Bullet: '- '
-#: ./content-en/pages/organisation/yunohost_project_organization.md:241
-msgid ""
-"Should we elect Council members rather than co-opt them? There's a risk of "
-"it becoming a \"political campaign\"!"
-msgstr ""
-
-#. type: Bullet: '- '
-#: ./content-en/pages/organisation/yunohost_project_organization.md:241
-msgid ""
-"Should special interest group membership be restricted to cooptation like "
-"for the Council?"
-msgstr ""
-
-#. type: Bullet: '- '
-#: ./content-en/pages/organisation/yunohost_project_organization.md:241
-msgid "Proposal to change Council to Collegiate"
-msgstr ""
-
-#. type: Bullet: '- '
-#: ./content-en/pages/organisation/yunohost_project_organization.md:241
-msgid ""
-"Migrate the project infrastructure server under YunoHost (with prepackaged "
-"apps like pad, dogs and mumble?)"
-msgstr ""
-
-#. type: Bullet: '- '
-#: ./content-en/pages/organisation/yunohost_project_organization.md:241
-msgid "Let's Encrypt"
-msgstr ""
-
-#. type: Bullet: '- '
-#: ./content-en/pages/organisation/yunohost_project_organization.md:241
-msgid "New system for documentation"
-msgstr ""
-
-#. type: Bullet: '- '
-#: ./content-en/pages/organisation/yunohost_project_organization.md:241
-msgid "Improvement of documentation"
-msgstr ""
-
-#. type: Bullet: '- '
-#: ./content-en/pages/organisation/yunohost_project_organization.md:241
-msgid "XMPP server migration"
-msgstr ""
-
-#. type: Bullet: '- '
-#: ./content-en/pages/organisation/yunohost_project_organization.md:241
-msgid "Hosting of our Git forge"
-msgstr ""
-
-#. type: Bullet: '- '
-#: ./content-en/pages/organisation/yunohost_project_organization.md:241
-msgid "Review the build system: stable <— testing <— branches"
-msgstr ""
-
-#. type: Bullet: '- '
-#: ./content-en/pages/organisation/yunohost_project_organization.md:241
-msgid "Freeze nohost.me and abandoning services"
-msgstr ""
-
-#. type: Title ####
-#: ./content-en/pages/organisation/yunohost_project_organization.md:242
-#, no-wrap
-msgid "Core Dev Group"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/organisation/yunohost_project_organization.md:245
-#, no-wrap
-msgid ""
-"- How to manage pull requests?\n"
-"   - Each ticket gives rise to a branch and a ticket; you make a pull/merge "
-"request, the community verifies that it works, a decision is taken to "
-"integrate. \n"
-msgstr ""
-
-#. type: Title ####
-#: ./content-en/pages/organisation/yunohost_project_organization.md:246
-#, no-wrap
-msgid "Apps Group"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/organisation/yunohost_project_organization.md:248
-msgid ""
-"- For community-based apps, issues are on GitHub as they should be, but "
-"discussions are on the forum"
-msgstr ""
-
-#. type: Title ####
-#: ./content-en/pages/organisation/yunohost_project_organization.md:249
-#, no-wrap
-msgid "Communication Group"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/organisation/yunohost_project_organization.md:255
-msgid ""
-"- Bug report from the forum - Cleanup of the forum to avoid noise - Proposal "
-"to delete support chat - How to make the forum a more active and central hub "
-"- How to organise rights on the forum (if groups want to vote on the forum)"
-msgstr ""
-
-#. type: Title ####
-#: ./content-en/pages/organisation/yunohost_project_organization.md:256
-#, no-wrap
-msgid "Miscellaneous"
-msgstr ""
-
-#. type: Bullet: '- '
-#: ./content-en/pages/organisation/yunohost_project_organization.md:264
-msgid ""
-"Request on the forum with notification to the Council members and to "
-"representatives of relevant special interest groups"
-msgstr ""
-
-#. type: Bullet: '- '
-#: ./content-en/pages/organisation/yunohost_project_organization.md:264
-msgid "Vote over 2 weeks with a post on the forum"
-msgstr ""
-
-#. type: Bullet: '- '
-#: ./content-en/pages/organisation/yunohost_project_organization.md:264
-msgid "Create 4 channels for Core Dev, Apps, Communication and Infrastructure"
-msgstr ""
-
-#. type: Bullet: '- '
-#: ./content-en/pages/organisation/yunohost_project_organization.md:264
-msgid "A release should be validated by all 4 (or 5) interest groups"
-msgstr ""
-
-#. type: Bullet: '- '
-#: ./content-en/pages/organisation/yunohost_project_organization.md:264
-msgid "Communication in French and English"
-msgstr ""
-
-#. type: Bullet: '- '
-#: ./content-en/pages/organisation/yunohost_project_organization.md:264
-msgid ""
-"Directory or group contact for new people. Maybe just a directory to know "
-"who's who. https://yunohost.org/#/contribs to be completed. And to be "
-"highlighted."
-msgstr ""
-
-#. type: Bullet: '- '
-#: ./content-en/pages/organisation/yunohost_project_organization.md:264
-msgid ""
-"Proposal to leave YunoHost members auto-determine themselves -> How to "
-"manage access rights?"
-msgstr ""
-
-#. type: Title ##
-#: ./content-en/pages/organisation/yunohost_project_organization.md:265
-#, no-wrap
-msgid "Current means of communication"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/organisation/yunohost_project_organization.md:273
-msgid ""
-"- Get-togethers at events - Weekly Mumble meetings - "
-"[Forum](https://forum.yunohost.org).  - Mailing lists: "
-"[contrib](https://list.yunohost.org/cgi-bin/mailman/listinfo/contrib) and "
-"[apps](https://list.yunohost.org/cgi-bin/mailman/listinfo/apps)  - "
-"[Bugtracker Redmine](https://dev.yunohost.org).  - Git Forge for code "
-"reviews: [YunoHost](https://github.com/YunoHost) "
-"[YunoHost-Apps](https://github.com/YunoHost-Apps).  - [XMPP chat "
-"rooms](https://yunohost.org/#/chat_rooms)"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/docs.md:4
+#: ./content-v2/pages/docs.md:4
 #, no-wrap
 msgid ""
 "Title: Documentation\n"
@@ -1257,78 +168,30 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/docs.md:8
+#: ./content-v2/pages/docs.md:6
+msgid "YunoHost's documentation has 3 different sections:"
+msgstr ""
+
+#. type: Plain text
+#: ./content-v2/pages/docs.md:14
 #, no-wrap
 msgid ""
-"<p class=\"lead\">\n"
-"YunoHost's documentation has 3 different sections:\n"
-"</p>\n"
+"* [User guide]({filename}/pages/user.md)\n"
+"     * Regarding the daily usage of your server and some client "
+"configuration \"HOW-TOs\"\n"
+"* [Administrator guide]({filename}/pages/administrator.md)\n"
+"     * Including installation, server management and application "
+"management\n"
+"* [Contributor guide]({filename}/pages/contributor.md)\n"
+"     * Which contains everything you have to know about us and the way we "
+"work\n"
+"* [Project's "
+"organization]({filename}/pages/organisation/yunohost_project_organization.md)\n"
+"     * Our values and rules\n"
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/docs.md:10
-#, no-wrap
-msgid "<div class=\"row text-center\">\n"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/docs.md:15
-#, no-wrap
-msgid ""
-"<div class=\"col col-md-4 col-md-offset-1\">\n"
-"<a class=\"btn btn-success btn-lg\" href=\"/pages/user\"><span "
-"class=\"glyphicon glyphicon-user\"></span>User guide</a>\n"
-"<p><small class=\"text-muted\">Regarding the daily usage of your server and "
-"some client configuration \"HOW-TOs\"</small></p>\n"
-"</div>\n"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/docs.md:20
-#, no-wrap
-msgid ""
-"<div class=\"col col-md-4 col-md-offset-1\">\n"
-"<a class=\"btn btn-primary btn-lg\" href=\"/pages/administrator\"><span "
-"class=\"glyphicon glyphicon-lock\"></span> Administrator guide</a>\n"
-"<p><small class=\"text-muted\">Including installation, server management and "
-"application management</small></p>\n"
-"</div>\n"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/docs.md:25
-#, no-wrap
-msgid ""
-"<div class=\"col col-md-5 col-md-offset-3\">\n"
-"<a class=\"btn btn-danger btn-lg\" href=\"/pages/contributor\"><span "
-"class=\"glyphicon glyphicon-heart\"></span> Contributor guide</a>\n"
-"<p><small class=\"text-muted\">Which contains everything you have to know "
-"about us and the way we work</small></p>\n"
-"</div>\n"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/docs.md:27
-#, no-wrap
-msgid "</div>\n"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/docs.md:33
-#, no-wrap
-msgid ""
-"<div class=\"row text-center\" style=\"margin-top: 2em;\">\n"
-"    <div class=\"col col-md-5 col-md-offset-3\">\n"
-"    <a class=\"btn btn-default btn-lg\" href=\"/pages/sitemap\"><span "
-"class=\"glyphicon glyphicon-list\"></span> Sitemap</a>\n"
-"    <p><small class=\"text-muted\">List of all pages of the web "
-"site</small></p>\n"
-"    </div>\n"
-"</div>\n"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/administrator/admin.md:4
+#: ./content-v2/pages/administrator/admin.md:4
 #, no-wrap
 msgid ""
 "Title: Administrator web interface\n"
@@ -1337,15 +200,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/administrator/admin.md:6
+#: ./content-v2/pages/administrator/admin.md:6
 msgid ""
 "Yunohost has an administrator web interface. The other way to administer "
-"your Yunohost install is through the [CLI called "
-"\"moulinette\"](/moulinette)"
+"your Yunohost install is through the CLI called \"moulinette\"."
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/administrator/admin.md:8
+#: ./content-v2/pages/administrator/admin.md:8
 #, no-wrap
 msgid ""
 "**Please note** that the web interface is an active work-in-progress and has "
@@ -1353,137 +215,18 @@ msgid ""
 msgstr ""
 
 #. type: Title ###
-#: ./content-en/pages/administrator/admin.md:9
+#: ./content-v2/pages/administrator/admin.md:9
 #, no-wrap
 msgid "Access"
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/administrator/admin.md:12
-msgid ""
-"You can access your administrator web interface at this address: "
-"https://example.org/yunohost/admin (replace 'example.org' with your own "
-"domain name)"
+#: ./content-v2/pages/administrator/admin.md:11
+msgid "..."
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/administrator/admin.md:16
-#, no-wrap
-msgid ""
-"<div class=\"text-center\" style=\"max-width:100%;border-radius: 5px;border: "
-"1px solid rgba(0,0,0,0.15);box-shadow: 0 5px 15px rgba(0,0,0,0.35);\">\n"
-"<img src=\"/images/manage_en.png\" style=\"max-width:100%;\">\n"
-"</div>\n"
-msgstr ""
-
-#. type: Title ###
-#: ./content-en/pages/administrator/admin.md:17
-#, no-wrap
-msgid "Reset admin password"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/administrator/admin.md:20
-#, no-wrap
-msgid ""
-"<div class=\"text-error\">Deprecated method, will not work on Yunohost 2.4 / "
-"Debian Jessie</div>\n"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/administrator/admin.md:22
-msgid "To reset YunoHost admin password (Need a root user available)"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/administrator/admin.md:28
-msgid ""
-"add the following lines to `/etc/slapd/slapd.conf`: ```bash rootdn "
-"\"cn=admin,dc=yunohost,dc=org\" rootpw "
-"{SSHA}O4kkm2OkgO2DPrrnYXXXXXXXXXXXXXXX ```"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/administrator/admin.md:32
-msgid ""
-"where the hash in the last line comes from (or at least that's my "
-"understanding)  ```bash slappasswd -h {SSHA}"
-msgstr ""
-
-#. type: Title #
-#: ./content-en/pages/administrator/admin.md:32
-#, no-wrap
-msgid "A password will be ask, and you'll get the corresponding hash"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/administrator/admin.md:34
-msgid "```"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/administrator/admin.md:36
-msgid ""
-"Once the lines are added, [here you might need to restart the ldap service "
-"?], you should be able to connect to the admin interface, rechange the "
-"password properly, remove the lines you added in slapd.conf, and that should "
-"be all."
-msgstr ""
-
-#. type: Title ###
-#: ./content-en/pages/administrator/admin.md:37
-#, no-wrap
-msgid "How to move application folder"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/administrator/admin.md:40
-msgid ""
-"To change an application folder, only a few commands are needed: move "
-"content, create a symlink and set access rights."
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/administrator/admin.md:43
-msgid "Sample with WordPress: ```bash"
-msgstr ""
-
-#. type: Title #
-#: ./content-en/pages/administrator/admin.md:43
-#, no-wrap
-msgid "Move wordpress folder to an external hard drive"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/administrator/admin.md:45
-msgid "$ sudo mv /var/www/wordpress /media/externalharddrive"
-msgstr ""
-
-#. type: Title #
-#: ./content-en/pages/administrator/admin.md:45
-#, no-wrap
-msgid "Symbolic link"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/administrator/admin.md:47
-#, no-wrap
-msgid "$ sudo   ln -s /media/externalharddrive/wordpress /var/www/wordpress\n"
-msgstr ""
-
-#. type: Title #
-#: ./content-en/pages/administrator/admin.md:47
-#, no-wrap
-msgid "Folder must belong to www-data"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/administrator/admin.md:49
-msgid "$ sudo chown -R www-data:www-data /media/externalharddrive/wordpress ```"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/contributor/contribute.md:3
+#: ./content-v2/pages/contributor/contribute.md:3
 #, no-wrap
 msgid ""
 "Title: Get involved\n"
@@ -1491,220 +234,73 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/contributor/contribute.md:7
-#, no-wrap
-msgid ""
-"<p class=\"lead\">\n"
-"YunoHost depends exclusively on the participation of people like you.\n"
-"</p>\n"
+#: ./content-v2/pages/contributor/contribute.md:5
+msgid "YunoHost depends exclusively on the participation of people like you."
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/contributor/contribute.md:18
+#: ./content-v2/pages/contributor/contribute.md:6
 #, no-wrap
 msgid ""
-"<div class=\"row\">\n"
-"<div class=\"col col-md-3 lead\">\n"
 "<span class=\"glyphicon glyphicon-heart\"></span>&nbsp;&nbsp; Spread the "
 "word\n"
-"</div>\n"
-"<div class=\"col col-md-8\" markdown=\"1\">\n"
-"Talk about software freedom, [self-hosting](selfhosting_en) and YunoHost to "
-"your relatives and at your work. We rely on <a href=\"http://datalove.me/\" "
-"target=\"_blank\">Datalove</a> evangelists like you <3\n"
-"</div>\n"
-"</div>\n"
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/contributor/contribute.md:29
+#: ./content-v2/2017-07-26-new-POC.md:6
 #, no-wrap
 msgid ""
-"<div class=\"row\">\n"
-"<div class=\"col col-md-3 lead\">\n"
-"<span class=\"glyphicon glyphicon-exclamation-sign\"></span>&nbsp;&nbsp; "
-"Testing\n"
-"</div>\n"
-"<div class=\"col col-md-8\" markdown=\"1\">\n"
-"We need people able to test YunoHost deeply. If you find a bug, try to "
-"identify it, and report it on our <a "
-"href=\"https://dev.yunohost.org/projects/yunohost/issues/new\" "
-"target=\"_blank\">bug tracker</a>.\n"
-"</div>\n"
-"</div>\n"
+"Title: A new POC for documentation translation\n"
+"Lang: en\n"
+"Slug: a-new-POC-for-documentation-translation\n"
+"Date: 2017-07-26\n"
+"Author: Jean-Baptiste Holcroft\n"
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/contributor/contribute.md:40
+#: ./content-v2/2017-07-26-new-POC.md:8
+msgid ""
+"A while ago, I started using Pelican to offer a new documentation system for "
+"YunoHost. I mixed real content with demonstration content, which made the "
+"result difficult to understand and hack with."
+msgstr ""
+
+#. type: Plain text
+#: ./content-v2/2017-07-26-new-POC.md:10
+msgid "Here is a new version: [**access documentation**]({filename}/pages/docs.md)"
+msgstr ""
+
+#. type: Plain text
+#: ./content-v2/2017-07-26-new-POC.md:11
+msgid ""
+"Please read the [Simon's "
+"Readme](https://github.com/Jibec/Simon/tree/refonte), careful, I'm using a "
+"branch named *refonte*."
+msgstr ""
+
+#. type: Plain text
+#: ./content-v2/2017-02-24-POC.md:6
 #, no-wrap
 msgid ""
-"<div class=\"row\">\n"
-"<div class=\"col col-md-3 lead\">\n"
-"<span class=\"glyphicon glyphicon-user\"></span>&nbsp;&nbsp; Helping users\n"
-"</div>\n"
-"<div class=\"col col-md-8\" markdown=\"1\">\n"
-"Our support relies on contributors like you. Just come to [the XMPP "
-"chatroom](/support) and help new users getting started, or pick a question "
-"on the <a href=\"https://forum.yunohost.org/\" "
-"target=\"_blank\">Forum</a>.\n"
-"</div>\n"
-"</div>\n"
+"Title: A POC for documentation translation\n"
+"Lang: en\n"
+"Slug: a-POC-for-documentation-translation\n"
+"Date: 2017-02-24\n"
+"Author: Jean-Baptiste Holcroft\n"
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/contributor/contribute.md:54
-#, no-wrap
+#: ./content-v2/2017-02-24-POC.md:8
 msgid ""
-"<div class=\"row\">\n"
-"<div class=\"col col-md-3 lead\">\n"
-"<span class=\"glyphicon glyphicon-cog\"></span>&nbsp;&nbsp; Coding\n"
-"</div>\n"
-"<div class=\"col col-md-8\" markdown=\"1\">\n"
-"You can involve in the YunoHost's development regardless of your skill.    "
-"\n"
-"Sysadmins, web developers, designers and pythonists <a "
-"href=\"https://github.com/YunoHost\" target=\"_blank\">are welcome</a>!\n"
-"<br>\n"
-"Learn [how to contribute](/dev), and join us on the [development chat "
-"room](xmpp:dev@conference.yunohost.org?join) and the <a "
-"href=\"http://list.yunohost.org/cgi-bin/mailman/listinfo/contrib\">mailing-list</a>.\n"
-"</div>\n"
-"</div>\n"
+"I published a "
+"[post](https://forum.yunohost.org/t/building-an-internationalization-friendly-project-documentation/2535) "
+"about the availability of this new documentation system that support "
+"localization."
 msgstr ""
 
 #. type: Plain text
-#: ./content-en/pages/contributor/contribute.md:66
-#, no-wrap
+#: ./content-v2/2017-02-24-POC.md:9
 msgid ""
-"<div class=\"row\">\n"
-"<div class=\"col col-md-3 lead\">\n"
-"<span class=\"glyphicon glyphicon-globe\"></span>&nbsp;&nbsp; Localization\n"
-"</div>\n"
-"<div class=\"col col-md-8\" markdown=\"1\">\n"
-"Get involved by making YunoHost interfaces available in your language.    \n"
-"<a href=\"https://translate.yunohost.org/\" target=\"_blank\">Get "
-"started</a>! \n"
-"</div>\n"
-"</div>\n"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/contributor/contribute.md:77
-#, no-wrap
-msgid ""
-"<div class=\"row\">\n"
-"<div class=\"col col-md-3 lead\">\n"
-"<span class=\"glyphicon glyphicon-edit\"></span>&nbsp;&nbsp; Write\n"
-"</div>\n"
-"<div class=\"col col-md-8\" markdown=\"1\">\n"
-"Improve this documentation by [writing new pages](/write_documentation) or "
-"translating existing ones to your language.\n"
-"</div>\n"
-"</div>\n"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/contributor/contribute.md:79
-#, no-wrap
-msgid "<hr>\n"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/contributor/contribute.md:91
-#, no-wrap
-msgid ""
-"<div class=\"row\">\n"
-"<div class=\"col col-md-3 lead\">\n"
-"<span class=\"glyphicon glyphicon-gift\"></span>&nbsp;&nbsp; Packaging\n"
-"</div>\n"
-"<div class=\"col col-md-8\" markdown=\"1\">\n"
-"Extend YunoHost capabilities by [packaging new services and web "
-"applications](/packaging_apps).    \n"
-"Have a look of [what has been done yet](/apps)!\n"
-"<br>\n"
-"A <a "
-"href=\"http://list.yunohost.org/cgi-bin/mailman/listinfo/apps\">mailing-list</a> "
-"is available.\n"
-"</div>\n"
-"</div>\n"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/contributor/contribute.md:94
-#, no-wrap
-msgid "<!--\n"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/contributor/contribute.md:103
-#, no-wrap
-msgid ""
-"<div class=\"row\">\n"
-"<div class=\"col col-md-3 lead\">\n"
-"<span class=\"glyphicon glyphicon glyphicon-upload\"></span>&nbsp;&nbsp; "
-"Seed\n"
-"</div>\n"
-"<div class=\"col col-md-8\" markdown=\"1\">\n"
-"Seed (share) YunoHost images with Torrent system: "
-"[live](http://build.yunohost.org/yunohost-live.iso.torrent), [32 "
-"bits](http://build.yunohost.org/yunohostv2-latest-i386.iso.torrent) and [64 "
-"bits](http://build.yunohost.org/yunohostv2-latest-amd64.iso.torrent).\n"
-"</div>\n"
-"</div>\n"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/contributor/contribute.md:107
-#, no-wrap
-msgid "-->\n"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/contributor/contribute.md:112
-#, no-wrap
-msgid ""
-"<br>\n"
-"<p class=\"lead\" markdown=\"1\">In any case, please [come to dev "
-"chatroom](xmpp:dev@conference.yunohost.org?join) to contribute :-)</p>\n"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/contributor/contribute.md:118
-#, no-wrap
-msgid ""
-"<script type=\"text/javascript\" "
-"src=\"/jappix/javascripts/mini.min.js\"></script>\n"
-"<script type=\"text/javascript\">\n"
-"    // Jappix mini chat\n"
-"    $(\".actions\").css('opacity', 0);\n"
-"    jQuery.ajaxSetup({cache: false});\n"
-msgstr ""
-
-#. type: Plain text
-#: ./content-en/pages/contributor/contribute.md:141
-#, no-wrap
-msgid ""
-"    var ADS_ENABLE = 'off';\n"
-"    var JAPPIX_STATIC = '/jappix/';\n"
-"    var HOST_BOSH = 'https://im.yunohost.org/http-bind/';\n"
-"    var ANONYMOUS = 'on';\n"
-"     JappixMini.launch({\n"
-"        connection: {\n"
-"           domain: \"anonymous.yunohost.org\",\n"
-"        },\n"
-"        application: {\n"
-"           network: {\n"
-"              autoconnect: false,\n"
-"           },\n"
-"           interface: {\n"
-"              showpane: false,\n"
-"              animate: false,\n"
-"           },\n"
-"           groupchat: {\n"
-"              open: ['dev@conference.yunohost.org'],\n"
-"              suggest: ['support@conference.yunohost.org']\n"
-"           }\n"
-"        },\n"
-"     });\n"
-"</script>\n"
+"Please [access **documentation**]({filename}/pages/docs.md), and give your "
+"feedback!"
 msgstr ""

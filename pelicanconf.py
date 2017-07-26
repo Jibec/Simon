@@ -5,6 +5,9 @@ AUTHOR = 'YunoHost team'
 SITENAME = 'YunoHost - Documentation'
 SITEURL = ''
 
+PLUGIN_PATHS = ["plugins"]
+PLUGINS = ['sitemap', 'i18n_subsites', 'page_hierarchy']
+
 PATH = 'content'
 
 TIMEZONE = 'Europe/Paris'
@@ -15,16 +18,15 @@ THEME="./themes/yunohost/"
 
 PAGE_URL = '{slug}/'
 PAGE_SAVE_AS = '{slug}/index.html'
-PATH_METADATA = 'pages/(?P<path>.*)\..*'
 
 I18N_UNTRANSLATED_ARTICLES = 'keep'
 I18N_UNTRANSLATED_PAGES = 'keep'
 
 I18N_SUBSITES = {
     'fr': {
-        'SITENAME': 'Documentation en français',
+        'SITENAME': 'YunoHost - Documentation française',
         'SITEMAP' : {'format': 'xml'},
-        }
+        },
     }
 
 JINJA_ENVIRONMENT = {'extensions':['jinja2.ext.i18n']}
@@ -34,6 +36,7 @@ I18N_GETTEXT_DOMAIN = 'ynh_template'
 
 DEFAULT_PAGINATION = False
 DISPLAY_PAGES_ON_MENU = False
+DISPLAY_CATEGORIES_ON_MENU = False
 
 SITEMAP = {'format': 'xml'}
 
@@ -54,8 +57,6 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
 SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
 
-PLUGIN_PATHS = ["plugins"]
-PLUGINS = ['sitemap', 'i18n_subsites', 'page_hierarchy']
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+RELATIVE_URLS = True
