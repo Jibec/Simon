@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: YunoHost-Documentation 20170726\n"
+"Project-Id-Version: YunoHost-Documentation 20170727\n"
 "Report-Msgid-Bugs-To: contrib@list.yunohost.org\n"
-"POT-Creation-Date: 2017-07-26 11:31+0300\n"
+"POT-Creation-Date: 2017-07-27 09:47+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"

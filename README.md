@@ -67,8 +67,9 @@ $ ./develop_server.sh stop && ./build-translation.sh && ./develop_server.sh star
 
 ## Add a new language
 
-1. Edit po4a.cf and add your locale
-2. Run this script and replace *fr* by the appropriate locale:
+1. Edit pelicanconf.py and add your locale
+2. Edit po4a.cf and add your locale
+3. Run this script and replace *fr* by the appropriate locale:
 
 ```:bash
 pybabel init --input-file ./l10n/po/ynh_template.pot \
