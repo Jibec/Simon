@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: YunoHost-Documentation 20170727\n"
+"Project-Id-Version: YunoHost-Documentation 20170912\n"
 "Report-Msgid-Bugs-To: contrib@list.yunohost.org\n"
-"POT-Creation-Date: 2017-07-27 09:47+0300\n"
+"POT-Creation-Date: 2017-09-12 15:08+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,57 +18,62 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
-#: ./content-v2/pages/contributor.md:4
+#: ./content-v2/2017-07-26-new-POC.md:6
 #, no-wrap
 msgid ""
-"Title: Contributor documentation\n"
+"Title: A new POC for documentation translation\n"
 "Lang: en\n"
-"Slug: contributor\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ./content-v2/pages/contributor.md:5
-msgid "[How to contribute]({filename}/pages/contributor/contribute.md)"
+"Slug: a-new-POC-for-documentation-translation\n"
+"Date: 2017-07-26\n"
+"Author: Jean-Baptiste Holcroft\n"
 msgstr ""
 
 #. type: Plain text
-#: ./content-v2/pages/user/XMPP.md:4
+#: ./content-v2/2017-07-26-new-POC.md:8
+msgid ""
+"A while ago, I started using Pelican to offer a new documentation system for "
+"YunoHost. I mixed real content with demonstration content, which made the "
+"result difficult to understand and hack with."
+msgstr ""
+
+#. type: Plain text
+#: ./content-v2/2017-07-26-new-POC.md:10
+msgid "Here is a new version: [**access documentation**]({filename}/pages/docs.md)"
+msgstr ""
+
+#. type: Plain text
+#: ./content-v2/2017-07-26-new-POC.md:11
+msgid ""
+"Please read the [Simon's "
+"Readme](https://github.com/Jibec/Simon/tree/refonte), careful, I'm using a "
+"branch named *refonte*."
+msgstr ""
+
+#. type: Plain text
+#: ./content-v2/2017-02-24-POC.md:6
 #, no-wrap
 msgid ""
-"Title: XMPP\n"
+"Title: A POC for documentation translation\n"
 "Lang: en\n"
-"Slug: XMPP\n"
+"Slug: a-POC-for-documentation-translation\n"
+"Date: 2017-02-24\n"
+"Author: Jean-Baptiste Holcroft\n"
 msgstr ""
 
 #. type: Plain text
-#: ./content-v2/pages/user/XMPP.md:5
-#, no-wrap
+#: ./content-v2/2017-02-24-POC.md:8
 msgid ""
-"<abbr title=\"Extensible Messaging and Presence Protocol\">XMPP</abbr> is a "
-"communication protocol of instant messaging, VoIP (Voice over IP), "
-"videoconferencing.\n"
+"I published a "
+"[post](https://forum.yunohost.org/t/building-an-internationalization-friendly-project-documentation/2535) "
+"about the availability of this new documentation system that support "
+"localization."
 msgstr ""
 
 #. type: Plain text
-#: ./content-v2/pages/administrator.md:4
-#, no-wrap
+#: ./content-v2/2017-02-24-POC.md:9
 msgid ""
-"Title: Administrator documentation\n"
-"Lang: en\n"
-"Slug: administrator\n"
-msgstr ""
-
-#. type: Plain text
-#: ./content-v2/pages/administrator.md:6
-#, no-wrap
-msgid ""
-"*For want of anything better, here is an index of interesting pages for the "
-"YunoHost server's administrator.*\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: ./content-v2/pages/administrator.md:7
-msgid "[demo admin page]({filename}/pages/administrator/admin.md)"
+"Please [access **documentation**]({filename}/pages/docs.md), and give your "
+"feedback!"
 msgstr ""
 
 #. type: Plain text
@@ -96,33 +101,6 @@ msgid "bla"
 msgstr ""
 
 #. type: Plain text
-#: ./content-v2/pages/apps.md:4
-#, no-wrap
-msgid ""
-"Title: Official apps\n"
-"Lang: en\n"
-"Slug: official-apps\n"
-msgstr ""
-
-#. type: Plain text
-#: ./content-v2/pages/apps.md:13
-msgid ""
-"![Roundcube]({filename}/images/roundcube.png)  "
-"![Roundcube]({filename}/images/ttrss.png)  "
-"![Roundcube]({filename}/images/wordpress.png)  "
-"![Roundcube]({filename}/images/transmission.png)  "
-"![Roundcube]({filename}/images/jappix.png)  "
-"![Roundcube]({filename}/images/logo-jirafeau.jpeg)  "
-"![Roundcube]({filename}/images/Logo-wallabag-svg.svg)  "
-"![Roundcube]({filename}/images/Searx_logo.svg)"
-msgstr ""
-
-#. type: Plain text
-#: ./content-v2/pages/apps.md:14
-msgid "Beaucoup d'applications !"
-msgstr ""
-
-#. type: Plain text
 #: ./content-v2/pages/user.md:4
 #, no-wrap
 msgid ""
@@ -137,57 +115,17 @@ msgid "[XMPP documentation]({filename}/pages/user/XMPP.md)"
 msgstr ""
 
 #. type: Plain text
-#: ./content-v2/pages/organisation/yunohost_project_organization.md:4
+#: ./content-v2/pages/contributor.md:4
 #, no-wrap
 msgid ""
-"Title: YunoHost project organisation\n"
+"Title: Contributor documentation\n"
 "Lang: en\n"
-"slug: yunohost_project_organization\n"
+"Slug: contributor\n"
 msgstr ""
 
-#. type: Title ##
-#: ./content-v2/pages/organisation/yunohost_project_organization.md:5
-#, no-wrap
-msgid "Document objective"
-msgstr ""
-
-#. type: Plain text
-#: ./content-v2/pages/organisation/yunohost_project_organization.md:7
-msgid ""
-"This document aims at allowing contributors to feel legitimate in "
-"contributing to the YunoHost project together with collective feedback."
-msgstr ""
-
-#. type: Plain text
-#: ./content-v2/pages/docs.md:4
-#, no-wrap
-msgid ""
-"Title: Documentation\n"
-"Lang: en\n"
-"Slug: docs\n"
-msgstr ""
-
-#. type: Plain text
-#: ./content-v2/pages/docs.md:6
-msgid "YunoHost's documentation has 3 different sections:"
-msgstr ""
-
-#. type: Plain text
-#: ./content-v2/pages/docs.md:14
-#, no-wrap
-msgid ""
-"* [User guide]({filename}/pages/user.md)\n"
-"     * Regarding the daily usage of your server and some client "
-"configuration \"HOW-TOs\"\n"
-"* [Administrator guide]({filename}/pages/administrator.md)\n"
-"     * Including installation, server management and application "
-"management\n"
-"* [Contributor guide]({filename}/pages/contributor.md)\n"
-"     * Which contains everything you have to know about us and the way we "
-"work\n"
-"* [Project's "
-"organization]({filename}/pages/organisation/yunohost_project_organization.md)\n"
-"     * Our values and rules\n"
+#. type: Bullet: '* '
+#: ./content-v2/pages/contributor.md:5
+msgid "[How to contribute]({filename}/pages/contributor/contribute.md)"
 msgstr ""
 
 #. type: Plain text
@@ -247,60 +185,122 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-v2/2017-07-26-new-POC.md:6
+#: ./content-v2/pages/administrator.md:4
 #, no-wrap
 msgid ""
-"Title: A new POC for documentation translation\n"
+"Title: Administrator documentation\n"
 "Lang: en\n"
-"Slug: a-new-POC-for-documentation-translation\n"
-"Date: 2017-07-26\n"
-"Author: Jean-Baptiste Holcroft\n"
+"Slug: administrator\n"
 msgstr ""
 
 #. type: Plain text
-#: ./content-v2/2017-07-26-new-POC.md:8
-msgid ""
-"A while ago, I started using Pelican to offer a new documentation system for "
-"YunoHost. I mixed real content with demonstration content, which made the "
-"result difficult to understand and hack with."
-msgstr ""
-
-#. type: Plain text
-#: ./content-v2/2017-07-26-new-POC.md:10
-msgid "Here is a new version: [**access documentation**]({filename}/pages/docs.md)"
-msgstr ""
-
-#. type: Plain text
-#: ./content-v2/2017-07-26-new-POC.md:11
-msgid ""
-"Please read the [Simon's "
-"Readme](https://github.com/Jibec/Simon/tree/refonte), careful, I'm using a "
-"branch named *refonte*."
-msgstr ""
-
-#. type: Plain text
-#: ./content-v2/2017-02-24-POC.md:6
+#: ./content-v2/pages/administrator.md:6
 #, no-wrap
 msgid ""
-"Title: A POC for documentation translation\n"
+"*For want of anything better, here is an index of interesting pages for the "
+"YunoHost server's administrator.*\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ./content-v2/pages/administrator.md:7
+msgid "[demo admin page]({filename}/pages/administrator/admin.md)"
+msgstr ""
+
+#. type: Plain text
+#: ./content-v2/pages/organisation/yunohost_project_organization.md:4
+#, no-wrap
+msgid ""
+"Title: YunoHost project organisation\n"
 "Lang: en\n"
-"Slug: a-POC-for-documentation-translation\n"
-"Date: 2017-02-24\n"
-"Author: Jean-Baptiste Holcroft\n"
+"slug: yunohost_project_organization\n"
+msgstr ""
+
+#. type: Title ##
+#: ./content-v2/pages/organisation/yunohost_project_organization.md:5
+#, no-wrap
+msgid "Document objective"
 msgstr ""
 
 #. type: Plain text
-#: ./content-v2/2017-02-24-POC.md:8
+#: ./content-v2/pages/organisation/yunohost_project_organization.md:7
 msgid ""
-"I published a "
-"[post](https://forum.yunohost.org/t/building-an-internationalization-friendly-project-documentation/2535) "
-"about the availability of this new documentation system that support "
-"localization."
+"This document aims at allowing contributors to feel legitimate in "
+"contributing to the YunoHost project together with collective feedback."
 msgstr ""
 
 #. type: Plain text
-#: ./content-v2/2017-02-24-POC.md:9
+#: ./content-v2/pages/docs.md:4
+#, no-wrap
 msgid ""
-"Please [access **documentation**]({filename}/pages/docs.md), and give your "
-"feedback!"
+"Title: Documentation\n"
+"Lang: en\n"
+"Slug: docs\n"
+msgstr ""
+
+#. type: Plain text
+#: ./content-v2/pages/docs.md:6
+msgid "YunoHost's documentation has 3 different sections:"
+msgstr ""
+
+#. type: Plain text
+#: ./content-v2/pages/docs.md:14
+#, no-wrap
+msgid ""
+"* [User guide]({filename}/pages/user.md)\n"
+"     * Regarding the daily usage of your server and some client "
+"configuration \"HOW-TOs\"\n"
+"* [Administrator guide]({filename}/pages/administrator.md)\n"
+"     * Including installation, server management and application "
+"management\n"
+"* [Contributor guide]({filename}/pages/contributor.md)\n"
+"     * Which contains everything you have to know about us and the way we "
+"work\n"
+"* [Project's "
+"organization]({filename}/pages/organisation/yunohost_project_organization.md)\n"
+"     * Our values and rules\n"
+msgstr ""
+
+#. type: Plain text
+#: ./content-v2/pages/user/XMPP.md:4
+#, no-wrap
+msgid ""
+"Title: XMPP\n"
+"Lang: en\n"
+"Slug: XMPP\n"
+msgstr ""
+
+#. type: Plain text
+#: ./content-v2/pages/user/XMPP.md:5
+#, no-wrap
+msgid ""
+"<abbr title=\"Extensible Messaging and Presence Protocol\">XMPP</abbr> is a "
+"communication protocol of instant messaging, VoIP (Voice over IP), "
+"videoconferencing.\n"
+msgstr ""
+
+#. type: Plain text
+#: ./content-v2/pages/apps.md:4
+#, no-wrap
+msgid ""
+"Title: Official apps\n"
+"Lang: en\n"
+"Slug: official-apps\n"
+msgstr ""
+
+#. type: Plain text
+#: ./content-v2/pages/apps.md:13
+msgid ""
+"![Roundcube]({filename}/images/roundcube.png)  "
+"![Roundcube]({filename}/images/ttrss.png)  "
+"![Roundcube]({filename}/images/wordpress.png)  "
+"![Roundcube]({filename}/images/transmission.png)  "
+"![Roundcube]({filename}/images/jappix.png)  "
+"![Roundcube]({filename}/images/logo-jirafeau.jpeg)  "
+"![Roundcube]({filename}/images/Logo-wallabag-svg.svg)  "
+"![Roundcube]({filename}/images/Searx_logo.svg)"
+msgstr ""
+
+#. type: Plain text
+#: ./content-v2/pages/apps.md:14
+msgid "Beaucoup d'applications !"
 msgstr ""

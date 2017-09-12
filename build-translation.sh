@@ -7,28 +7,46 @@
 # calls babel to compile po files to mo files for in-browser usage
 # the website generation is using the standard Pelican behavior
 
-BASEDIR=.
-DOCDIR=$BASEDIR/content-v2/
-OUTPUTDIR=$BASEDIR/content/
-PO4ACONF=./po4a.cfg
+DOCDIR=content-v2/
+OUTPUTDIR=content/
+PO4ACONF=po4a.cfg
 
 # clean all
-rm -r $OUTPUTDIR*
+if [ -d $OUTPUTDIR ]; then
+	rm -r $OUTPUTDIR*
+else
+	mkdir $OUTPUTDIR
+fi
 
 # copy file structure and english content
 cp -r $DOCDIR* $OUTPUTDIR
 
+cat >$PO4ACONF <<'EOT'
+[po4a_langs] fr
+[po4a_paths] l10n/po/documentation.pot $lang:l10n/po/documentation.$lang.po
+[options] opt:"-o markdown -k 50 -o keyvalue"
+EOT
+
 # update list of file to translate
 # if we want to exclude some files, we'll have to change this script
-find $DOCDIR -name '*.md' | sed -r 's!(.*)(content)-v2(.*)\.md![type: text] \1\2-v2\3.md $lang:\1\2\3.$lang.md!' >> $PO4ACONF
-
-awk '!x[$0]++' $PO4ACONF > $PO4ACONF.tmp
-
-cp $PO4ACONF.tmp $PO4ACONF
-rm $PO4ACONF.tmp
+dir="content-v2"
+for file in $( find -L $DOCDIR -name "*.md" ); do
+    basename=`basename -s .md $file`
+    dirname=`dirname $file`
+    path=`echo ${dirname#$dir/}`
+    echo $path
+    if [ "$dirname" = "$dir" ]; then
+        potname="$basename.\$lang.md"
+    else
+        potname="$path/$basename.\$lang.md"
+    fi
+    # update list of file to translate
+    echo "[type: text] $file \$lang:$OUTPUTDIR$potname"
+    echo "[type: text] $file \$lang:$OUTPUTDIR$potname" >> $PO4ACONF
+done
 
 # generate po files and generate translated content
-PERLLIB=./po4a-keyvalue_text/lib ./po4a-keyvalue_text/po4a $PO4ACONF \
+po4a $PO4ACONF \
 	--package-name "YunoHost-Documentation" \
 	--package-version `date +%Y%m%d`\
 	--msgid-bugs-address contrib@list.yunohost.org \

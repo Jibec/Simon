@@ -8,10 +8,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: YunoHost-Documentation 20170726\n"
 "Report-Msgid-Bugs-To: contrib@list.yunohost.org\n"
-"POT-Creation-Date: 2017-07-27 09:47+0300\n"
-"PO-Revision-Date: 2017-07-26 12:36+0200\n"
-"Last-Translator: jean-baptiste <jean-baptiste@holcroft.fr>\n"
-"Language-Team: French <kde-i18n-doc@kde.org>\n"
+"POT-Creation-Date: 2017-09-12 15:08+0200\n"
+"PO-Revision-Date: 2017-09-12 14:54+0100\n"
+"Last-Translator: Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>\n"
+"Language-Team: French <traduc@traduc.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,62 +20,80 @@ msgstr ""
 "X-Generator: Lokalize 2.0\n"
 
 #. type: Plain text
-#: content-v2/pages/contributor.md:4
+#: content-v2/2017-07-26-new-POC.md:6
 #, no-wrap
 msgid ""
-"Title: Contributor documentation\n"
+"Title: A new POC for documentation translation\n"
 "Lang: en\n"
-"Slug: contributor\n"
+"Slug: a-new-POC-for-documentation-translation\n"
+"Date: 2017-07-26\n"
+"Author: Jean-Baptiste Holcroft\n"
 msgstr ""
-"Title: Documentation du contributeur\n"
+"Title: Un nouveau POC pour la traduction de la documentation\n"
 "Lang: fr\n"
-"Slug: contributor\n"
-
-#. type: Bullet: '* '
-#: content-v2/pages/contributor.md:5
-msgid "[How to contribute]({filename}/pages/contributor/contribute.md)"
-msgstr "[Comment contribuer]({filename}/pages/contributor/contribute.md)"
+"Slug: a-new-POC-for-documentation-translation\n"
+"Date: 2017-07-26\n"
+"Author: Jean-Baptiste Holcroft\n"
 
 #. type: Plain text
-#: content-v2/pages/user/XMPP.md:4
+#: content-v2/2017-07-26-new-POC.md:8
+msgid ""
+"A while ago, I started using Pelican to offer a new documentation system for "
+"YunoHost. I mixed real content with demonstration content, which made the "
+"result difficult to understand and hack with."
+msgstr ""
+"Il y a quelque temps, j'ai commencé à utiliser Pelican pour offrir un "
+"nouveau système de documentation pour YunoHost. J'ai mélangé du contenu réel "
+"et de démonstration, rendant le résultat difficile à comprendre et à "
+"bidouiller."
+
+#. type: Plain text
+#: content-v2/2017-07-26-new-POC.md:10
+msgid ""
+"Here is a new version: [**access documentation**]({filename}/pages/docs.md)"
+msgstr ""
+"Voici une nouvelle version : [accéder à la **documentation**]({filename}./"
+"pages/docs.md)"
+
+#. type: Plain text
+#: content-v2/2017-07-26-new-POC.md:11
+msgid ""
+"Please read the [Simon's Readme](https://github.com/Jibec/Simon/tree/"
+"refonte), careful, I'm using a branch named *refonte*."
+msgstr ""
+"Veuillez lire le [Readme de Simon](https://github.com/Jibec/Simon/tree/"
+"refonte), attention, j'utilise une branche appelée *refonte*."
+
+#. type: Plain text
+#: content-v2/2017-02-24-POC.md:6
 #, no-wrap
 msgid ""
-"Title: XMPP\n"
+"Title: A POC for documentation translation\n"
 "Lang: en\n"
-"Slug: XMPP\n"
+"Slug: a-POC-for-documentation-translation\n"
+"Date: 2017-02-24\n"
+"Author: Jean-Baptiste Holcroft\n"
 msgstr ""
-"Title: XMPP\n"
+"Title: Un nouveau POC pour la traduction de la documentation\n"
 "Lang: fr\n"
-"Slug: XMPP\n"
+"Slug: a-new-POC-for-documentation-translation\n"
+"Date: 2017-07-26\n"
+"Author: Jean-Baptiste Holcroft\n"
 
 #. type: Plain text
-#: content-v2/pages/user/XMPP.md:5
-#, no-wrap
-msgid "<abbr title=\"Extensible Messaging and Presence Protocol\">XMPP</abbr> is a communication protocol of instant messaging, VoIP (Voice over IP), videoconferencing.\n"
-msgstr "<abbr title=\"Extensible Messaging and Presence Protocol\">XMPP</abbr> est un protocol de communication pour la messagerie instantannée, la voix sur IP (VOIP), la vidéoconférence.\n"
-
-#. type: Plain text
-#: content-v2/pages/administrator.md:4
-#, no-wrap
+#: content-v2/2017-02-24-POC.md:8
 msgid ""
-"Title: Administrator documentation\n"
-"Lang: en\n"
-"Slug: administrator\n"
+"I published a [post](https://forum.yunohost.org/t/building-an-"
+"internationalization-friendly-project-documentation/2535) about the "
+"availability of this new documentation system that support localization."
 msgstr ""
-"Title: Documentation de l’administrateur\n"
-"Lang: fr\n"
-"Slug: administrator\n"
 
 #. type: Plain text
-#: content-v2/pages/administrator.md:6
-#, no-wrap
-msgid "*For want of anything better, here is an index of interesting pages for the YunoHost server's administrator.*\n"
-msgstr "*Si vous cherchez quelque chose de mieux, voici un index des pages intéressantes pour l'administrateur d'un serveur YunoHost.*\n"
-
-#. type: Bullet: '* '
-#: content-v2/pages/administrator.md:7
-msgid "[demo admin page]({filename}/pages/administrator/admin.md)"
-msgstr "[page admin de démo]({filename}/pages/administrator/admin.md)"
+#: content-v2/2017-02-24-POC.md:9
+msgid ""
+"Please [access **documentation**]({filename}/pages/docs.md), and give your "
+"feedback!"
+msgstr ""
 
 #. type: Plain text
 #: content-v2/pages/contribs.md:4
@@ -105,40 +123,6 @@ msgid "bla"
 msgstr "bla"
 
 #. type: Plain text
-#: content-v2/pages/apps.md:4
-#, no-wrap
-msgid ""
-"Title: Official apps\n"
-"Lang: en\n"
-"Slug: official-apps\n"
-msgstr ""
-"Title: Applications officielles\n"
-"Lang: fr\n"
-"Slug: official-apps\n"
-
-#. type: Plain text
-#: content-v2/pages/apps.md:13
-msgid ""
-"![Roundcube]({filename}/images/roundcube.png)  ![Roundcube]({filename}/"
-"images/ttrss.png)  ![Roundcube]({filename}/images/wordpress.png)  !"
-"[Roundcube]({filename}/images/transmission.png)  ![Roundcube]({filename}/"
-"images/jappix.png)  ![Roundcube]({filename}/images/logo-jirafeau.jpeg)  !"
-"[Roundcube]({filename}/images/Logo-wallabag-svg.svg)  ![Roundcube]"
-"({filename}/images/Searx_logo.svg)"
-msgstr ""
-"![Roundcube]({filename}/images/roundcube.png)  ![Roundcube]({filename}/"
-"images/ttrss.png)  ![Roundcube]({filename}/images/wordpress.png)  !"
-"[Roundcube]({filename}/images/transmission.png)  ![Roundcube]({filename}/"
-"images/jappix.png)  ![Roundcube]({filename}/images/logo-jirafeau.jpeg)  !"
-"[Roundcube]({filename}/images/Logo-wallabag-svg.svg)  ![Roundcube]"
-"({filename}/images/Searx_logo.svg)"
-
-#. type: Plain text
-#: content-v2/pages/apps.md:14
-msgid "Beaucoup d'applications !"
-msgstr "Beaucoup d’applications !"
-
-#. type: Plain text
 #: content-v2/pages/user.md:4
 #, no-wrap
 msgid ""
@@ -154,6 +138,103 @@ msgstr ""
 #: content-v2/pages/user.md:5
 msgid "[XMPP documentation]({filename}/pages/user/XMPP.md)"
 msgstr "[documentation XMPP]({filename}/pages/user/XMPP.md)"
+
+#. type: Plain text
+#: content-v2/pages/contributor.md:4
+#, no-wrap
+msgid ""
+"Title: Contributor documentation\n"
+"Lang: en\n"
+"Slug: contributor\n"
+msgstr ""
+"Title: Documentation du contributeur\n"
+"Lang: fr\n"
+"Slug: contributor\n"
+
+#. type: Bullet: '* '
+#: content-v2/pages/contributor.md:5
+msgid "[How to contribute]({filename}/pages/contributor/contribute.md)"
+msgstr "[Comment contribuer]({filename}/pages/contributor/contribute.fr.md)"
+
+#. type: Plain text
+#: content-v2/pages/administrator/admin.md:4
+#, no-wrap
+msgid ""
+"Title: Administrator web interface\n"
+"Lang: en\n"
+"Slug: administrator-web-interface\n"
+msgstr ""
+"Title: Documentation de l’administrateur\n"
+"Lang: fr\n"
+"Slug: administrator\n"
+
+#. type: Plain text
+#: content-v2/pages/administrator/admin.md:6
+msgid ""
+"Yunohost has an administrator web interface. The other way to administer "
+"your Yunohost install is through the CLI called \"moulinette\"."
+msgstr ""
+
+#. type: Plain text
+#: content-v2/pages/administrator/admin.md:8
+#, no-wrap
+msgid "**Please note** that the web interface is an active work-in-progress and has far fewer features than the CLI moulinette.\n"
+msgstr ""
+
+#. type: Title ###
+#: content-v2/pages/administrator/admin.md:9
+#, no-wrap
+msgid "Access"
+msgstr ""
+
+#. type: Plain text
+#: content-v2/pages/administrator/admin.md:11
+msgid "..."
+msgstr ""
+
+#. type: Plain text
+#: content-v2/pages/contributor/contribute.md:3
+#, no-wrap
+msgid ""
+"Title: Get involved\n"
+"Lang: en\n"
+msgstr ""
+"Title: S’impliquer\n"
+"Lang: fr\n"
+
+#. type: Plain text
+#: content-v2/pages/contributor/contribute.md:5
+msgid "YunoHost depends exclusively on the participation of people like you."
+msgstr ""
+
+#. type: Plain text
+#: content-v2/pages/contributor/contribute.md:6
+#, no-wrap
+msgid "<span class=\"glyphicon glyphicon-heart\"></span>&nbsp;&nbsp; Spread the word\n"
+msgstr ""
+
+#. type: Plain text
+#: content-v2/pages/administrator.md:4
+#, no-wrap
+msgid ""
+"Title: Administrator documentation\n"
+"Lang: en\n"
+"Slug: administrator\n"
+msgstr ""
+"Title: Documentation de l’administrateur\n"
+"Lang: fr\n"
+"Slug: administrator\n"
+
+#. type: Plain text
+#: content-v2/pages/administrator.md:6
+#, no-wrap
+msgid "*For want of anything better, here is an index of interesting pages for the YunoHost server's administrator.*\n"
+msgstr "*Si vous cherchez quelque chose de mieux, voici un index des pages intéressantes pour l'administrateur d'un serveur YunoHost.*\n"
+
+#. type: Bullet: '* '
+#: content-v2/pages/administrator.md:7
+msgid "[demo admin page]({filename}/pages/administrator/admin.md)"
+msgstr "[page admin de démo]({filename}/pages/administrator/admin.md)"
 
 #. type: Plain text
 #: content-v2/pages/organisation/yunohost_project_organization.md:4
@@ -223,124 +304,53 @@ msgstr ""
 "     * Nos valeurs et règles\n"
 
 #. type: Plain text
-#: content-v2/pages/administrator/admin.md:4
+#: content-v2/pages/user/XMPP.md:4
 #, no-wrap
 msgid ""
-"Title: Administrator web interface\n"
+"Title: XMPP\n"
 "Lang: en\n"
-"Slug: administrator-web-interface\n"
+"Slug: XMPP\n"
 msgstr ""
-
-#. type: Plain text
-#: content-v2/pages/administrator/admin.md:6
-msgid ""
-"Yunohost has an administrator web interface. The other way to administer "
-"your Yunohost install is through the CLI called \"moulinette\"."
-msgstr ""
-
-#. type: Plain text
-#: content-v2/pages/administrator/admin.md:8
-#, no-wrap
-msgid "**Please note** that the web interface is an active work-in-progress and has far fewer features than the CLI moulinette.\n"
-msgstr ""
-
-#. type: Title ###
-#: content-v2/pages/administrator/admin.md:9
-#, no-wrap
-msgid "Access"
-msgstr ""
-
-#. type: Plain text
-#: content-v2/pages/administrator/admin.md:11
-msgid "..."
-msgstr ""
-
-#. type: Plain text
-#: content-v2/pages/contributor/contribute.md:3
-#, no-wrap
-msgid ""
-"Title: Get involved\n"
-"Lang: en\n"
-msgstr ""
-
-#. type: Plain text
-#: content-v2/pages/contributor/contribute.md:5
-msgid "YunoHost depends exclusively on the participation of people like you."
-msgstr ""
-
-#. type: Plain text
-#: content-v2/pages/contributor/contribute.md:6
-#, no-wrap
-msgid "<span class=\"glyphicon glyphicon-heart\"></span>&nbsp;&nbsp; Spread the word\n"
-msgstr ""
-
-#. type: Plain text
-#: content-v2/2017-07-26-new-POC.md:6
-#, no-wrap
-msgid ""
-"Title: A new POC for documentation translation\n"
-"Lang: en\n"
-"Slug: a-new-POC-for-documentation-translation\n"
-"Date: 2017-07-26\n"
-"Author: Jean-Baptiste Holcroft\n"
-msgstr ""
-"Title: Un nouveau POC pour la traduction de la documentation\n"
+"Title: XMPP\n"
 "Lang: fr\n"
-"Slug: a-new-POC-for-documentation-translation\n"
-"Date: 2017-07-26\n"
-"Author: Jean-Baptiste Holcroft\n"
+"Slug: XMPP\n"
 
 #. type: Plain text
-#: content-v2/2017-07-26-new-POC.md:8
-msgid ""
-"A while ago, I started using Pelican to offer a new documentation system for "
-"YunoHost. I mixed real content with demonstration content, which made the "
-"result difficult to understand and hack with."
-msgstr ""
-"Il y a quelque temps, j'ai commencé à utiliser Pelican pour offrir un "
-"nouveau système de documentation pour YunoHost. J'ai mélangé du contenu réel "
-"et de démonstration, rendant le résultat difficile à comprendre et à "
-"bidouiller."
+#: content-v2/pages/user/XMPP.md:5
+#, no-wrap
+msgid "<abbr title=\"Extensible Messaging and Presence Protocol\">XMPP</abbr> is a communication protocol of instant messaging, VoIP (Voice over IP), videoconferencing.\n"
+msgstr "<abbr title=\"Extensible Messaging and Presence Protocol\">XMPP</abbr> est un protocol de communication pour la messagerie instantannée, la voix sur IP (VOIP), la vidéoconférence.\n"
 
 #. type: Plain text
-#: content-v2/2017-07-26-new-POC.md:10
-msgid ""
-"Here is a new version: [**access documentation**]({filename}/pages/docs.md)"
-msgstr ""
-"Voici une nouvelle version : [accéder à la **documentation**]({filename}./"
-"pages/docs.md)"
-
-#. type: Plain text
-#: content-v2/2017-07-26-new-POC.md:11
-msgid ""
-"Please read the [Simon's Readme](https://github.com/Jibec/Simon/tree/"
-"refonte), careful, I'm using a branch named *refonte*."
-msgstr ""
-"Veuillez lire le [Readme de Simon](https://github.com/Jibec/Simon/tree/"
-"refonte), attention, j'utilise une branche appelée *refonte*."
-
-#. type: Plain text
-#: content-v2/2017-02-24-POC.md:6
+#: content-v2/pages/apps.md:4
 #, no-wrap
 msgid ""
-"Title: A POC for documentation translation\n"
+"Title: Official apps\n"
 "Lang: en\n"
-"Slug: a-POC-for-documentation-translation\n"
-"Date: 2017-02-24\n"
-"Author: Jean-Baptiste Holcroft\n"
+"Slug: official-apps\n"
 msgstr ""
+"Title: Applications officielles\n"
+"Lang: fr\n"
+"Slug: official-apps\n"
 
 #. type: Plain text
-#: content-v2/2017-02-24-POC.md:8
+#: content-v2/pages/apps.md:13
 msgid ""
-"I published a [post](https://forum.yunohost.org/t/building-an-"
-"internationalization-friendly-project-documentation/2535) about the "
-"availability of this new documentation system that support localization."
+"![Roundcube]({filename}/images/roundcube.png)  ![Roundcube]({filename}/"
+"images/ttrss.png)  ![Roundcube]({filename}/images/wordpress.png)  !"
+"[Roundcube]({filename}/images/transmission.png)  ![Roundcube]({filename}/"
+"images/jappix.png)  ![Roundcube]({filename}/images/logo-jirafeau.jpeg)  !"
+"[Roundcube]({filename}/images/Logo-wallabag-svg.svg)  ![Roundcube]"
+"({filename}/images/Searx_logo.svg)"
 msgstr ""
+"![Roundcube]({filename}/images/roundcube.png)  ![Roundcube]({filename}/"
+"images/ttrss.png)  ![Roundcube]({filename}/images/wordpress.png)  !"
+"[Roundcube]({filename}/images/transmission.png)  ![Roundcube]({filename}/"
+"images/jappix.png)  ![Roundcube]({filename}/images/logo-jirafeau.jpeg)  !"
+"[Roundcube]({filename}/images/Logo-wallabag-svg.svg)  ![Roundcube]"
+"({filename}/images/Searx_logo.svg)"
 
 #. type: Plain text
-#: content-v2/2017-02-24-POC.md:9
-msgid ""
-"Please [access **documentation**]({filename}/pages/docs.md), and give your "
-"feedback!"
-msgstr ""
+#: content-v2/pages/apps.md:14
+msgid "Beaucoup d'applications !"
+msgstr "Beaucoup d’applications !"
