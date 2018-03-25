@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: YunoHost-Documentation 20170912\n"
+"Project-Id-Version: YunoHost-Documentation 20180325\n"
 "Report-Msgid-Bugs-To: contrib@list.yunohost.org\n"
-"POT-Creation-Date: 2017-09-12 15:08+0200\n"
+"POT-Creation-Date: 2018-03-25 15:33+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
-#: ./content-v2/2017-07-26-new-POC.md:6
+#: content-v2/2017-07-26-new-POC.md:6
 #, no-wrap
 msgid ""
 "Title: A new POC for documentation translation\n"
@@ -29,7 +29,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-v2/2017-07-26-new-POC.md:8
+#: content-v2/2017-07-26-new-POC.md:8
 msgid ""
 "A while ago, I started using Pelican to offer a new documentation system for "
 "YunoHost. I mixed real content with demonstration content, which made the "
@@ -37,12 +37,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-v2/2017-07-26-new-POC.md:10
+#: content-v2/2017-07-26-new-POC.md:10
 msgid "Here is a new version: [**access documentation**]({filename}/pages/docs.md)"
 msgstr ""
 
 #. type: Plain text
-#: ./content-v2/2017-07-26-new-POC.md:11
+#: content-v2/2017-07-26-new-POC.md:11
 msgid ""
 "Please read the [Simon's "
 "Readme](https://github.com/Jibec/Simon/tree/refonte), careful, I'm using a "
@@ -50,7 +50,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-v2/2017-02-24-POC.md:6
+#: content-v2/2017-02-24-POC.md:6
 #, no-wrap
 msgid ""
 "Title: A POC for documentation translation\n"
@@ -61,7 +61,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-v2/2017-02-24-POC.md:8
+#: content-v2/2017-02-24-POC.md:8
 msgid ""
 "I published a "
 "[post](https://forum.yunohost.org/t/building-an-internationalization-friendly-project-documentation/2535) "
@@ -70,14 +70,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-v2/2017-02-24-POC.md:9
+#: content-v2/2017-02-24-POC.md:9
 msgid ""
 "Please [access **documentation**]({filename}/pages/docs.md), and give your "
 "feedback!"
 msgstr ""
 
 #. type: Plain text
-#: ./content-v2/pages/contribs.md:4
+#: content-v2/pages/contribs.md:4
 #, no-wrap
 msgid ""
 "Title: Contributors\n"
@@ -86,22 +86,22 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-v2/pages/contribs.md:6
+#: content-v2/pages/contribs.md:6
 msgid "Here is a non exhaustive list of mains contributors."
 msgstr ""
 
 #. type: Bullet: '* '
-#: ./content-v2/pages/contribs.md:9
+#: content-v2/pages/contribs.md:9
 msgid "kload"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ./content-v2/pages/contribs.md:9 ./content-v2/pages/contribs.md:9
+#: content-v2/pages/contribs.md:9 content-v2/pages/contribs.md:9
 msgid "bla"
 msgstr ""
 
 #. type: Plain text
-#: ./content-v2/pages/user.md:4
+#: content-v2/pages/user.md:4
 #, no-wrap
 msgid ""
 "Title: User documentation\n"
@@ -110,12 +110,12 @@ msgid ""
 msgstr ""
 
 #. type: Bullet: '* '
-#: ./content-v2/pages/user.md:5
+#: content-v2/pages/user.md:5
 msgid "[XMPP documentation]({filename}/pages/user/XMPP.md)"
 msgstr ""
 
 #. type: Plain text
-#: ./content-v2/pages/contributor.md:4
+#: content-v2/pages/contributor.md:4
 #, no-wrap
 msgid ""
 "Title: Contributor documentation\n"
@@ -124,12 +124,12 @@ msgid ""
 msgstr ""
 
 #. type: Bullet: '* '
-#: ./content-v2/pages/contributor.md:5
+#: content-v2/pages/contributor.md:5
 msgid "[How to contribute]({filename}/pages/contributor/contribute.md)"
 msgstr ""
 
 #. type: Plain text
-#: ./content-v2/pages/administrator/admin.md:4
+#: content-v2/pages/administrator/admin.md:4
 #, no-wrap
 msgid ""
 "Title: Administrator web interface\n"
@@ -138,14 +138,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-v2/pages/administrator/admin.md:6
+#: content-v2/pages/administrator/admin.md:6
 msgid ""
 "Yunohost has an administrator web interface. The other way to administer "
 "your Yunohost install is through the CLI called \"moulinette\"."
 msgstr ""
 
 #. type: Plain text
-#: ./content-v2/pages/administrator/admin.md:8
+#: content-v2/pages/administrator/admin.md:8
 #, no-wrap
 msgid ""
 "**Please note** that the web interface is an active work-in-progress and has "
@@ -153,18 +153,18 @@ msgid ""
 msgstr ""
 
 #. type: Title ###
-#: ./content-v2/pages/administrator/admin.md:9
+#: content-v2/pages/administrator/admin.md:9
 #, no-wrap
 msgid "Access"
 msgstr ""
 
 #. type: Plain text
-#: ./content-v2/pages/administrator/admin.md:11
+#: content-v2/pages/administrator/admin.md:11
 msgid "..."
 msgstr ""
 
 #. type: Plain text
-#: ./content-v2/pages/contributor/contribute.md:3
+#: content-v2/pages/contributor/contribute.md:3
 #, no-wrap
 msgid ""
 "Title: Get involved\n"
@@ -172,12 +172,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-v2/pages/contributor/contribute.md:5
+#: content-v2/pages/contributor/contribute.md:5
 msgid "YunoHost depends exclusively on the participation of people like you."
 msgstr ""
 
 #. type: Plain text
-#: ./content-v2/pages/contributor/contribute.md:6
+#: content-v2/pages/contributor/contribute.md:6
 #, no-wrap
 msgid ""
 "<span class=\"glyphicon glyphicon-heart\"></span>&nbsp;&nbsp; Spread the "
@@ -185,7 +185,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-v2/pages/administrator.md:4
+#: content-v2/pages/administrator.md:4
 #, no-wrap
 msgid ""
 "Title: Administrator documentation\n"
@@ -194,7 +194,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-v2/pages/administrator.md:6
+#: content-v2/pages/administrator.md:6
 #, no-wrap
 msgid ""
 "*For want of anything better, here is an index of interesting pages for the "
@@ -202,12 +202,12 @@ msgid ""
 msgstr ""
 
 #. type: Bullet: '* '
-#: ./content-v2/pages/administrator.md:7
+#: content-v2/pages/administrator.md:7
 msgid "[demo admin page]({filename}/pages/administrator/admin.md)"
 msgstr ""
 
 #. type: Plain text
-#: ./content-v2/pages/organisation/yunohost_project_organization.md:4
+#: content-v2/pages/organisation/yunohost_project_organization.md:4
 #, no-wrap
 msgid ""
 "Title: YunoHost project organisation\n"
@@ -216,20 +216,20 @@ msgid ""
 msgstr ""
 
 #. type: Title ##
-#: ./content-v2/pages/organisation/yunohost_project_organization.md:5
+#: content-v2/pages/organisation/yunohost_project_organization.md:5
 #, no-wrap
 msgid "Document objective"
 msgstr ""
 
 #. type: Plain text
-#: ./content-v2/pages/organisation/yunohost_project_organization.md:7
+#: content-v2/pages/organisation/yunohost_project_organization.md:7
 msgid ""
 "This document aims at allowing contributors to feel legitimate in "
 "contributing to the YunoHost project together with collective feedback."
 msgstr ""
 
 #. type: Plain text
-#: ./content-v2/pages/docs.md:4
+#: content-v2/pages/docs.md:4
 #, no-wrap
 msgid ""
 "Title: Documentation\n"
@@ -238,12 +238,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-v2/pages/docs.md:6
+#: content-v2/pages/docs.md:6
 msgid "YunoHost's documentation has 3 different sections:"
 msgstr ""
 
 #. type: Plain text
-#: ./content-v2/pages/docs.md:14
+#: content-v2/pages/docs.md:14
 #, no-wrap
 msgid ""
 "* [User guide]({filename}/pages/user.md)\n"
@@ -261,7 +261,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-v2/pages/user/XMPP.md:4
+#: content-v2/pages/user/XMPP.md:4
 #, no-wrap
 msgid ""
 "Title: XMPP\n"
@@ -270,7 +270,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-v2/pages/user/XMPP.md:5
+#: content-v2/pages/user/XMPP.md:5
 #, no-wrap
 msgid ""
 "<abbr title=\"Extensible Messaging and Presence Protocol\">XMPP</abbr> is a "
@@ -279,7 +279,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-v2/pages/apps.md:4
+#: content-v2/pages/apps.md:4
 #, no-wrap
 msgid ""
 "Title: Official apps\n"
@@ -288,7 +288,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-v2/pages/apps.md:13
+#: content-v2/pages/apps.md:13
 msgid ""
 "![Roundcube]({filename}/images/roundcube.png)  "
 "![Roundcube]({filename}/images/ttrss.png)  "
@@ -301,6 +301,6 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./content-v2/pages/apps.md:14
+#: content-v2/pages/apps.md:14
 msgid "Beaucoup d'applications !"
 msgstr ""

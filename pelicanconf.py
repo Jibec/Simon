@@ -16,8 +16,8 @@ THEME="./themes/yunohost/"
 PLUGIN_PATHS = ["plugins"]
 PLUGINS = ['sitemap', 'i18n_subsites', 'page_hierarchy']
 
-#PAGE_URL = '{slug}/'
-#PAGE_SAVE_AS = '{slug}/index.html'
+PAGE_URL = '{slug}/'
+PAGE_SAVE_AS = '{slug}/index.html'
 
 I18N_UNTRANSLATED_ARTICLES = 'keep'
 I18N_UNTRANSLATED_PAGES = 'keep'
